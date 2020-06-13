@@ -1,60 +1,66 @@
 package com.flipkart.model;
 
 public class Student {
-	private int StudentId;
-	private String StudentName;
-	private String StudentAddress;
-	private String StudentMobileNO;
-	private String StudentEmail;
-	private String StudentDOB;
-	private int StudentEnrollmentNO;
+	private String studentName;
+	private String studentAddress;
+	private String studentMobileNO;
+	private String studentEmail;
+	private String studentDOB;
+	private int studentEnrollmentNO;
+	private String StudentGender;
+	private String username;
 	
 	
-	
-	
-	
-	
-	public int getStudentId() {
-		return StudentId;
+	public String getUsername() {
+		return username;
 	}
-	public void setStudentId(int studentId) {
-		StudentId = studentId;
+	public void setUsername(String username) {
+		this.username = username;
 	}
 	public String getStudentName() {
-		return StudentName;
+		return studentName;
 	}
 	public void setStudentName(String studentName) {
-		StudentName = studentName;
+		this.studentName = studentName;
 	}
 	public String getStudentAddress() {
-		return StudentAddress;
+		return studentAddress;
 	}
 	public void setStudentAddress(String studentAddress) {
-		StudentAddress = studentAddress;
+		this.studentAddress = studentAddress;
 	}
 	public String getStudentMobileNO() {
-		return StudentMobileNO;
+		return studentMobileNO;
 	}
 	public void setStudentMobileNO(String studentMobileNO) {
-		StudentMobileNO = studentMobileNO;
+		this.studentMobileNO = studentMobileNO;
 	}
 	public String getStudentEmail() {
-		return StudentEmail;
+		return studentEmail;
 	}
 	public void setStudentEmail(String studentEmail) {
-		StudentEmail = studentEmail;
+		this.studentEmail = studentEmail;
 	}
 	public String getStudentDOB() {
-		return StudentDOB;
+		return studentDOB;
 	}
 	public void setStudentDOB(String studentDOB) {
-		StudentDOB = studentDOB;
+		this.studentDOB = studentDOB;
 	}
 	public int getStudentEnrollmentNO() {
-		return StudentEnrollmentNO;
+		return studentEnrollmentNO;
 	}
 	public void setStudentEnrollmentNO(int studentEnrollmentNO) {
-		StudentEnrollmentNO = studentEnrollmentNO;
+		this.studentEnrollmentNO = studentEnrollmentNO;
 	}
+	public String getStudentGender() {
+		return StudentGender;
+	}
+	public void setStudentGender(String studentGender) {
+		StudentGender = studentGender;
+	}
+	
+	
+	
 
 }

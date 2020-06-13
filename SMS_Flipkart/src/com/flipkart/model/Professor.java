@@ -1,53 +1,57 @@
 package com.flipkart.model;
 
 public class Professor {
-	private int ProfessorId;
-	private String ProfessorName;
-	private String ProfessortAddress;
-	private String ProfessortMobileNO;
-	private String ProfessorEmail;
-	private String ProfessorRoomNo;
+	private String Professorusername;
+	private String professorName;
+	private String professortAddress;
+	private String professortMobileNO;
+	private String professorEmail;
+	private String professorRoomNo;
+	private String professorGender;
 	
-	
-	
-	
-	
-	
-	
-	public int getProfessorId() {
-		return ProfessorId;
+
+	public String getProfessorusername() {
+		return Professorusername;
 	}
-	public void setProfessorId(int professorId) {
-		ProfessorId = professorId;
+	public void setProfessorusername(String professorusername) {
+		Professorusername = professorusername;
 	}
 	public String getProfessorName() {
-		return ProfessorName;
+		return professorName;
 	}
 	public void setProfessorName(String professorName) {
-		ProfessorName = professorName;
+		this.professorName = professorName;
 	}
 	public String getProfessortAddress() {
-		return ProfessortAddress;
+		return professortAddress;
 	}
 	public void setProfessortAddress(String professortAddress) {
-		ProfessortAddress = professortAddress;
+		this.professortAddress = professortAddress;
 	}
 	public String getProfessortMobileNO() {
-		return ProfessortMobileNO;
+		return professortMobileNO;
 	}
 	public void setProfessortMobileNO(String professortMobileNO) {
-		ProfessortMobileNO = professortMobileNO;
+		this.professortMobileNO = professortMobileNO;
 	}
 	public String getProfessorEmail() {
-		return ProfessorEmail;
+		return professorEmail;
 	}
 	public void setProfessorEmail(String professorEmail) {
-		ProfessorEmail = professorEmail;
+		this.professorEmail = professorEmail;
 	}
 	public String getProfessorRoomNo() {
-		return ProfessorRoomNo;
+		return professorRoomNo;
 	}
 	public void setProfessorRoomNo(String professorRoomNo) {
-		ProfessorRoomNo = professorRoomNo;
+		this.professorRoomNo = professorRoomNo;
 	}
+	public String getProfessorGender() {
+		return professorGender;
+	}
+	public void setProfessorGender(String professorGender) {
+		this.professorGender = professorGender;
+	}
+	
+
 }

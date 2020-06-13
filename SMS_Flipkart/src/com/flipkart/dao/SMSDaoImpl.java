@@ -7,17 +7,24 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.log4j.Logger;
+
+import com.flipkart.client.SMSClient;
 import com.flipkart.constant.SQLConstantQuaries;
 import com.flipkart.utils.DBUtil;
 
 public class SMSDaoImpl implements SMSDao{
 
 
-	PreparedStatement stmt = null;	
+	PreparedStatement stmt = null;
+	private static Logger logger =Logger.getLogger(SMSClient.class);	
 	
-	
+	public static String userName;
+	public static int userid;
 	@Override
-	public int Checkuser(String username, String Password) {
+	public String Checkuser(String username, String Password) {
+
+		
 		Connection conn=DBUtil.getConnection();
 		int role=5;
 		try{
@@ -28,49 +35,26 @@ public class SMSDaoImpl implements SMSDao{
 		 while(rs.next()){
 			 if(rs.getString("password").equals(Password)){
 					 role=rs.getInt("role");
+					 userName=username;
 		 	}
 		 }
-		 /*String pwsd=rs.getString("password");
-		 if(pwsd.equals(Password)){
-			 role=rs.getInt(role);
-			 
-		 }
-		 else{
-			 role=5;
-		 }*/
-
 			rs.close();
 			stmt.close();
 		}catch(SQLException se){
-		      se.printStackTrace();
+			logger.error("sql exception"+se.getMessage());
 		   }catch(Exception e){
-		      e.printStackTrace();
+			   logger.error("exception"+e.getMessage());
 		   }
-		
-		
-		
-		return role;
+		if(role==1)
+				return "student";
+		else if(role==2)
+				return "professor";
+		else if(role==3)
+				return "admin";
+		else
+				return "error";
 	}
 
 
-	@Override
-	public List<String> getCourseDetails() {
-		List<String> courses=new ArrayList<String>();
-
-		Connection conn=DBUtil.getConnection();
-		String sql="select courses from catalog";
-		try{
-		stmt = conn.prepareStatement(sql);
-		ResultSet rs = stmt.executeQuery(sql);
-		while(rs.next()){
-			
-		}
-		}catch(SQLException se){
-		      se.printStackTrace();
-		   }catch(Exception e){
-		      e.printStackTrace();
-		   }
-		return null;
-	}
 
 }
