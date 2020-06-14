@@ -34,11 +34,15 @@ public class SQLConstantQuaries {
 	public static final String check_professor="select professor from course where courseName=?";
 	public static final String prof_courseSelection="update course set professor=? where courseName=?";
 	public static final String view_selectedCourse="select * from course where professor=?";
+	public static final String student_in_course="select * from studentcourse where courseName=?";
 	
 	//student opeartion
 	public static final String student_selected_course="select * from studentcourse where username=?";
 	public static final String student_add_course="insert into studentcourse values(?,?,?,?,?)";
 	public static final String all_courses="select courseName from course";
 	public static final String student_drop_course="delete from studentcourse where userName=? and courseName=?";
+	
+	//courseregister operation...........................................................................................
+	public static final String final_registration="update studentcourse set registration=? where userName=?";
 	
 }

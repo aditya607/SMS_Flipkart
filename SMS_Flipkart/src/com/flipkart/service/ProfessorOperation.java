@@ -25,6 +25,7 @@ public class ProfessorOperation {
 	
 	
 	public void professorJob(){
+		professorDaoImpl.recordAllCourse();
 		logger.info("select choices");logger.info("1.view all courses");logger.info("2.select courses");logger.info("3.view selected courses");
 		logger.info("4.view student in course");logger.info("5.upload grades");logger.info("6.logout");
 		int choice=sc.nextInt();
@@ -69,7 +70,15 @@ public class ProfessorOperation {
 	}
 	
 	public void studentInCourse(){
-		
+		logger.info("enter the course whose detail you want");
+		String course=sc.next();
+		List<String> users=new ArrayList<String>();
+		users=professorDaoImpl.studentByCourse(course);
+		logger.info("all student in course "+course);
+		for(String s: users){
+			logger.info("USERNAME : "+s);
+		}
+		professorJob();
 	}
 	public void uploadGrade(){
 		

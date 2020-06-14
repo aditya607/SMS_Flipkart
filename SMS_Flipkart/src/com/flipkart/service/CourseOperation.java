@@ -44,7 +44,7 @@ public class CourseOperation {
 			//studentOperation.getCourseDetails();
 		}
 		else{
-			courseDaoImpl.selectCourse(selectedCourse);
+			//courseDaoImpl.selectCourse(selectedCourse);
 			logger.info("choose\n 1.for registe\n2.for adding courses\n3.for dropping course");
 		}
 		

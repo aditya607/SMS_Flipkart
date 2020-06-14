@@ -1,5 +1,10 @@
 package com.flipkart.service;
 
-public class CourseRegister {
+import com.flipkart.dao.CourseDaoImpl;
 
+public class CourseRegister {
+	public void finalRegistration(){
+		CourseDaoImpl courseDaoImpl=new CourseDaoImpl();
+		courseDaoImpl.finalRegistration();
+	}
 }

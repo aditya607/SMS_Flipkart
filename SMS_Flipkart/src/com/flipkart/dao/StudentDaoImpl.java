@@ -126,6 +126,66 @@ public class StudentDaoImpl implements StudentDao{
 		}
 		
 	}
+
+
+	@Override
+	public HashMap<String,String> studentCourse() {
+		Connection conn=DBUtil.getConnection();
+		HashMap<String,String> courses=new HashMap<String,String>();
+		try{
+			stmt = conn.prepareStatement(SQLConstantQuaries.student_selected_course);
+			stmt.setString(1,SMSDaoImpl.userName);
+			ResultSet rs = stmt.executeQuery();
+			while(rs.next()){
+				courses.put(rs.getString("courseName"), rs.getString("timeOfAddition"));
+			}
+		}catch(SQLException se){
+			logger.error("sql exception"+se.getMessage());
+		}catch(Exception e){
+			   logger.error("exception"+e.getMessage());
+		}	
+		return courses;
+	}
+
+
+	@Override
+	public String checkRegistration() {
+		Connection conn=DBUtil.getConnection();
+		String ans="";
+		try{
+			stmt = conn.prepareStatement(SQLConstantQuaries.student_selected_course);
+			stmt.setString(1,SMSDaoImpl.userName);
+			ResultSet rs = stmt.executeQuery();
+			while(rs.next()){
+				ans=rs.getString("registration");
+			}
+		}catch(SQLException se){
+			logger.error("sql exception"+se.getMessage());
+		}catch(Exception e){
+			   logger.error("exception"+e.getMessage());
+		}
+		return ans;
+	}
+
+
+	@Override
+	public HashMap<String, String> viewGrades() {
+		Connection conn=DBUtil.getConnection();
+		HashMap<String, String> grades=new HashMap<String, String>();
+		try{
+			stmt = conn.prepareStatement(SQLConstantQuaries.student_selected_course);
+			stmt.setString(1,SMSDaoImpl.userName);
+			ResultSet rs = stmt.executeQuery();
+			while(rs.next()){
+				grades.put(rs.getString("courseName"), rs.getString("grade"));
+			}
+		}catch(SQLException se){
+			logger.error("sql exception"+se.getMessage());
+		}catch(Exception e){
+			   logger.error("exception"+e.getMessage());
+		}
+		return grades;
+	}
 	
 
 
