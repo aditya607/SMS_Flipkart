@@ -2,39 +2,78 @@ package com.flipkart.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 import org.apache.log4j.Logger;
 
 import com.flipkart.client.SMSClient;
 import com.flipkart.constant.SQLConstantQuaries;
+import com.flipkart.model.Course;
 import com.flipkart.utils.DBUtil;
+import com.flipkart.utils.DateTimeUtil;
 
 public class ProfessorDaoImpl implements ProfessorDao{
 	PreparedStatement stmt = null;
 	private static Logger logger =Logger.getLogger(SMSClient.class);
 
 	@Override
-	public void selectProfCourse(int courseId) {
+	public void selectProfCourse(String course) {
 		
 		Connection conn=DBUtil.getConnection();
 		try{
-			 stmt = conn.prepareStatement(SQLConstantQuaries.prof_courseSelection);
-			 stmt.setInt(1, 2);
-			 stmt.setInt(2,SMSDaoImpl.userid);
-			 stmt.setInt(3,courseId);
-			 int rows = stmt.executeUpdate();
-		      logger.info("Rows impacted : " + rows );
+			stmt = conn.prepareStatement(SQLConstantQuaries.check_professor);
+			stmt.setString(1,course);
+			ResultSet rs = stmt.executeQuery();
+			String check="error";
+			while(rs.next()){
+				 check=rs.getString("professor");
+			}
+			if(check.equals("error")){
+				 logger.info("no course by that name, please select properly");
+			}else if(check.equals("null")){
+				 stmt = conn.prepareStatement(SQLConstantQuaries.prof_courseSelection);
+				 stmt.setString(1,SMSDaoImpl.userName ); //professor
+				 stmt.setString(2,course);
+				 int rows = stmt.executeUpdate();					// executing the sql update query
+			     logger.info("in "+ course+"professor is added at "+DateTimeUtil.TimeDateDay());
+				 logger.info("in nULL");
+			}else{
+				 logger.info("another professor has already been select ");
+			}
+		}catch(SQLException se){
+		       logger.info("sql exceptio"+se.getMessage());
+		 }catch(Exception e){
+		       logger.info("Exception "+e.getMessage());
+		 }
+	}
+
+	
+	@Override
+	public List<Course> viewSelectedCourse() {
+		Connection conn=DBUtil.getConnection();
+		List<Course> courses=new ArrayList<Course>();
+		try{
+			stmt = conn.prepareStatement(SQLConstantQuaries.view_selectedCourse);
+			stmt.setString(1,SMSDaoImpl.userName);
+			ResultSet rs = stmt.executeQuery();
+			while(rs.next()){
+				Course course=new Course();
+				course.setCoursecode(rs.getString("coursecode"));
+				course.setCourseName(rs.getString("courseName"));
+				course.setCredit(rs.getInt("course_credit"));
+				course.setProfessor(rs.getString("professor"));
+				courses.add(course);
+			}
 			
 		}catch(SQLException se){
-		      logger.info("sql exceptio"+se.getMessage());
-		   }catch(Exception e){
-		      logger.info("Exception "+e.getMessage());
-		   }
-		
-		
-		
-		
+		       logger.info("sql exceptio"+se.getMessage());
+		 }catch(Exception e){
+		       logger.info("Exception "+e.getMessage());
+		 }
+		return courses;
 	}
 
 }

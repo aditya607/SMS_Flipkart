@@ -152,7 +152,7 @@ public class AdminDaoImpl implements AdminDao{
 			 stmt.setString(2,course.getCourseName());
 			 stmt.setInt(3,course.getCredit());
 			 stmt.setString(4,course.getCourseInfo());
-			 stmt.setString(5,null);
+			 stmt.setString(5,"null");
 			 int rows = stmt.executeUpdate();					// executing the sql update query
 		      logger.info("course with name "+ course.getCourseName()+" is added "+DateTimeUtil.TimeDateDay());
 		}catch(SQLException se){

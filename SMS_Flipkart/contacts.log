@@ -1227,3 +1227,1069 @@
 09:09:17,466  INFO SMSClient,main:27 - 9.logout
 09:09:21,085  INFO SMSClient,main:44 - admin logging out at 09:09:17.448  14 JUNE 2020 on SUNDAY
 09:09:21,086  INFO SMSClient,main:46 - enter username
+11:10:23,394  INFO SMSClient,main:17 - WELCOME
+11:10:23,398  INFO SMSClient,main:19 - enter username
+11:10:51,534  INFO SMSClient,main:21 - enter password
+11:10:56,110  INFO SMSClient,main:36 - admin logged at 11:10:56.110  14 JUNE 2020 on SUNDAY
+11:10:56,111  INFO SMSClient,main:37 - going to admin page
+11:10:56,175  INFO SMSClient,main:25 - select choice
+11:10:56,175  INFO SMSClient,main:25 - 1.student opearation
+11:10:56,176  INFO SMSClient,main:25 - 2.professor operation
+11:10:56,176  INFO SMSClient,main:26 - 3.addNewcourse
+11:10:56,177  INFO SMSClient,main:26 - 4.dropOldcourse
+11:10:56,178  INFO SMSClient,main:26 - 5.report card generation
+11:10:56,178  INFO SMSClient,main:27 - 6.view all student
+11:10:56,178  INFO SMSClient,main:27 - 7.view all professor
+11:10:56,179  INFO SMSClient,main:27 - 8.view all course
+11:10:56,179  INFO SMSClient,main:27 - 9.logout
+11:10:59,894  INFO SMSClient,main:118 - select choice
+11:10:59,894  INFO SMSClient,main:118 - 1.create professor
+11:10:59,895  INFO SMSClient,main:118 - 2.delete professor
+11:10:59,895  INFO SMSClient,main:119 - 3.update professor
+11:11:01,617  INFO SMSClient,main:67 -  userID ,username and password
+11:11:12,115  INFO SMSClient,main:41 - user with username ajay is added
+11:11:12,115  INFO SMSClient,main:129 - enter professor details
+11:11:12,129  INFO SMSClient,main:133 - professor name 
+11:11:17,070  INFO SMSClient,main:135 - professor address
+11:11:22,374  INFO SMSClient,main:137 - professor email
+11:11:30,225  INFO SMSClient,main:139 - professor room number
+11:11:36,196  INFO SMSClient,main:141 - professor mobile number
+11:11:41,943  INFO SMSClient,main:143 - professor gender : 'male'/'female'
+11:11:44,887  INFO SMSClient,main:88 - professor with name ajay kumar is added 11:10:56.110  14 JUNE 2020 on SUNDAY
+11:11:44,888  INFO SMSClient,main:25 - select choice
+11:11:44,889  INFO SMSClient,main:25 - 1.student opearation
+11:11:44,889  INFO SMSClient,main:25 - 2.professor operation
+11:11:44,889  INFO SMSClient,main:26 - 3.addNewcourse
+11:11:44,890  INFO SMSClient,main:26 - 4.dropOldcourse
+11:11:44,890  INFO SMSClient,main:26 - 5.report card generation
+11:11:44,890  INFO SMSClient,main:27 - 6.view all student
+11:11:44,891  INFO SMSClient,main:27 - 7.view all professor
+11:11:44,891  INFO SMSClient,main:27 - 8.view all course
+11:11:44,891  INFO SMSClient,main:27 - 9.logout
+11:11:49,039  INFO SMSClient,main:190 - professor list
+11:11:49,039  INFO SMSClient,main:192 - NAME : manan kumar USERNAME : manan MOBILE NO. : 1234567890 EMAIL : manan@gmail.com ROOM NO. : a-320
+11:11:49,040  INFO SMSClient,main:192 - NAME : ajay kumar USERNAME : ajay MOBILE NO. : 1234567890 EMAIL : ajay@gmail.com ROOM NO. : a-670
+11:11:49,040  INFO SMSClient,main:25 - select choice
+11:11:49,040  INFO SMSClient,main:25 - 1.student opearation
+11:11:49,041  INFO SMSClient,main:25 - 2.professor operation
+11:11:49,041  INFO SMSClient,main:26 - 3.addNewcourse
+11:11:49,041  INFO SMSClient,main:26 - 4.dropOldcourse
+11:11:49,041  INFO SMSClient,main:26 - 5.report card generation
+11:11:49,042  INFO SMSClient,main:27 - 6.view all student
+11:11:49,042  INFO SMSClient,main:27 - 7.view all professor
+11:11:49,042  INFO SMSClient,main:27 - 8.view all course
+11:11:49,042  INFO SMSClient,main:27 - 9.logout
+11:12:10,787  INFO SMSClient,main:149 - give course details
+11:12:10,788  INFO SMSClient,main:149 - CourseId , CourseName and catalogId
+11:12:22,422  INFO SMSClient,main:160 - enter course credit
+11:12:24,033  INFO SMSClient,main:162 - enter the course code
+11:12:29,159  INFO SMSClient,main:164 - enter course info
+11:12:37,164  INFO SMSClient,main:157 - course with name history is added 11:10:56.110  14 JUNE 2020 on SUNDAY
+11:12:37,165  INFO SMSClient,main:25 - select choice
+11:12:37,166  INFO SMSClient,main:25 - 1.student opearation
+11:12:37,166  INFO SMSClient,main:25 - 2.professor operation
+11:12:37,167  INFO SMSClient,main:26 - 3.addNewcourse
+11:12:37,167  INFO SMSClient,main:26 - 4.dropOldcourse
+11:12:37,168  INFO SMSClient,main:26 - 5.report card generation
+11:12:37,168  INFO SMSClient,main:27 - 6.view all student
+11:12:37,169  INFO SMSClient,main:27 - 7.view all professor
+11:12:37,169  INFO SMSClient,main:27 - 8.view all course
+11:12:37,170  INFO SMSClient,main:27 - 9.logout
+11:12:40,161  INFO SMSClient,main:149 - give course details
+11:12:40,161  INFO SMSClient,main:149 - CourseId , CourseName and catalogId
+11:12:50,831  INFO SMSClient,main:160 - enter course credit
+11:12:52,790  INFO SMSClient,main:162 - enter the course code
+11:12:57,359  INFO SMSClient,main:164 - enter course info
+11:13:07,226  INFO SMSClient,main:157 - course with name maths is added 11:10:56.110  14 JUNE 2020 on SUNDAY
+11:13:07,227  INFO SMSClient,main:25 - select choice
+11:13:07,227  INFO SMSClient,main:25 - 1.student opearation
+11:13:07,227  INFO SMSClient,main:25 - 2.professor operation
+11:13:07,227  INFO SMSClient,main:26 - 3.addNewcourse
+11:13:07,228  INFO SMSClient,main:26 - 4.dropOldcourse
+11:13:07,228  INFO SMSClient,main:26 - 5.report card generation
+11:13:07,228  INFO SMSClient,main:27 - 6.view all student
+11:13:07,228  INFO SMSClient,main:27 - 7.view all professor
+11:13:07,228  INFO SMSClient,main:27 - 8.view all course
+11:13:07,228  INFO SMSClient,main:27 - 9.logout
+11:13:11,116  INFO SMSClient,main:149 - give course details
+11:13:11,116  INFO SMSClient,main:149 - CourseId , CourseName and catalogId
+11:13:35,088  INFO SMSClient,main:160 - enter course credit
+11:13:39,595  INFO SMSClient,main:162 - enter the course code
+11:13:44,007  INFO SMSClient,main:164 - enter course info
+11:13:54,943  INFO SMSClient,main:157 - course with name socialscience is added 11:10:56.110  14 JUNE 2020 on SUNDAY
+11:13:54,943  INFO SMSClient,main:25 - select choice
+11:13:54,944  INFO SMSClient,main:25 - 1.student opearation
+11:13:54,944  INFO SMSClient,main:25 - 2.professor operation
+11:13:54,945  INFO SMSClient,main:26 - 3.addNewcourse
+11:13:54,945  INFO SMSClient,main:26 - 4.dropOldcourse
+11:13:54,945  INFO SMSClient,main:26 - 5.report card generation
+11:13:54,946  INFO SMSClient,main:27 - 6.view all student
+11:13:54,946  INFO SMSClient,main:27 - 7.view all professor
+11:13:54,947  INFO SMSClient,main:27 - 8.view all course
+11:13:54,947  INFO SMSClient,main:27 - 9.logout
+11:13:58,753  INFO SMSClient,main:199 - course list
+11:13:58,753  INFO SMSClient,main:201 - COURSE CODE : qw-890 COURSE NAME : biology CREDIT : 4 PROFESSOR : null
+11:13:58,754  INFO SMSClient,main:201 - COURSE CODE : asd-780 COURSE NAME : history CREDIT : 4 PROFESSOR : null
+11:13:58,754  INFO SMSClient,main:201 - COURSE CODE : qwe-120 COURSE NAME : maths CREDIT : 4 PROFESSOR : null
+11:13:58,754  INFO SMSClient,main:201 - COURSE CODE : qwe-110 COURSE NAME : socialscience CREDIT : 3 PROFESSOR : null
+11:13:58,754  INFO SMSClient,main:25 - select choice
+11:13:58,755  INFO SMSClient,main:25 - 1.student opearation
+11:13:58,755  INFO SMSClient,main:25 - 2.professor operation
+11:13:58,755  INFO SMSClient,main:26 - 3.addNewcourse
+11:13:58,755  INFO SMSClient,main:26 - 4.dropOldcourse
+11:13:58,755  INFO SMSClient,main:26 - 5.report card generation
+11:13:58,756  INFO SMSClient,main:27 - 6.view all student
+11:13:58,756  INFO SMSClient,main:27 - 7.view all professor
+11:13:58,756  INFO SMSClient,main:27 - 8.view all course
+11:13:58,756  INFO SMSClient,main:27 - 9.logout
+11:38:40,741  INFO SMSClient,main:17 - WELCOME
+11:38:40,744  INFO SMSClient,main:19 - enter username
+11:39:00,581  INFO SMSClient,main:21 - enter password
+11:39:05,340  INFO SMSClient,main:30 - professor with username ajay logged in at 11:39:05.340  14 JUNE 2020 on SUNDAY
+11:39:05,341  INFO SMSClient,main:31 - going to Professor page 
+11:39:05,347  INFO StudentOperation,main:27 - select choices
+11:39:05,347  INFO StudentOperation,main:27 - 1.view all courses
+11:39:05,347  INFO StudentOperation,main:27 - 2.select courses
+11:39:05,347  INFO StudentOperation,main:27 - 3.view selected courses
+11:39:05,348  INFO StudentOperation,main:28 - 4.view student in course
+11:39:05,348  INFO StudentOperation,main:28 - 5.upload grades
+11:39:05,348  INFO StudentOperation,main:28 - 6.logout
+11:39:11,091  INFO StudentOperation,main:34 - COURSE CODE : qw-890 COURSE NAME : biology CREDIT : 4 PROFESSOR : null
+11:39:11,091  INFO StudentOperation,main:34 - COURSE CODE : asd-780 COURSE NAME : history CREDIT : 4 PROFESSOR : null
+11:39:11,092  INFO StudentOperation,main:34 - COURSE CODE : qwe-120 COURSE NAME : maths CREDIT : 4 PROFESSOR : null
+11:39:11,092  INFO StudentOperation,main:34 - COURSE CODE : qwe-110 COURSE NAME : socialscience CREDIT : 3 PROFESSOR : null
+11:41:17,742  INFO SMSClient,main:17 - WELCOME
+11:41:17,746  INFO SMSClient,main:19 - enter username
+11:41:21,313  INFO SMSClient,main:21 - enter password
+11:41:25,663  INFO SMSClient,main:30 - professor with username ajay logged in at 11:41:25.662  14 JUNE 2020 on SUNDAY
+11:41:25,663  INFO SMSClient,main:31 - going to Professor page 
+11:41:25,670  INFO StudentOperation,main:27 - select choices
+11:41:25,670  INFO StudentOperation,main:27 - 1.view all courses
+11:41:25,670  INFO StudentOperation,main:27 - 2.select courses
+11:41:25,671  INFO StudentOperation,main:27 - 3.view selected courses
+11:41:25,671  INFO StudentOperation,main:28 - 4.view student in course
+11:41:25,671  INFO StudentOperation,main:28 - 5.upload grades
+11:41:25,671  INFO StudentOperation,main:28 - 6.logout
+11:41:27,998  INFO StudentOperation,main:40 - COURSE CODE : qw-890 COURSE NAME : biology CREDIT : 4 PROFESSOR : null
+11:41:27,998  INFO StudentOperation,main:40 - COURSE CODE : asd-780 COURSE NAME : history CREDIT : 4 PROFESSOR : null
+11:41:27,999  INFO StudentOperation,main:40 - COURSE CODE : qwe-120 COURSE NAME : maths CREDIT : 4 PROFESSOR : null
+11:41:27,999  INFO StudentOperation,main:40 - COURSE CODE : qwe-110 COURSE NAME : socialscience CREDIT : 3 PROFESSOR : null
+11:41:27,999  INFO StudentOperation,main:27 - select choices
+11:41:27,999  INFO StudentOperation,main:27 - 1.view all courses
+11:41:28,000  INFO StudentOperation,main:27 - 2.select courses
+11:41:28,000  INFO StudentOperation,main:27 - 3.view selected courses
+11:41:28,000  INFO StudentOperation,main:28 - 4.view student in course
+11:41:28,000  INFO StudentOperation,main:28 - 5.upload grades
+11:41:28,000  INFO StudentOperation,main:28 - 6.logout
+11:41:37,009  INFO StudentOperation,main:45 - enter the course you going to teach
+11:41:44,466  INFO SMSClient,main:38 - sql exceptioYou have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+11:43:09,508  INFO SMSClient,main:17 - WELCOME
+11:43:09,510  INFO SMSClient,main:19 - enter username
+11:43:13,650  INFO SMSClient,main:21 - enter password
+11:43:18,397  INFO SMSClient,main:30 - professor with username ajay logged in at 11:43:18.396  14 JUNE 2020 on SUNDAY
+11:43:18,397  INFO SMSClient,main:31 - going to Professor page 
+11:43:18,403  INFO StudentOperation,main:27 - select choices
+11:43:18,404  INFO StudentOperation,main:27 - 1.view all courses
+11:43:18,404  INFO StudentOperation,main:27 - 2.select courses
+11:43:18,404  INFO StudentOperation,main:27 - 3.view selected courses
+11:43:18,405  INFO StudentOperation,main:28 - 4.view student in course
+11:43:18,405  INFO StudentOperation,main:28 - 5.upload grades
+11:43:18,405  INFO StudentOperation,main:28 - 6.logout
+11:43:20,955  INFO StudentOperation,main:45 - enter the course you going to teach
+11:50:27,761  INFO SMSClient,main:17 - WELCOME
+11:50:27,764  INFO SMSClient,main:19 - enter username
+11:50:30,785  INFO SMSClient,main:21 - enter password
+11:50:35,813  INFO SMSClient,main:30 - professor with username ajay logged in at 11:50:35.812  14 JUNE 2020 on SUNDAY
+11:50:35,813  INFO SMSClient,main:31 - going to Professor page 
+11:50:35,820  INFO StudentOperation,main:27 - select choices
+11:50:35,820  INFO StudentOperation,main:27 - 1.view all courses
+11:50:35,820  INFO StudentOperation,main:27 - 2.select courses
+11:50:35,821  INFO StudentOperation,main:27 - 3.view selected courses
+11:50:35,821  INFO StudentOperation,main:28 - 4.view student in course
+11:50:35,821  INFO StudentOperation,main:28 - 5.upload grades
+11:50:35,821  INFO StudentOperation,main:28 - 6.logout
+11:50:40,158  INFO StudentOperation,main:40 - COURSE CODE : qw-890 COURSE NAME : biology CREDIT : 4 PROFESSOR : null
+11:50:40,159  INFO StudentOperation,main:40 - COURSE CODE : asd-780 COURSE NAME : history CREDIT : 4 PROFESSOR : null
+11:50:40,159  INFO StudentOperation,main:40 - COURSE CODE : qwe-120 COURSE NAME : maths CREDIT : 4 PROFESSOR : null
+11:50:40,159  INFO StudentOperation,main:40 - COURSE CODE : qwe-110 COURSE NAME : socialscience CREDIT : 3 PROFESSOR : null
+11:50:40,160  INFO StudentOperation,main:27 - select choices
+11:50:40,160  INFO StudentOperation,main:27 - 1.view all courses
+11:50:40,160  INFO StudentOperation,main:27 - 2.select courses
+11:50:40,160  INFO StudentOperation,main:27 - 3.view selected courses
+11:50:40,161  INFO StudentOperation,main:28 - 4.view student in course
+11:50:40,161  INFO StudentOperation,main:28 - 5.upload grades
+11:50:40,161  INFO StudentOperation,main:28 - 6.logout
+11:50:46,224  INFO StudentOperation,main:45 - enter the course you going to teach
+11:50:49,062  INFO SMSClient,main:53 - Exception null
+11:52:09,085  INFO SMSClient,main:17 - WELCOME
+11:52:09,088  INFO SMSClient,main:19 - enter username
+11:52:12,662  INFO SMSClient,main:21 - enter password
+11:52:16,732  INFO SMSClient,main:30 - professor with username ajay logged in at 11:52:16.731  14 JUNE 2020 on SUNDAY
+11:52:16,732  INFO SMSClient,main:31 - going to Professor page 
+11:52:16,738  INFO StudentOperation,main:27 - select choices
+11:52:16,738  INFO StudentOperation,main:27 - 1.view all courses
+11:52:16,739  INFO StudentOperation,main:27 - 2.select courses
+11:52:16,739  INFO StudentOperation,main:27 - 3.view selected courses
+11:52:16,739  INFO StudentOperation,main:28 - 4.view student in course
+11:52:16,739  INFO StudentOperation,main:28 - 5.upload grades
+11:52:16,739  INFO StudentOperation,main:28 - 6.logout
+11:52:20,953  INFO StudentOperation,main:45 - enter the course you going to teach
+11:52:23,680  INFO SMSClient,main:54 - Exception null
+11:53:53,088  INFO SMSClient,main:17 - WELCOME
+11:53:53,090  INFO SMSClient,main:19 - enter username
+11:53:56,242  INFO SMSClient,main:21 - enter password
+11:54:01,051  INFO SMSClient,main:30 - professor with username ajay logged in at 11:54:01.050  14 JUNE 2020 on SUNDAY
+11:54:01,051  INFO SMSClient,main:31 - going to Professor page 
+11:54:01,058  INFO StudentOperation,main:27 - select choices
+11:54:01,058  INFO StudentOperation,main:27 - 1.view all courses
+11:54:01,058  INFO StudentOperation,main:27 - 2.select courses
+11:54:01,058  INFO StudentOperation,main:27 - 3.view selected courses
+11:54:01,059  INFO StudentOperation,main:28 - 4.view student in course
+11:54:01,059  INFO StudentOperation,main:28 - 5.upload grades
+11:54:01,059  INFO StudentOperation,main:28 - 6.logout
+11:54:03,497  INFO StudentOperation,main:40 - COURSE CODE : qw-890 COURSE NAME : biology CREDIT : 4 PROFESSOR : null
+11:54:03,497  INFO StudentOperation,main:40 - COURSE CODE : asd-780 COURSE NAME : history CREDIT : 4 PROFESSOR : null
+11:54:03,497  INFO StudentOperation,main:40 - COURSE CODE : qwe-120 COURSE NAME : maths CREDIT : 4 PROFESSOR : null
+11:54:03,497  INFO StudentOperation,main:40 - COURSE CODE : qwe-110 COURSE NAME : socialscience CREDIT : 3 PROFESSOR : null
+11:54:03,497  INFO StudentOperation,main:27 - select choices
+11:54:03,498  INFO StudentOperation,main:27 - 1.view all courses
+11:54:03,498  INFO StudentOperation,main:27 - 2.select courses
+11:54:03,498  INFO StudentOperation,main:27 - 3.view selected courses
+11:54:03,498  INFO StudentOperation,main:28 - 4.view student in course
+11:54:03,499  INFO StudentOperation,main:28 - 5.upload grades
+11:54:03,499  INFO StudentOperation,main:28 - 6.logout
+11:54:09,565  INFO StudentOperation,main:45 - enter the course you going to teach
+11:54:14,874  INFO SMSClient,main:54 - Exception null
+11:54:14,874  INFO StudentOperation,main:27 - select choices
+11:54:14,874  INFO StudentOperation,main:27 - 1.view all courses
+11:54:14,875  INFO StudentOperation,main:27 - 2.select courses
+11:54:14,875  INFO StudentOperation,main:27 - 3.view selected courses
+11:54:14,875  INFO StudentOperation,main:28 - 4.view student in course
+11:54:14,875  INFO StudentOperation,main:28 - 5.upload grades
+11:54:14,876  INFO StudentOperation,main:28 - 6.logout
+11:55:14,903  INFO SMSClient,main:17 - WELCOME
+11:55:14,906  INFO SMSClient,main:19 - enter username
+11:55:18,224  INFO SMSClient,main:21 - enter password
+11:55:22,938  INFO SMSClient,main:30 - professor with username ajay logged in at 11:55:22.936  14 JUNE 2020 on SUNDAY
+11:55:22,939  INFO SMSClient,main:31 - going to Professor page 
+11:55:22,944  INFO StudentOperation,main:27 - select choices
+11:55:22,944  INFO StudentOperation,main:27 - 1.view all courses
+11:55:22,944  INFO StudentOperation,main:27 - 2.select courses
+11:55:22,945  INFO StudentOperation,main:27 - 3.view selected courses
+11:55:22,945  INFO StudentOperation,main:28 - 4.view student in course
+11:55:22,945  INFO StudentOperation,main:28 - 5.upload grades
+11:55:22,945  INFO StudentOperation,main:28 - 6.logout
+11:55:24,190  INFO StudentOperation,main:45 - enter the course you going to teach
+11:55:27,051  INFO SMSClient,main:32 - no course by that name, please select properly
+11:55:27,052  INFO SMSClient,main:43 - another professor has already been select 
+11:55:27,052  INFO StudentOperation,main:27 - select choices
+11:55:27,052  INFO StudentOperation,main:27 - 1.view all courses
+11:55:27,053  INFO StudentOperation,main:27 - 2.select courses
+11:55:27,053  INFO StudentOperation,main:27 - 3.view selected courses
+11:55:27,053  INFO StudentOperation,main:28 - 4.view student in course
+11:55:27,054  INFO StudentOperation,main:28 - 5.upload grades
+11:55:27,054  INFO StudentOperation,main:28 - 6.logout
+11:55:49,066  INFO SMSClient,main:17 - WELCOME
+11:55:49,070  INFO SMSClient,main:19 - enter username
+11:55:54,756  INFO SMSClient,main:21 - enter password
+11:55:59,476  INFO SMSClient,main:30 - professor with username ajay logged in at 11:55:59.475  14 JUNE 2020 on SUNDAY
+11:55:59,477  INFO SMSClient,main:31 - going to Professor page 
+11:55:59,483  INFO StudentOperation,main:27 - select choices
+11:55:59,483  INFO StudentOperation,main:27 - 1.view all courses
+11:55:59,484  INFO StudentOperation,main:27 - 2.select courses
+11:55:59,484  INFO StudentOperation,main:27 - 3.view selected courses
+11:55:59,484  INFO StudentOperation,main:28 - 4.view student in course
+11:55:59,484  INFO StudentOperation,main:28 - 5.upload grades
+11:55:59,484  INFO StudentOperation,main:28 - 6.logout
+11:56:01,439  INFO StudentOperation,main:45 - enter the course you going to teach
+11:56:03,187  INFO SMSClient,main:55 - Exception null
+11:56:03,187  INFO StudentOperation,main:27 - select choices
+11:56:03,187  INFO StudentOperation,main:27 - 1.view all courses
+11:56:03,187  INFO StudentOperation,main:27 - 2.select courses
+11:56:03,187  INFO StudentOperation,main:27 - 3.view selected courses
+11:56:03,188  INFO StudentOperation,main:28 - 4.view student in course
+11:56:03,188  INFO StudentOperation,main:28 - 5.upload grades
+11:56:03,188  INFO StudentOperation,main:28 - 6.logout
+11:56:39,000  INFO SMSClient,main:17 - WELCOME
+11:56:39,003  INFO SMSClient,main:19 - enter username
+11:56:42,826  INFO SMSClient,main:21 - enter password
+11:56:46,966  INFO SMSClient,main:30 - professor with username ajay logged in at 11:56:46.965  14 JUNE 2020 on SUNDAY
+11:56:46,967  INFO SMSClient,main:31 - going to Professor page 
+11:56:46,973  INFO StudentOperation,main:27 - select choices
+11:56:46,973  INFO StudentOperation,main:27 - 1.view all courses
+11:56:46,974  INFO StudentOperation,main:27 - 2.select courses
+11:56:46,974  INFO StudentOperation,main:27 - 3.view selected courses
+11:56:46,974  INFO StudentOperation,main:28 - 4.view student in course
+11:56:46,974  INFO StudentOperation,main:28 - 5.upload grades
+11:56:46,974  INFO StudentOperation,main:28 - 6.logout
+11:56:49,228  INFO StudentOperation,main:45 - enter the course you going to teach
+11:56:52,176  INFO SMSClient,main:52 - Exception null
+11:56:52,177  INFO StudentOperation,main:27 - select choices
+11:56:52,177  INFO StudentOperation,main:27 - 1.view all courses
+11:56:52,177  INFO StudentOperation,main:27 - 2.select courses
+11:56:52,177  INFO StudentOperation,main:27 - 3.view selected courses
+11:56:52,177  INFO StudentOperation,main:28 - 4.view student in course
+11:56:52,177  INFO StudentOperation,main:28 - 5.upload grades
+11:56:52,178  INFO StudentOperation,main:28 - 6.logout
+11:57:26,056  INFO SMSClient,main:17 - WELCOME
+11:57:26,058  INFO SMSClient,main:19 - enter username
+11:57:30,437  INFO SMSClient,main:21 - enter password
+11:57:34,680  INFO SMSClient,main:30 - professor with username ajay logged in at 11:57:34.679  14 JUNE 2020 on SUNDAY
+11:57:34,681  INFO SMSClient,main:31 - going to Professor page 
+11:57:34,686  INFO StudentOperation,main:27 - select choices
+11:57:34,686  INFO StudentOperation,main:27 - 1.view all courses
+11:57:34,687  INFO StudentOperation,main:27 - 2.select courses
+11:57:34,687  INFO StudentOperation,main:27 - 3.view selected courses
+11:57:34,687  INFO StudentOperation,main:28 - 4.view student in course
+11:57:34,687  INFO StudentOperation,main:28 - 5.upload grades
+11:57:34,687  INFO StudentOperation,main:28 - 6.logout
+11:57:36,712  INFO StudentOperation,main:45 - enter the course you going to teach
+11:57:38,231  INFO SMSClient,main:52 - Exception null
+11:57:38,232  INFO StudentOperation,main:27 - select choices
+11:57:38,232  INFO StudentOperation,main:27 - 1.view all courses
+11:57:38,232  INFO StudentOperation,main:27 - 2.select courses
+11:57:38,232  INFO StudentOperation,main:27 - 3.view selected courses
+11:57:38,233  INFO StudentOperation,main:28 - 4.view student in course
+11:57:38,233  INFO StudentOperation,main:28 - 5.upload grades
+11:57:38,233  INFO StudentOperation,main:28 - 6.logout
+11:58:54,073  INFO SMSClient,main:17 - WELCOME
+11:58:54,076  INFO SMSClient,main:19 - enter username
+11:59:01,208  INFO SMSClient,main:21 - enter password
+11:59:06,724  INFO SMSClient,main:30 - professor with username ajay logged in at 11:59:06.724  14 JUNE 2020 on SUNDAY
+11:59:06,725  INFO SMSClient,main:31 - going to Professor page 
+11:59:06,730  INFO StudentOperation,main:27 - select choices
+11:59:06,731  INFO StudentOperation,main:27 - 1.view all courses
+11:59:06,731  INFO StudentOperation,main:27 - 2.select courses
+11:59:06,731  INFO StudentOperation,main:27 - 3.view selected courses
+11:59:06,731  INFO StudentOperation,main:28 - 4.view student in course
+11:59:06,731  INFO StudentOperation,main:28 - 5.upload grades
+11:59:06,731  INFO StudentOperation,main:28 - 6.logout
+11:59:08,856  INFO StudentOperation,main:45 - enter the course you going to teach
+11:59:10,669  INFO SMSClient,main:52 - Exception null
+11:59:10,669  INFO StudentOperation,main:27 - select choices
+11:59:10,669  INFO StudentOperation,main:27 - 1.view all courses
+11:59:10,669  INFO StudentOperation,main:27 - 2.select courses
+11:59:10,670  INFO StudentOperation,main:27 - 3.view selected courses
+11:59:10,670  INFO StudentOperation,main:28 - 4.view student in course
+11:59:10,670  INFO StudentOperation,main:28 - 5.upload grades
+11:59:10,671  INFO StudentOperation,main:28 - 6.logout
+11:59:29,632  INFO SMSClient,main:17 - WELCOME
+11:59:29,634  INFO SMSClient,main:19 - enter username
+11:59:32,725  INFO SMSClient,main:21 - enter password
+11:59:36,594  INFO SMSClient,main:30 - professor with username ajay logged in at 11:59:36.594  14 JUNE 2020 on SUNDAY
+11:59:36,595  INFO SMSClient,main:31 - going to Professor page 
+11:59:36,600  INFO StudentOperation,main:27 - select choices
+11:59:36,600  INFO StudentOperation,main:27 - 1.view all courses
+11:59:36,600  INFO StudentOperation,main:27 - 2.select courses
+11:59:36,601  INFO StudentOperation,main:27 - 3.view selected courses
+11:59:36,601  INFO StudentOperation,main:28 - 4.view student in course
+11:59:36,601  INFO StudentOperation,main:28 - 5.upload grades
+11:59:36,601  INFO StudentOperation,main:28 - 6.logout
+11:59:41,644  INFO StudentOperation,main:45 - enter the course you going to teach
+11:59:43,827  INFO SMSClient,main:36 - in mathsprofessor is added at 11:59:36.594  14 JUNE 2020 on SUNDAY
+11:59:43,828  INFO SMSClient,main:37 - in nULL
+11:59:43,828  INFO StudentOperation,main:27 - select choices
+11:59:43,828  INFO StudentOperation,main:27 - 1.view all courses
+11:59:43,829  INFO StudentOperation,main:27 - 2.select courses
+11:59:43,829  INFO StudentOperation,main:27 - 3.view selected courses
+11:59:43,829  INFO StudentOperation,main:28 - 4.view student in course
+11:59:43,829  INFO StudentOperation,main:28 - 5.upload grades
+11:59:43,830  INFO StudentOperation,main:28 - 6.logout
+12:01:09,568  INFO SMSClient,main:17 - WELCOME
+12:01:09,571  INFO SMSClient,main:19 - enter username
+12:01:12,048  INFO SMSClient,main:21 - enter password
+12:01:16,594  INFO SMSClient,main:30 - professor with username ajay logged in at 12:01:16.593  14 JUNE 2020 on SUNDAY
+12:01:16,595  INFO SMSClient,main:31 - going to Professor page 
+12:01:16,602  INFO StudentOperation,main:27 - select choices
+12:01:16,602  INFO StudentOperation,main:27 - 1.view all courses
+12:01:16,602  INFO StudentOperation,main:27 - 2.select courses
+12:01:16,602  INFO StudentOperation,main:27 - 3.view selected courses
+12:01:16,602  INFO StudentOperation,main:28 - 4.view student in course
+12:01:16,602  INFO StudentOperation,main:28 - 5.upload grades
+12:01:16,603  INFO StudentOperation,main:28 - 6.logout
+12:01:18,810  INFO StudentOperation,main:45 - enter the course you going to teach
+12:01:23,025  INFO StudentOperation,main:27 - select choices
+12:01:23,025  INFO StudentOperation,main:27 - 1.view all courses
+12:01:23,025  INFO StudentOperation,main:27 - 2.select courses
+12:01:23,026  INFO StudentOperation,main:27 - 3.view selected courses
+12:01:23,026  INFO StudentOperation,main:28 - 4.view student in course
+12:01:23,026  INFO StudentOperation,main:28 - 5.upload grades
+12:01:23,026  INFO StudentOperation,main:28 - 6.logout
+12:01:28,560  INFO StudentOperation,main:45 - enter the course you going to teach
+12:01:31,973  INFO StudentOperation,main:27 - select choices
+12:01:31,973  INFO StudentOperation,main:27 - 1.view all courses
+12:01:31,974  INFO StudentOperation,main:27 - 2.select courses
+12:01:31,974  INFO StudentOperation,main:27 - 3.view selected courses
+12:01:31,974  INFO StudentOperation,main:28 - 4.view student in course
+12:01:31,975  INFO StudentOperation,main:28 - 5.upload grades
+12:01:31,975  INFO StudentOperation,main:28 - 6.logout
+12:01:41,185  INFO StudentOperation,main:45 - enter the course you going to teach
+12:01:42,350  INFO StudentOperation,main:27 - select choices
+12:01:42,351  INFO StudentOperation,main:27 - 1.view all courses
+12:01:42,351  INFO StudentOperation,main:27 - 2.select courses
+12:01:42,351  INFO StudentOperation,main:27 - 3.view selected courses
+12:01:42,351  INFO StudentOperation,main:28 - 4.view student in course
+12:01:42,352  INFO StudentOperation,main:28 - 5.upload grades
+12:01:42,352  INFO StudentOperation,main:28 - 6.logout
+12:05:48,128  INFO SMSClient,main:17 - WELCOME
+12:05:48,132  INFO SMSClient,main:19 - enter username
+12:05:52,489  INFO SMSClient,main:21 - enter password
+12:05:57,157  INFO SMSClient,main:36 - admin logged at 12:05:57.156  14 JUNE 2020 on SUNDAY
+12:05:57,157  INFO SMSClient,main:37 - going to admin page
+12:05:57,162  INFO SMSClient,main:25 - select choice
+12:05:57,163  INFO SMSClient,main:25 - 1.student opearation
+12:05:57,163  INFO SMSClient,main:25 - 2.professor operation
+12:05:57,163  INFO SMSClient,main:26 - 3.addNewcourse
+12:05:57,163  INFO SMSClient,main:26 - 4.dropOldcourse
+12:05:57,164  INFO SMSClient,main:26 - 5.report card generation
+12:05:57,164  INFO SMSClient,main:27 - 6.view all student
+12:05:57,164  INFO SMSClient,main:27 - 7.view all professor
+12:05:57,164  INFO SMSClient,main:27 - 8.view all course
+12:05:57,165  INFO SMSClient,main:27 - 9.logout
+12:06:02,202  INFO SMSClient,main:199 - course list
+12:06:02,203  INFO SMSClient,main:25 - select choice
+12:06:02,203  INFO SMSClient,main:25 - 1.student opearation
+12:06:02,203  INFO SMSClient,main:25 - 2.professor operation
+12:06:02,203  INFO SMSClient,main:26 - 3.addNewcourse
+12:06:02,203  INFO SMSClient,main:26 - 4.dropOldcourse
+12:06:02,204  INFO SMSClient,main:26 - 5.report card generation
+12:06:02,204  INFO SMSClient,main:27 - 6.view all student
+12:06:02,204  INFO SMSClient,main:27 - 7.view all professor
+12:06:02,204  INFO SMSClient,main:27 - 8.view all course
+12:06:02,205  INFO SMSClient,main:27 - 9.logout
+12:06:11,184  INFO SMSClient,main:149 - give course details
+12:06:11,185  INFO SMSClient,main:149 - CourseId , CourseName and catalogId
+12:06:17,643  INFO SMSClient,main:160 - enter course credit
+12:06:21,363  INFO SMSClient,main:162 - enter the course code
+12:06:24,735  INFO SMSClient,main:164 - enter course info
+12:06:33,069  INFO SMSClient,main:157 - course with name maths is added 12:05:57.156  14 JUNE 2020 on SUNDAY
+12:06:33,069  INFO SMSClient,main:25 - select choice
+12:06:33,069  INFO SMSClient,main:25 - 1.student opearation
+12:06:33,070  INFO SMSClient,main:25 - 2.professor operation
+12:06:33,070  INFO SMSClient,main:26 - 3.addNewcourse
+12:06:33,070  INFO SMSClient,main:26 - 4.dropOldcourse
+12:06:33,070  INFO SMSClient,main:26 - 5.report card generation
+12:06:33,070  INFO SMSClient,main:27 - 6.view all student
+12:06:33,071  INFO SMSClient,main:27 - 7.view all professor
+12:06:33,071  INFO SMSClient,main:27 - 8.view all course
+12:06:33,071  INFO SMSClient,main:27 - 9.logout
+12:06:44,927  INFO SMSClient,main:149 - give course details
+12:06:44,928  INFO SMSClient,main:149 - CourseId , CourseName and catalogId
+12:06:54,703  INFO SMSClient,main:160 - enter course credit
+12:06:56,391  INFO SMSClient,main:162 - enter the course code
+12:06:59,928  INFO SMSClient,main:164 - enter course info
+12:07:09,237  INFO SMSClient,main:157 - course with name history is added 12:05:57.156  14 JUNE 2020 on SUNDAY
+12:07:09,238  INFO SMSClient,main:25 - select choice
+12:07:09,238  INFO SMSClient,main:25 - 1.student opearation
+12:07:09,239  INFO SMSClient,main:25 - 2.professor operation
+12:07:09,240  INFO SMSClient,main:26 - 3.addNewcourse
+12:07:09,241  INFO SMSClient,main:26 - 4.dropOldcourse
+12:07:09,241  INFO SMSClient,main:26 - 5.report card generation
+12:07:09,242  INFO SMSClient,main:27 - 6.view all student
+12:07:09,243  INFO SMSClient,main:27 - 7.view all professor
+12:07:09,243  INFO SMSClient,main:27 - 8.view all course
+12:07:09,244  INFO SMSClient,main:27 - 9.logout
+12:07:11,717  INFO SMSClient,main:149 - give course details
+12:07:11,718  INFO SMSClient,main:149 - CourseId , CourseName and catalogId
+12:07:22,637  INFO SMSClient,main:160 - enter course credit
+12:07:24,310  INFO SMSClient,main:162 - enter the course code
+12:07:28,061  INFO SMSClient,main:164 - enter course info
+12:07:33,837  INFO SMSClient,main:157 - course with name physics is added 12:05:57.156  14 JUNE 2020 on SUNDAY
+12:07:33,838  INFO SMSClient,main:25 - select choice
+12:07:33,839  INFO SMSClient,main:25 - 1.student opearation
+12:07:33,839  INFO SMSClient,main:25 - 2.professor operation
+12:07:33,840  INFO SMSClient,main:26 - 3.addNewcourse
+12:07:33,840  INFO SMSClient,main:26 - 4.dropOldcourse
+12:07:33,840  INFO SMSClient,main:26 - 5.report card generation
+12:07:33,841  INFO SMSClient,main:27 - 6.view all student
+12:07:33,841  INFO SMSClient,main:27 - 7.view all professor
+12:07:33,842  INFO SMSClient,main:27 - 8.view all course
+12:07:33,842  INFO SMSClient,main:27 - 9.logout
+12:07:37,466  INFO SMSClient,main:199 - course list
+12:07:37,466  INFO SMSClient,main:201 - COURSE CODE : as-112 COURSE NAME : history CREDIT : 4 PROFESSOR : null
+12:07:37,466  INFO SMSClient,main:201 - COURSE CODE : as-110 COURSE NAME : maths CREDIT : 4 PROFESSOR : null
+12:07:37,466  INFO SMSClient,main:201 - COURSE CODE : as-113 COURSE NAME : physics CREDIT : 3 PROFESSOR : null
+12:07:37,467  INFO SMSClient,main:25 - select choice
+12:07:37,467  INFO SMSClient,main:25 - 1.student opearation
+12:07:37,467  INFO SMSClient,main:25 - 2.professor operation
+12:07:37,467  INFO SMSClient,main:26 - 3.addNewcourse
+12:07:37,467  INFO SMSClient,main:26 - 4.dropOldcourse
+12:07:37,467  INFO SMSClient,main:26 - 5.report card generation
+12:07:37,468  INFO SMSClient,main:27 - 6.view all student
+12:07:37,468  INFO SMSClient,main:27 - 7.view all professor
+12:07:37,468  INFO SMSClient,main:27 - 8.view all course
+12:07:37,468  INFO SMSClient,main:27 - 9.logout
+12:08:30,199  INFO SMSClient,main:17 - WELCOME
+12:08:30,202  INFO SMSClient,main:19 - enter username
+12:08:33,738  INFO SMSClient,main:21 - enter password
+12:08:39,697  INFO SMSClient,main:30 - professor with username ajay logged in at 12:08:39.696  14 JUNE 2020 on SUNDAY
+12:08:39,697  INFO SMSClient,main:31 - going to Professor page 
+12:08:39,703  INFO StudentOperation,main:27 - select choices
+12:08:39,704  INFO StudentOperation,main:27 - 1.view all courses
+12:08:39,704  INFO StudentOperation,main:27 - 2.select courses
+12:08:39,704  INFO StudentOperation,main:27 - 3.view selected courses
+12:08:39,704  INFO StudentOperation,main:28 - 4.view student in course
+12:08:39,704  INFO StudentOperation,main:28 - 5.upload grades
+12:08:39,704  INFO StudentOperation,main:28 - 6.logout
+12:08:42,525  INFO StudentOperation,main:40 - COURSE CODE : as-112 COURSE NAME : history CREDIT : 4 PROFESSOR : null
+12:08:42,526  INFO StudentOperation,main:40 - COURSE CODE : as-110 COURSE NAME : maths CREDIT : 4 PROFESSOR : null
+12:08:42,526  INFO StudentOperation,main:40 - COURSE CODE : as-113 COURSE NAME : physics CREDIT : 3 PROFESSOR : null
+12:08:42,526  INFO StudentOperation,main:27 - select choices
+12:08:42,526  INFO StudentOperation,main:27 - 1.view all courses
+12:08:42,526  INFO StudentOperation,main:27 - 2.select courses
+12:08:42,527  INFO StudentOperation,main:27 - 3.view selected courses
+12:08:42,527  INFO StudentOperation,main:28 - 4.view student in course
+12:08:42,527  INFO StudentOperation,main:28 - 5.upload grades
+12:08:42,527  INFO StudentOperation,main:28 - 6.logout
+12:08:46,814  INFO StudentOperation,main:45 - enter the course you going to teach
+12:08:48,870  INFO SMSClient,main:38 - in mathsprofessor is added at 12:08:39.696  14 JUNE 2020 on SUNDAY
+12:08:48,871  INFO SMSClient,main:39 - in nULL
+12:08:48,871  INFO StudentOperation,main:27 - select choices
+12:08:48,871  INFO StudentOperation,main:27 - 1.view all courses
+12:08:48,871  INFO StudentOperation,main:27 - 2.select courses
+12:08:48,872  INFO StudentOperation,main:27 - 3.view selected courses
+12:08:48,872  INFO StudentOperation,main:28 - 4.view student in course
+12:08:48,872  INFO StudentOperation,main:28 - 5.upload grades
+12:08:48,872  INFO StudentOperation,main:28 - 6.logout
+12:08:53,222  INFO StudentOperation,main:40 - COURSE CODE : as-112 COURSE NAME : history CREDIT : 4 PROFESSOR : null
+12:08:53,222  INFO StudentOperation,main:40 - COURSE CODE : as-110 COURSE NAME : maths CREDIT : 4 PROFESSOR : ajay
+12:08:53,223  INFO StudentOperation,main:40 - COURSE CODE : as-113 COURSE NAME : physics CREDIT : 3 PROFESSOR : null
+12:08:53,223  INFO StudentOperation,main:27 - select choices
+12:08:53,223  INFO StudentOperation,main:27 - 1.view all courses
+12:08:53,223  INFO StudentOperation,main:27 - 2.select courses
+12:08:53,223  INFO StudentOperation,main:27 - 3.view selected courses
+12:08:53,223  INFO StudentOperation,main:28 - 4.view student in course
+12:08:53,224  INFO StudentOperation,main:28 - 5.upload grades
+12:08:53,224  INFO StudentOperation,main:28 - 6.logout
+12:08:56,973  INFO StudentOperation,main:45 - enter the course you going to teach
+12:08:59,597  INFO SMSClient,main:42 - another professor has already been select 
+12:08:59,598  INFO StudentOperation,main:27 - select choices
+12:08:59,600  INFO StudentOperation,main:27 - 1.view all courses
+12:08:59,600  INFO StudentOperation,main:27 - 2.select courses
+12:08:59,601  INFO StudentOperation,main:27 - 3.view selected courses
+12:08:59,601  INFO StudentOperation,main:28 - 4.view student in course
+12:08:59,601  INFO StudentOperation,main:28 - 5.upload grades
+12:08:59,601  INFO StudentOperation,main:28 - 6.logout
+12:09:03,742  INFO StudentOperation,main:40 - COURSE CODE : as-112 COURSE NAME : history CREDIT : 4 PROFESSOR : null
+12:09:03,743  INFO StudentOperation,main:40 - COURSE CODE : as-110 COURSE NAME : maths CREDIT : 4 PROFESSOR : ajay
+12:09:03,743  INFO StudentOperation,main:40 - COURSE CODE : as-113 COURSE NAME : physics CREDIT : 3 PROFESSOR : null
+12:09:03,743  INFO StudentOperation,main:27 - select choices
+12:09:03,743  INFO StudentOperation,main:27 - 1.view all courses
+12:09:03,744  INFO StudentOperation,main:27 - 2.select courses
+12:09:03,744  INFO StudentOperation,main:27 - 3.view selected courses
+12:09:03,744  INFO StudentOperation,main:28 - 4.view student in course
+12:09:03,745  INFO StudentOperation,main:28 - 5.upload grades
+12:09:03,745  INFO StudentOperation,main:28 - 6.logout
+12:09:38,391  INFO SMSClient,main:17 - WELCOME
+12:09:38,394  INFO SMSClient,main:19 - enter username
+12:09:41,366  INFO SMSClient,main:21 - enter password
+12:09:46,164  INFO SMSClient,main:30 - professor with username ajay logged in at 12:09:46.163  14 JUNE 2020 on SUNDAY
+12:09:46,164  INFO SMSClient,main:31 - going to Professor page 
+12:09:46,170  INFO StudentOperation,main:27 - select choices
+12:09:46,170  INFO StudentOperation,main:27 - 1.view all courses
+12:09:46,170  INFO StudentOperation,main:27 - 2.select courses
+12:09:46,171  INFO StudentOperation,main:27 - 3.view selected courses
+12:09:46,171  INFO StudentOperation,main:28 - 4.view student in course
+12:09:46,171  INFO StudentOperation,main:28 - 5.upload grades
+12:09:46,171  INFO StudentOperation,main:28 - 6.logout
+12:09:48,190  INFO StudentOperation,main:40 - COURSE CODE : as-112 COURSE NAME : history CREDIT : 4 PROFESSOR : null
+12:09:48,190  INFO StudentOperation,main:40 - COURSE CODE : as-110 COURSE NAME : maths CREDIT : 4 PROFESSOR : ajay
+12:09:48,190  INFO StudentOperation,main:40 - COURSE CODE : as-113 COURSE NAME : physics CREDIT : 3 PROFESSOR : null
+12:09:48,191  INFO StudentOperation,main:27 - select choices
+12:09:48,191  INFO StudentOperation,main:27 - 1.view all courses
+12:09:48,191  INFO StudentOperation,main:27 - 2.select courses
+12:09:48,191  INFO StudentOperation,main:27 - 3.view selected courses
+12:09:48,191  INFO StudentOperation,main:28 - 4.view student in course
+12:09:48,191  INFO StudentOperation,main:28 - 5.upload grades
+12:09:48,192  INFO StudentOperation,main:28 - 6.logout
+12:09:50,150  INFO StudentOperation,main:45 - enter the course you going to teach
+12:09:55,735  INFO SMSClient,main:32 - no course by that name, please select properly
+12:09:55,735  INFO StudentOperation,main:27 - select choices
+12:09:55,735  INFO StudentOperation,main:27 - 1.view all courses
+12:09:55,736  INFO StudentOperation,main:27 - 2.select courses
+12:09:55,736  INFO StudentOperation,main:27 - 3.view selected courses
+12:09:55,736  INFO StudentOperation,main:28 - 4.view student in course
+12:09:55,736  INFO StudentOperation,main:28 - 5.upload grades
+12:09:55,736  INFO StudentOperation,main:28 - 6.logout
+12:10:00,613  INFO StudentOperation,main:45 - enter the course you going to teach
+12:29:18,319  INFO SMSClient,main:17 - WELCOME
+12:29:18,323  INFO SMSClient,main:19 - enter username
+12:29:23,400  INFO SMSClient,main:21 - enter password
+12:29:27,786  INFO SMSClient,main:30 - professor with username ajay logged in at 12:29:27.785  14 JUNE 2020 on SUNDAY
+12:29:27,787  INFO SMSClient,main:31 - going to Professor page 
+12:29:27,796  INFO StudentOperation,main:27 - select choices
+12:29:27,797  INFO StudentOperation,main:27 - 1.view all courses
+12:29:27,797  INFO StudentOperation,main:27 - 2.select courses
+12:29:27,798  INFO StudentOperation,main:27 - 3.view selected courses
+12:29:27,798  INFO StudentOperation,main:28 - 4.view student in course
+12:29:27,799  INFO StudentOperation,main:28 - 5.upload grades
+12:29:27,799  INFO StudentOperation,main:28 - 6.logout
+12:29:31,438  INFO StudentOperation,main:42 - COURSE CODE : as-112 COURSE NAME : history CREDIT : 4 PROFESSOR : null
+12:29:31,439  INFO StudentOperation,main:42 - COURSE CODE : as-110 COURSE NAME : maths CREDIT : 4 PROFESSOR : ajay
+12:29:31,439  INFO StudentOperation,main:42 - COURSE CODE : as-113 COURSE NAME : physics CREDIT : 3 PROFESSOR : null
+12:29:31,439  INFO StudentOperation,main:27 - select choices
+12:29:31,440  INFO StudentOperation,main:27 - 1.view all courses
+12:29:31,440  INFO StudentOperation,main:27 - 2.select courses
+12:29:31,440  INFO StudentOperation,main:27 - 3.view selected courses
+12:29:31,440  INFO StudentOperation,main:28 - 4.view student in course
+12:29:31,441  INFO StudentOperation,main:28 - 5.upload grades
+12:29:31,441  INFO StudentOperation,main:28 - 6.logout
+12:29:36,121  INFO StudentOperation,main:47 - enter the course you going to teach
+12:29:39,613  INFO SMSClient,main:41 - in physicsprofessor is added at 12:29:27.785  14 JUNE 2020 on SUNDAY
+12:29:39,614  INFO SMSClient,main:42 - in nULL
+12:29:39,615  INFO StudentOperation,main:27 - select choices
+12:29:39,615  INFO StudentOperation,main:27 - 1.view all courses
+12:29:39,615  INFO StudentOperation,main:27 - 2.select courses
+12:29:39,616  INFO StudentOperation,main:27 - 3.view selected courses
+12:29:39,617  INFO StudentOperation,main:28 - 4.view student in course
+12:29:39,617  INFO StudentOperation,main:28 - 5.upload grades
+12:29:39,617  INFO StudentOperation,main:28 - 6.logout
+12:29:40,870  INFO StudentOperation,main:42 - COURSE CODE : as-112 COURSE NAME : history CREDIT : 4 PROFESSOR : null
+12:29:40,871  INFO StudentOperation,main:42 - COURSE CODE : as-110 COURSE NAME : maths CREDIT : 4 PROFESSOR : ajay
+12:29:40,871  INFO StudentOperation,main:42 - COURSE CODE : as-113 COURSE NAME : physics CREDIT : 3 PROFESSOR : ajay
+12:29:40,871  INFO StudentOperation,main:27 - select choices
+12:29:40,872  INFO StudentOperation,main:27 - 1.view all courses
+12:29:40,872  INFO StudentOperation,main:27 - 2.select courses
+12:29:40,872  INFO StudentOperation,main:27 - 3.view selected courses
+12:29:40,873  INFO StudentOperation,main:28 - 4.view student in course
+12:29:40,873  INFO StudentOperation,main:28 - 5.upload grades
+12:29:40,874  INFO StudentOperation,main:28 - 6.logout
+12:29:46,504  INFO StudentOperation,main:27 - select choices
+12:29:46,504  INFO StudentOperation,main:27 - 1.view all courses
+12:29:46,505  INFO StudentOperation,main:27 - 2.select courses
+12:29:46,506  INFO StudentOperation,main:27 - 3.view selected courses
+12:29:46,507  INFO StudentOperation,main:28 - 4.view student in course
+12:29:46,508  INFO StudentOperation,main:28 - 5.upload grades
+12:29:46,508  INFO StudentOperation,main:28 - 6.logout
+12:30:46,704  INFO SMSClient,main:17 - WELCOME
+12:30:46,707  INFO SMSClient,main:19 - enter username
+12:30:49,739  INFO SMSClient,main:21 - enter password
+12:30:54,214  INFO SMSClient,main:30 - professor with username ajay logged in at 12:30:54.213  14 JUNE 2020 on SUNDAY
+12:30:54,215  INFO SMSClient,main:31 - going to Professor page 
+12:30:54,223  INFO StudentOperation,main:27 - select choices
+12:30:54,224  INFO StudentOperation,main:27 - 1.view all courses
+12:30:54,224  INFO StudentOperation,main:27 - 2.select courses
+12:30:54,224  INFO StudentOperation,main:27 - 3.view selected courses
+12:30:54,224  INFO StudentOperation,main:28 - 4.view student in course
+12:30:54,224  INFO StudentOperation,main:28 - 5.upload grades
+12:30:54,225  INFO StudentOperation,main:28 - 6.logout
+12:30:55,058  INFO StudentOperation,main:42 - COURSE CODE : as-112 COURSE NAME : history CREDIT : 4 PROFESSOR : null
+12:30:55,059  INFO StudentOperation,main:42 - COURSE CODE : as-110 COURSE NAME : maths CREDIT : 4 PROFESSOR : ajay
+12:30:55,059  INFO StudentOperation,main:42 - COURSE CODE : as-113 COURSE NAME : physics CREDIT : 3 PROFESSOR : ajay
+12:30:55,059  INFO StudentOperation,main:27 - select choices
+12:30:55,059  INFO StudentOperation,main:27 - 1.view all courses
+12:30:55,059  INFO StudentOperation,main:27 - 2.select courses
+12:30:55,059  INFO StudentOperation,main:27 - 3.view selected courses
+12:30:55,060  INFO StudentOperation,main:28 - 4.view student in course
+12:30:55,060  INFO StudentOperation,main:28 - 5.upload grades
+12:30:55,060  INFO StudentOperation,main:28 - 6.logout
+12:30:57,731  INFO StudentOperation,main:56 - COURSE CODE : as-110 COURSE NAME : maths CREDIT : 4 PROFESSOR : ajay
+12:30:57,731  INFO StudentOperation,main:56 - COURSE CODE : as-113 COURSE NAME : physics CREDIT : 3 PROFESSOR : ajay
+12:30:57,731  INFO StudentOperation,main:27 - select choices
+12:30:57,732  INFO StudentOperation,main:27 - 1.view all courses
+12:30:57,732  INFO StudentOperation,main:27 - 2.select courses
+12:30:57,732  INFO StudentOperation,main:27 - 3.view selected courses
+12:30:57,732  INFO StudentOperation,main:28 - 4.view student in course
+12:30:57,733  INFO StudentOperation,main:28 - 5.upload grades
+12:30:57,733  INFO StudentOperation,main:28 - 6.logout
+12:36:54,630  INFO SMSClient,main:17 - WELCOME
+12:36:54,634  INFO SMSClient,main:19 - enter username
+12:36:58,496  INFO SMSClient,main:21 - enter password
+12:37:03,055  INFO SMSClient,main:30 - professor with username ajay logged in at 12:37:03.054  14 JUNE 2020 on SUNDAY
+12:37:03,056  INFO SMSClient,main:31 - going to Professor page 
+12:37:03,064  INFO StudentOperation,main:28 - select choices
+12:37:03,064  INFO StudentOperation,main:28 - 1.view all courses
+12:37:03,065  INFO StudentOperation,main:28 - 2.select courses
+12:37:03,065  INFO StudentOperation,main:28 - 3.view selected courses
+12:37:03,065  INFO StudentOperation,main:29 - 4.view student in course
+12:37:03,065  INFO StudentOperation,main:29 - 5.upload grades
+12:37:03,066  INFO StudentOperation,main:29 - 6.logout
+12:37:04,903  INFO StudentOperation,main:52 - COURSE CODE : as-112 COURSE NAME : history CREDIT : 4 PROFESSOR : null
+12:37:04,904  INFO StudentOperation,main:52 - COURSE CODE : as-110 COURSE NAME : maths CREDIT : 4 PROFESSOR : ajay
+12:37:04,904  INFO StudentOperation,main:52 - COURSE CODE : as-113 COURSE NAME : physics CREDIT : 3 PROFESSOR : ajay
+12:37:04,904  INFO StudentOperation,main:28 - select choices
+12:37:04,904  INFO StudentOperation,main:28 - 1.view all courses
+12:37:04,905  INFO StudentOperation,main:28 - 2.select courses
+12:37:04,905  INFO StudentOperation,main:28 - 3.view selected courses
+12:37:04,905  INFO StudentOperation,main:29 - 4.view student in course
+12:37:04,905  INFO StudentOperation,main:29 - 5.upload grades
+12:37:04,905  INFO StudentOperation,main:29 - 6.logout
+12:37:11,921  INFO StudentOperation,main:78 - professor logging out at 12:37:03.054  14 JUNE 2020 on SUNDAY
+12:37:11,921  INFO StudentOperation,main:79 - WELCOME
+12:37:11,922  INFO StudentOperation,main:81 - enter username
+12:37:19,708  INFO StudentOperation,main:83 - enter password
+12:37:22,662  INFO SMSClient,main:36 - admin logged at 12:37:03.054  14 JUNE 2020 on SUNDAY
+12:37:22,662  INFO SMSClient,main:37 - going to admin page
+12:37:22,664  INFO SMSClient,main:25 - select choice
+12:37:22,664  INFO SMSClient,main:25 - 1.student opearation
+12:37:22,664  INFO SMSClient,main:25 - 2.professor operation
+12:37:22,665  INFO SMSClient,main:26 - 3.addNewcourse
+12:37:22,665  INFO SMSClient,main:26 - 4.dropOldcourse
+12:37:22,666  INFO SMSClient,main:26 - 5.report card generation
+12:37:22,666  INFO SMSClient,main:27 - 6.view all student
+12:37:22,666  INFO SMSClient,main:27 - 7.view all professor
+12:37:22,667  INFO SMSClient,main:27 - 8.view all course
+12:37:22,667  INFO SMSClient,main:27 - 9.logout
+12:37:25,449  INFO SMSClient,main:190 - professor list
+12:37:25,449  INFO SMSClient,main:192 - NAME : manan kumar USERNAME : manan MOBILE NO. : 1234567890 EMAIL : manan@gmail.com ROOM NO. : a-320
+12:37:25,449  INFO SMSClient,main:192 - NAME : ajay kumar USERNAME : ajay MOBILE NO. : 1234567890 EMAIL : ajay@gmail.com ROOM NO. : a-670
+12:37:25,449  INFO SMSClient,main:25 - select choice
+12:37:25,450  INFO SMSClient,main:25 - 1.student opearation
+12:37:25,450  INFO SMSClient,main:25 - 2.professor operation
+12:37:25,450  INFO SMSClient,main:26 - 3.addNewcourse
+12:37:25,450  INFO SMSClient,main:26 - 4.dropOldcourse
+12:37:25,450  INFO SMSClient,main:26 - 5.report card generation
+12:37:25,451  INFO SMSClient,main:27 - 6.view all student
+12:37:25,451  INFO SMSClient,main:27 - 7.view all professor
+12:37:25,451  INFO SMSClient,main:27 - 8.view all course
+12:37:25,451  INFO SMSClient,main:27 - 9.logout
+12:37:28,949  INFO SMSClient,main:44 - admin logging out at 12:37:03.054  14 JUNE 2020 on SUNDAY
+12:37:28,950  INFO SMSClient,main:45 - WELCOME
+12:37:28,950  INFO SMSClient,main:47 - enter username
+16:47:59,949  INFO SMSClient,main:17 - WELCOME
+16:47:59,954  INFO SMSClient,main:19 - enter username
+16:48:04,462  INFO SMSClient,main:21 - enter password
+16:48:10,153  INFO SMSClient,main:36 - admin logged at 16:48:10.152  14 JUNE 2020 on SUNDAY
+16:48:10,153  INFO SMSClient,main:37 - going to admin page
+16:48:10,157  INFO SMSClient,main:25 - select choice
+16:48:10,158  INFO SMSClient,main:25 - 1.student opearation
+16:48:10,158  INFO SMSClient,main:25 - 2.professor operation
+16:48:10,158  INFO SMSClient,main:26 - 3.addNewcourse
+16:48:10,158  INFO SMSClient,main:26 - 4.dropOldcourse
+16:48:10,159  INFO SMSClient,main:26 - 5.report card generation
+16:48:10,159  INFO SMSClient,main:27 - 6.view all student
+16:48:10,159  INFO SMSClient,main:27 - 7.view all professor
+16:48:10,159  INFO SMSClient,main:27 - 8.view all course
+16:48:10,160  INFO SMSClient,main:27 - 9.logout
+16:48:15,500  INFO SMSClient,main:56 - select choice
+16:48:15,501  INFO SMSClient,main:56 - 1.create Student
+16:48:15,501  INFO SMSClient,main:56 - 2.delete Student
+16:48:15,502  INFO SMSClient,main:57 - 3.update Student
+16:48:17,405  INFO SMSClient,main:67 -  userID ,username and password
+16:48:29,630 ERROR SMSClient,main:44 - Duplicate entry 'raja' for key 'userdata.PRIMARY'
+16:48:29,631  INFO SMSClient,main:67 -  userID ,username and password
+16:49:05,370  INFO SMSClient,main:17 - WELCOME
+16:49:05,375  INFO SMSClient,main:19 - enter username
+16:49:11,086  INFO SMSClient,main:21 - enter password
+16:49:15,729  INFO SMSClient,main:24 - student with username raja logged in  at 16:49:15.729  14 JUNE 2020 on SUNDAY
+16:49:15,730  INFO SMSClient,main:25 - going to student page
+16:49:15,734  INFO StudentOperation,main:28 - select choices
+16:49:15,735  INFO StudentOperation,main:28 - 1.view all courses
+16:49:15,735  INFO StudentOperation,main:28 - 2.add courses
+16:49:15,735  INFO StudentOperation,main:28 - 3.drop courses
+16:49:15,735  INFO StudentOperation,main:29 - 4.view selected course
+16:49:15,735  INFO StudentOperation,main:29 - 5.submit final registration
+16:49:15,736  INFO StudentOperation,main:29 - 6.view grades
+16:49:15,736  INFO StudentOperation,main:29 - 7.logout
+16:49:19,217  INFO StudentOperation,main:42 - COURSE CODE : as-112 COURSE NAME : history CREDIT : 4 PROFESSOR : null
+16:49:19,218  INFO StudentOperation,main:42 - COURSE CODE : as-110 COURSE NAME : maths CREDIT : 4 PROFESSOR : ajay
+16:49:19,218  INFO StudentOperation,main:42 - COURSE CODE : as-113 COURSE NAME : physics CREDIT : 3 PROFESSOR : ajay
+16:49:19,218  INFO StudentOperation,main:28 - select choices
+16:49:19,218  INFO StudentOperation,main:28 - 1.view all courses
+16:49:19,219  INFO StudentOperation,main:28 - 2.add courses
+16:49:19,219  INFO StudentOperation,main:28 - 3.drop courses
+16:49:19,219  INFO StudentOperation,main:29 - 4.view selected course
+16:49:19,219  INFO StudentOperation,main:29 - 5.submit final registration
+16:49:19,219  INFO StudentOperation,main:29 - 6.view grades
+16:49:19,220  INFO StudentOperation,main:29 - 7.logout
+16:49:26,237  INFO StudentOperation,main:48 - enter the course name
+16:49:30,029 ERROR SMSClient,main:60 - sql exceptionYou have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+16:50:48,508  INFO SMSClient,main:17 - WELCOME
+16:50:48,511  INFO SMSClient,main:19 - enter username
+16:50:51,402  INFO SMSClient,main:21 - enter password
+16:50:55,663  INFO SMSClient,main:24 - student with username raja logged in  at 16:50:55.662  14 JUNE 2020 on SUNDAY
+16:50:55,664  INFO SMSClient,main:25 - going to student page
+16:50:55,668  INFO StudentOperation,main:28 - select choices
+16:50:55,669  INFO StudentOperation,main:28 - 1.view all courses
+16:50:55,669  INFO StudentOperation,main:28 - 2.add courses
+16:50:55,669  INFO StudentOperation,main:28 - 3.drop courses
+16:50:55,669  INFO StudentOperation,main:29 - 4.view selected course
+16:50:55,670  INFO StudentOperation,main:29 - 5.submit final registration
+16:50:55,670  INFO StudentOperation,main:29 - 6.view grades
+16:50:55,670  INFO StudentOperation,main:29 - 7.logout
+16:50:58,425  INFO StudentOperation,main:42 - COURSE CODE : as-112 COURSE NAME : history CREDIT : 4 PROFESSOR : null
+16:50:58,426  INFO StudentOperation,main:42 - COURSE CODE : as-110 COURSE NAME : maths CREDIT : 4 PROFESSOR : ajay
+16:50:58,426  INFO StudentOperation,main:42 - COURSE CODE : as-113 COURSE NAME : physics CREDIT : 3 PROFESSOR : ajay
+16:50:58,426  INFO StudentOperation,main:28 - select choices
+16:50:58,427  INFO StudentOperation,main:28 - 1.view all courses
+16:50:58,427  INFO StudentOperation,main:28 - 2.add courses
+16:50:58,427  INFO StudentOperation,main:28 - 3.drop courses
+16:50:58,428  INFO StudentOperation,main:29 - 4.view selected course
+16:50:58,428  INFO StudentOperation,main:29 - 5.submit final registration
+16:50:58,428  INFO StudentOperation,main:29 - 6.view grades
+16:50:58,429  INFO StudentOperation,main:29 - 7.logout
+16:51:02,067  INFO StudentOperation,main:48 - enter the course name
+16:51:12,300 ERROR SMSClient,main:61 - sql exceptionYou have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+16:51:37,352  INFO SMSClient,main:17 - WELCOME
+16:51:37,359  INFO SMSClient,main:19 - enter username
+16:51:40,216  INFO SMSClient,main:21 - enter password
+16:51:44,815  INFO SMSClient,main:24 - student with username raja logged in  at 16:51:44.814  14 JUNE 2020 on SUNDAY
+16:51:44,815  INFO SMSClient,main:25 - going to student page
+16:51:44,821  INFO StudentOperation,main:28 - select choices
+16:51:44,821  INFO StudentOperation,main:28 - 1.view all courses
+16:51:44,821  INFO StudentOperation,main:28 - 2.add courses
+16:51:44,821  INFO StudentOperation,main:28 - 3.drop courses
+16:51:44,822  INFO StudentOperation,main:29 - 4.view selected course
+16:51:44,822  INFO StudentOperation,main:29 - 5.submit final registration
+16:51:44,822  INFO StudentOperation,main:29 - 6.view grades
+16:51:44,822  INFO StudentOperation,main:29 - 7.logout
+16:51:46,506  INFO StudentOperation,main:42 - COURSE CODE : as-112 COURSE NAME : history CREDIT : 4 PROFESSOR : null
+16:51:46,507  INFO StudentOperation,main:42 - COURSE CODE : as-110 COURSE NAME : maths CREDIT : 4 PROFESSOR : ajay
+16:51:46,507  INFO StudentOperation,main:42 - COURSE CODE : as-113 COURSE NAME : physics CREDIT : 3 PROFESSOR : ajay
+16:51:46,507  INFO StudentOperation,main:28 - select choices
+16:51:46,507  INFO StudentOperation,main:28 - 1.view all courses
+16:51:46,507  INFO StudentOperation,main:28 - 2.add courses
+16:51:46,507  INFO StudentOperation,main:28 - 3.drop courses
+16:51:46,508  INFO StudentOperation,main:29 - 4.view selected course
+16:51:46,508  INFO StudentOperation,main:29 - 5.submit final registration
+16:51:46,508  INFO StudentOperation,main:29 - 6.view grades
+16:51:46,508  INFO StudentOperation,main:29 - 7.logout
+16:51:48,731  INFO StudentOperation,main:48 - enter the course name
+16:51:51,244  INFO SMSClient,main:55 - rajahas added maths  on 16:51:44.814  14 JUNE 2020 on SUNDAY
+16:52:24,443  INFO SMSClient,main:17 - WELCOME
+16:52:24,447  INFO SMSClient,main:19 - enter username
+16:52:30,977  INFO SMSClient,main:21 - enter password
+16:52:35,190 ERROR SMSClient,main:43 - error in credentials at 16:52:35.189  14 JUNE 2020 on SUNDAY
+16:52:35,190  INFO SMSClient,main:44 - enter username
+16:52:38,423  INFO SMSClient,main:46 - enter password
+16:52:41,678  INFO SMSClient,main:24 - student with username raja logged in  at 16:52:35.189  14 JUNE 2020 on SUNDAY
+16:52:41,679  INFO SMSClient,main:25 - going to student page
+16:52:41,683  INFO StudentOperation,main:28 - select choices
+16:52:41,684  INFO StudentOperation,main:28 - 1.view all courses
+16:52:41,684  INFO StudentOperation,main:28 - 2.add courses
+16:52:41,684  INFO StudentOperation,main:28 - 3.drop courses
+16:52:41,684  INFO StudentOperation,main:29 - 4.view selected course
+16:52:41,685  INFO StudentOperation,main:29 - 5.submit final registration
+16:52:41,685  INFO StudentOperation,main:29 - 6.view grades
+16:52:41,685  INFO StudentOperation,main:29 - 7.logout
+16:52:43,267  INFO StudentOperation,main:42 - COURSE CODE : as-112 COURSE NAME : history CREDIT : 4 PROFESSOR : null
+16:52:43,267  INFO StudentOperation,main:42 - COURSE CODE : as-110 COURSE NAME : maths CREDIT : 4 PROFESSOR : ajay
+16:52:43,268  INFO StudentOperation,main:42 - COURSE CODE : as-113 COURSE NAME : physics CREDIT : 3 PROFESSOR : ajay
+16:52:43,269  INFO StudentOperation,main:28 - select choices
+16:52:43,269  INFO StudentOperation,main:28 - 1.view all courses
+16:52:43,269  INFO StudentOperation,main:28 - 2.add courses
+16:52:43,269  INFO StudentOperation,main:28 - 3.drop courses
+16:52:43,269  INFO StudentOperation,main:29 - 4.view selected course
+16:52:43,269  INFO StudentOperation,main:29 - 5.submit final registration
+16:52:43,269  INFO StudentOperation,main:29 - 6.view grades
+16:52:43,269  INFO StudentOperation,main:29 - 7.logout
+16:52:49,177  INFO StudentOperation,main:48 - enter the course name
+16:52:51,839  INFO SMSClient,main:45 - course is already selected. select other course
+16:52:51,839  INFO StudentOperation,main:28 - select choices
+16:52:51,840  INFO StudentOperation,main:28 - 1.view all courses
+16:52:51,840  INFO StudentOperation,main:28 - 2.add courses
+16:52:51,841  INFO StudentOperation,main:28 - 3.drop courses
+16:52:51,841  INFO StudentOperation,main:29 - 4.view selected course
+16:52:51,842  INFO StudentOperation,main:29 - 5.submit final registration
+16:52:51,842  INFO StudentOperation,main:29 - 6.view grades
+16:52:51,842  INFO StudentOperation,main:29 - 7.logout
+16:52:55,844  INFO StudentOperation,main:48 - enter the course name
+16:53:00,456  INFO SMSClient,main:55 - rajahas added history  on 16:52:35.189  14 JUNE 2020 on SUNDAY
+16:53:00,457  INFO StudentOperation,main:28 - select choices
+16:53:00,457  INFO StudentOperation,main:28 - 1.view all courses
+16:53:00,461  INFO StudentOperation,main:28 - 2.add courses
+16:53:00,462  INFO StudentOperation,main:28 - 3.drop courses
+16:53:00,463  INFO StudentOperation,main:29 - 4.view selected course
+16:53:00,463  INFO StudentOperation,main:29 - 5.submit final registration
+16:53:00,463  INFO StudentOperation,main:29 - 6.view grades
+16:53:00,464  INFO StudentOperation,main:29 - 7.logout
+16:53:03,476  INFO StudentOperation,main:42 - COURSE CODE : as-112 COURSE NAME : history CREDIT : 4 PROFESSOR : null
+16:53:03,476  INFO StudentOperation,main:42 - COURSE CODE : as-110 COURSE NAME : maths CREDIT : 4 PROFESSOR : ajay
+16:53:03,476  INFO StudentOperation,main:42 - COURSE CODE : as-113 COURSE NAME : physics CREDIT : 3 PROFESSOR : ajay
+16:53:03,476  INFO StudentOperation,main:28 - select choices
+16:53:03,477  INFO StudentOperation,main:28 - 1.view all courses
+16:53:03,477  INFO StudentOperation,main:28 - 2.add courses
+16:53:03,477  INFO StudentOperation,main:28 - 3.drop courses
+16:53:03,477  INFO StudentOperation,main:29 - 4.view selected course
+16:53:03,477  INFO StudentOperation,main:29 - 5.submit final registration
+16:53:03,477  INFO StudentOperation,main:29 - 6.view grades
+16:53:03,478  INFO StudentOperation,main:29 - 7.logout
+17:07:10,435  INFO SMSClient,main:17 - WELCOME
+17:07:10,438  INFO SMSClient,main:19 - enter username
+17:07:12,462  INFO SMSClient,main:21 - enter password
+17:07:16,401  INFO SMSClient,main:24 - student with username raja logged in  at 17:07:16.400  14 JUNE 2020 on SUNDAY
+17:07:16,401  INFO SMSClient,main:25 - going to student page
+17:07:16,408  INFO StudentOperation,main:29 - select choices
+17:07:16,409  INFO StudentOperation,main:29 - 1.view all courses
+17:07:16,410  INFO StudentOperation,main:29 - 2.add courses
+17:07:16,410  INFO StudentOperation,main:29 - 3.drop courses
+17:07:16,410  INFO StudentOperation,main:30 - 4.view selected course
+17:07:16,410  INFO StudentOperation,main:30 - 5.submit final registration
+17:07:16,410  INFO StudentOperation,main:30 - 6.view grades
+17:07:16,410  INFO StudentOperation,main:30 - 7.logout
+17:07:19,872  INFO StudentOperation,main:43 - COURSE CODE : as-112 COURSE NAME : history CREDIT : 4 PROFESSOR : null
+17:07:19,872  INFO StudentOperation,main:43 - COURSE CODE : as-110 COURSE NAME : maths CREDIT : 4 PROFESSOR : ajay
+17:07:19,872  INFO StudentOperation,main:43 - COURSE CODE : as-113 COURSE NAME : physics CREDIT : 3 PROFESSOR : ajay
+17:07:19,874  INFO StudentOperation,main:29 - select choices
+17:07:19,874  INFO StudentOperation,main:29 - 1.view all courses
+17:07:19,874  INFO StudentOperation,main:29 - 2.add courses
+17:07:19,874  INFO StudentOperation,main:29 - 3.drop courses
+17:07:19,874  INFO StudentOperation,main:30 - 4.view selected course
+17:07:19,875  INFO StudentOperation,main:30 - 5.submit final registration
+17:07:19,875  INFO StudentOperation,main:30 - 6.view grades
+17:07:19,875  INFO StudentOperation,main:30 - 7.logout
+17:07:24,009  INFO StudentOperation,main:49 - enter the course name
+17:07:26,869  INFO SMSClient,main:85 - sorry this course is not taught in college
+17:07:26,871  INFO StudentOperation,main:29 - select choices
+17:07:26,872  INFO StudentOperation,main:29 - 1.view all courses
+17:07:26,872  INFO StudentOperation,main:29 - 2.add courses
+17:07:26,873  INFO StudentOperation,main:29 - 3.drop courses
+17:07:26,873  INFO StudentOperation,main:30 - 4.view selected course
+17:07:26,873  INFO StudentOperation,main:30 - 5.submit final registration
+17:07:26,873  INFO StudentOperation,main:30 - 6.view grades
+17:07:26,873  INFO StudentOperation,main:30 - 7.logout
+17:07:30,690  INFO StudentOperation,main:49 - enter the course name
+17:07:36,068  INFO SMSClient,main:82 - rajahas added physics  on 17:07:16.400  14 JUNE 2020 on SUNDAY
+17:07:36,072  INFO StudentOperation,main:29 - select choices
+17:07:36,073  INFO StudentOperation,main:29 - 1.view all courses
+17:07:36,074  INFO StudentOperation,main:29 - 2.add courses
+17:07:36,075  INFO StudentOperation,main:29 - 3.drop courses
+17:07:36,075  INFO StudentOperation,main:30 - 4.view selected course
+17:07:36,075  INFO StudentOperation,main:30 - 5.submit final registration
+17:07:36,076  INFO StudentOperation,main:30 - 6.view grades
+17:07:36,077  INFO StudentOperation,main:30 - 7.logout
+17:26:28,109  INFO SMSClient,main:17 - WELCOME
+17:26:28,114  INFO SMSClient,main:19 - enter username
+17:26:32,554  INFO SMSClient,main:21 - enter password
+17:26:36,571  INFO SMSClient,main:24 - student with username raja logged in  at 17:26:36.570  14 JUNE 2020 on SUNDAY
+17:26:36,571  INFO SMSClient,main:25 - going to student page
+17:26:36,578  INFO StudentOperation,main:29 - select choices
+17:26:36,579  INFO StudentOperation,main:29 - 1.view all courses
+17:26:36,579  INFO StudentOperation,main:29 - 2.add courses
+17:26:36,579  INFO StudentOperation,main:29 - 3.drop courses
+17:26:36,579  INFO StudentOperation,main:30 - 4.view selected course
+17:26:36,580  INFO StudentOperation,main:30 - 5.submit final registration
+17:26:36,580  INFO StudentOperation,main:30 - 6.view grades
+17:26:36,580  INFO StudentOperation,main:30 - 7.logout
+17:26:47,777  INFO StudentOperation,main:58 - enter the course you want to drop
+17:26:51,294 ERROR SMSClient,main:122 - sql exceptionParameter index out of range (2 > number of parameters, which is 1).
+17:26:51,295  INFO StudentOperation,main:29 - select choices
+17:26:51,295  INFO StudentOperation,main:29 - 1.view all courses
+17:26:51,296  INFO StudentOperation,main:29 - 2.add courses
+17:26:51,296  INFO StudentOperation,main:29 - 3.drop courses
+17:26:51,296  INFO StudentOperation,main:30 - 4.view selected course
+17:26:51,297  INFO StudentOperation,main:30 - 5.submit final registration
+17:26:51,297  INFO StudentOperation,main:30 - 6.view grades
+17:26:51,297  INFO StudentOperation,main:30 - 7.logout
+17:27:18,445  INFO SMSClient,main:17 - WELCOME
+17:27:18,449  INFO SMSClient,main:19 - enter username
+17:27:22,003  INFO SMSClient,main:21 - enter password
+17:27:26,500  INFO SMSClient,main:24 - student with username raja logged in  at 17:27:26.499  14 JUNE 2020 on SUNDAY
+17:27:26,501  INFO SMSClient,main:25 - going to student page
+17:27:26,507  INFO StudentOperation,main:29 - select choices
+17:27:26,508  INFO StudentOperation,main:29 - 1.view all courses
+17:27:26,508  INFO StudentOperation,main:29 - 2.add courses
+17:27:26,508  INFO StudentOperation,main:29 - 3.drop courses
+17:27:26,508  INFO StudentOperation,main:30 - 4.view selected course
+17:27:26,509  INFO StudentOperation,main:30 - 5.submit final registration
+17:27:26,509  INFO StudentOperation,main:30 - 6.view grades
+17:27:26,509  INFO StudentOperation,main:30 - 7.logout
+17:27:29,310  INFO StudentOperation,main:58 - enter the course you want to drop
+17:27:31,472  INFO StudentOperation,main:29 - select choices
+17:27:31,473  INFO StudentOperation,main:29 - 1.view all courses
+17:27:31,473  INFO StudentOperation,main:29 - 2.add courses
+17:27:31,474  INFO StudentOperation,main:29 - 3.drop courses
+17:27:31,474  INFO StudentOperation,main:30 - 4.view selected course
+17:27:31,475  INFO StudentOperation,main:30 - 5.submit final registration
+17:27:31,475  INFO StudentOperation,main:30 - 6.view grades
+17:27:31,476  INFO StudentOperation,main:30 - 7.logout
+17:28:31,762  INFO SMSClient,main:17 - WELCOME
+17:28:31,766  INFO SMSClient,main:19 - enter username
+17:28:37,413  INFO SMSClient,main:21 - enter password
+17:28:42,300  INFO SMSClient,main:24 - student with username raja logged in  at 17:28:42.299  14 JUNE 2020 on SUNDAY
+17:28:42,300  INFO SMSClient,main:25 - going to student page
+17:28:42,308  INFO StudentOperation,main:29 - select choices
+17:28:42,308  INFO StudentOperation,main:29 - 1.view all courses
+17:28:42,309  INFO StudentOperation,main:29 - 2.add courses
+17:28:42,309  INFO StudentOperation,main:29 - 3.drop courses
+17:28:42,309  INFO StudentOperation,main:30 - 4.view selected course
+17:28:42,309  INFO StudentOperation,main:30 - 5.submit final registration
+17:28:42,309  INFO StudentOperation,main:30 - 6.view grades
+17:28:42,310  INFO StudentOperation,main:30 - 7.logout
+17:28:44,474  INFO StudentOperation,main:45 - COURSE CODE : as-112 COURSE NAME : history CREDIT : 4 PROFESSOR : null
+17:28:44,475  INFO StudentOperation,main:45 - COURSE CODE : as-110 COURSE NAME : maths CREDIT : 4 PROFESSOR : ajay
+17:28:44,475  INFO StudentOperation,main:45 - COURSE CODE : as-113 COURSE NAME : physics CREDIT : 3 PROFESSOR : ajay
+17:28:44,477  INFO StudentOperation,main:29 - select choices
+17:28:44,477  INFO StudentOperation,main:29 - 1.view all courses
+17:28:44,477  INFO StudentOperation,main:29 - 2.add courses
+17:28:44,477  INFO StudentOperation,main:29 - 3.drop courses
+17:28:44,478  INFO StudentOperation,main:30 - 4.view selected course
+17:28:44,478  INFO StudentOperation,main:30 - 5.submit final registration
+17:28:44,478  INFO StudentOperation,main:30 - 6.view grades
+17:28:44,478  INFO StudentOperation,main:30 - 7.logout
+17:28:45,771  INFO StudentOperation,main:51 - enter the course name
+17:28:48,495  INFO SMSClient,main:82 - raja has added maths  on 17:28:42.299  14 JUNE 2020 on SUNDAY
+17:28:48,499  INFO StudentOperation,main:29 - select choices
+17:28:48,500  INFO StudentOperation,main:29 - 1.view all courses
+17:28:48,500  INFO StudentOperation,main:29 - 2.add courses
+17:28:48,505  INFO StudentOperation,main:29 - 3.drop courses
+17:28:48,505  INFO StudentOperation,main:30 - 4.view selected course
+17:28:48,506  INFO StudentOperation,main:30 - 5.submit final registration
+17:28:48,506  INFO StudentOperation,main:30 - 6.view grades
+17:28:48,506  INFO StudentOperation,main:30 - 7.logout
+17:29:01,213  INFO StudentOperation,main:58 - enter the course you want to drop
+17:29:05,867  INFO SMSClient,main:120 - physic is dropped on 17:28:42.299  14 JUNE 2020 on SUNDAY
+17:29:05,870  INFO StudentOperation,main:29 - select choices
+17:29:05,870  INFO StudentOperation,main:29 - 1.view all courses
+17:29:05,871  INFO StudentOperation,main:29 - 2.add courses
+17:29:05,871  INFO StudentOperation,main:29 - 3.drop courses
+17:29:05,871  INFO StudentOperation,main:30 - 4.view selected course
+17:29:05,871  INFO StudentOperation,main:30 - 5.submit final registration
+17:29:05,872  INFO StudentOperation,main:30 - 6.view grades
+17:29:05,872  INFO StudentOperation,main:30 - 7.logout
+17:30:24,707  INFO SMSClient,main:17 - WELCOME
+17:30:24,712  INFO SMSClient,main:19 - enter username
+17:30:30,659  INFO SMSClient,main:21 - enter password
+17:30:34,336  INFO SMSClient,main:24 - student with username raja logged in  at 17:30:34.335  14 JUNE 2020 on SUNDAY
+17:30:34,337  INFO SMSClient,main:25 - going to student page
+17:30:34,344  INFO StudentOperation,main:29 - select choices
+17:30:34,345  INFO StudentOperation,main:29 - 1.view all courses
+17:30:34,345  INFO StudentOperation,main:29 - 2.add courses
+17:30:34,345  INFO StudentOperation,main:29 - 3.drop courses
+17:30:34,346  INFO StudentOperation,main:30 - 4.view selected course
+17:30:34,346  INFO StudentOperation,main:30 - 5.submit final registration
+17:30:34,346  INFO StudentOperation,main:30 - 6.view grades
+17:30:34,346  INFO StudentOperation,main:30 - 7.logout
+17:30:38,141  INFO StudentOperation,main:58 - enter the course you want to drop
+17:30:41,328  INFO SMSClient,main:121 - ph is dropped on 17:30:34.335  14 JUNE 2020 on SUNDAY
+17:30:41,330  INFO StudentOperation,main:29 - select choices
+17:30:41,330  INFO StudentOperation,main:29 - 1.view all courses
+17:30:41,330  INFO StudentOperation,main:29 - 2.add courses
+17:30:41,330  INFO StudentOperation,main:29 - 3.drop courses
+17:30:41,330  INFO StudentOperation,main:30 - 4.view selected course
+17:30:41,330  INFO StudentOperation,main:30 - 5.submit final registration
+17:30:41,331  INFO StudentOperation,main:30 - 6.view grades
+17:30:41,331  INFO StudentOperation,main:30 - 7.logout
+17:31:16,768  INFO SMSClient,main:17 - WELCOME
+17:31:16,772  INFO SMSClient,main:19 - enter username
+17:31:20,746  INFO SMSClient,main:21 - enter password
+17:31:24,539  INFO SMSClient,main:24 - student with username raja logged in  at 17:31:24.538  14 JUNE 2020 on SUNDAY
+17:31:24,539  INFO SMSClient,main:25 - going to student page
+17:31:24,545  INFO StudentOperation,main:29 - select choices
+17:31:24,545  INFO StudentOperation,main:29 - 1.view all courses
+17:31:24,546  INFO StudentOperation,main:29 - 2.add courses
+17:31:24,546  INFO StudentOperation,main:29 - 3.drop courses
+17:31:24,546  INFO StudentOperation,main:30 - 4.view selected course
+17:31:24,546  INFO StudentOperation,main:30 - 5.submit final registration
+17:31:24,546  INFO StudentOperation,main:30 - 6.view grades
+17:31:24,546  INFO StudentOperation,main:30 - 7.logout
+17:31:27,003  INFO StudentOperation,main:58 - enter the course you want to drop
+17:31:30,650  INFO SMSClient,main:114 - this course is not selected , so you can't drop it
+17:31:30,652  INFO StudentOperation,main:29 - select choices
+17:31:30,653  INFO StudentOperation,main:29 - 1.view all courses
+17:31:30,653  INFO StudentOperation,main:29 - 2.add courses
+17:31:30,653  INFO StudentOperation,main:29 - 3.drop courses
+17:31:30,653  INFO StudentOperation,main:30 - 4.view selected course
+17:31:30,653  INFO StudentOperation,main:30 - 5.submit final registration
+17:31:30,653  INFO StudentOperation,main:30 - 6.view grades
+17:31:30,654  INFO StudentOperation,main:30 - 7.logout
+17:31:34,712  INFO StudentOperation,main:58 - enter the course you want to drop
+17:31:39,337  INFO SMSClient,main:120 - physics is dropped on 17:31:24.538  14 JUNE 2020 on SUNDAY
+17:31:39,341  INFO StudentOperation,main:29 - select choices
+17:31:39,342  INFO StudentOperation,main:29 - 1.view all courses
+17:31:39,343  INFO StudentOperation,main:29 - 2.add courses
+17:31:39,343  INFO StudentOperation,main:29 - 3.drop courses
+17:31:39,343  INFO StudentOperation,main:30 - 4.view selected course
+17:31:39,344  INFO StudentOperation,main:30 - 5.submit final registration
+17:31:39,345  INFO StudentOperation,main:30 - 6.view grades
+17:31:39,345  INFO StudentOperation,main:30 - 7.logout

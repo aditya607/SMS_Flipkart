@@ -13,4 +13,7 @@ public class DateTimeUtil {
 		return localTime+"  "+localDate.getDayOfMonth()+" "+localDate.getMonth()+" "+localDate.getYear()+" on "+localDate.getDayOfWeek();
 		
 	}
+	public static String viewDate(){
+		return localDate.getDayOfMonth()+" "+localDate.getMonth()+" "+localDate.getYear();
+	}
 }

@@ -41,7 +41,7 @@ public class CourseOperation {
 		if(a==0){
 			logger.info("duplicate course selected");
 			StudentOperation studentOperation=new StudentOperation();
-			studentOperation.getCourseDetails();
+			//studentOperation.getCourseDetails();
 		}
 		else{
 			courseDaoImpl.selectCourse(selectedCourse);

@@ -4,5 +4,7 @@ import java.util.HashMap;
 import java.util.List;
 
 public interface StudentDao {
-	public HashMap<Integer,String> getCourseDetails();
+	public void recordAllCourse();
+	public void studentAddCourse(String course);
+	public void studentDropCourse(String course);
 }

@@ -24,13 +24,13 @@ public class SMSOperation {
 			logger.info("student with username "+ SMSDaoImpl.userName+" logged in  at "+DateTimeUtil.TimeDateDay());
 			logger.info("going to student page");
 			StudentOperation student=new StudentOperation();
-			student.getCourseDetails();
+			student.studentJob();
 			break;
 		case "professor":
 			logger.info("professor with username "+SMSDaoImpl.userName  +" logged in at "+DateTimeUtil.TimeDateDay());
 			logger.info("going to Professor page ");
 			ProfessorOperation professorOperation=new ProfessorOperation();
-			professorOperation.getCourseDetails();
+			professorOperation.professorJob();
 			break;
 		case "admin":// if role is 3 means an admin
 			logger.info("admin logged at "+DateTimeUtil.TimeDateDay());
