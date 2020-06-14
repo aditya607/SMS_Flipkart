@@ -19,5 +19,12 @@ public class SQLConstantQuaries {
 	public static final String user_deletion="delete from userdata where username=?";
 	public static final String student_deletion="delete from studentdata where username=?";
 	public static final String professor_deletion="delete from professordata where username=?";
+	public static final String catalog_creation="insert into coursecatalog values(?,?,?)";
+	public static final String course_adition="insert into course values(?,?,?,?,?)";
+	public static final String catalog_deletion="delete from coursecatalog where courseName=?";
+	public static final String course_deletion="delete from course where courseName=?";
+	public static final String view_student="select * from studentdata";
+	public static final String view_professor="select * from professordata";
+	public static final String view_course="select * from course";
 	
 }

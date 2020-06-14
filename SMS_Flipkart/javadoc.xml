@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="public" author="true" classpath="C:\Users\Administrator\Desktop\logging-log4j-1.2.11\dist\lib\log4j-1.2.11.jar;C:\Users\Administrator\Desktop\mysql-connector-java-8.0.20\mysql-connector-java-8.0.20.jar" destdir="D:\workspace\document_SMS" nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" notree="false" packagenames="com.flipkart.constant,com.flipkart.client,com.flipkart.utils,com.flipkart.dao,com.flipkart.model,com.flipkart.service" source="1.8" sourcepath="src" splitindex="true" use="true" version="true"/>
+    </target>
+</project>

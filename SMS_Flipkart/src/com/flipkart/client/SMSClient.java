@@ -12,7 +12,9 @@ public class SMSClient {
 		SMSOperation smsOperation=new SMSOperation();
 		System.out.println("welcome to :: STUDENT MANAGEMENT SYSTEM");
 		
-//taking login id and passqoed from user ........................................		
+//taking login id and passqoed from user ........................................	
+
+		logger.info("WELCOME");
 		Scanner sc=new Scanner(System.in);
 		logger.info("enter username");
 		String username=sc.next();

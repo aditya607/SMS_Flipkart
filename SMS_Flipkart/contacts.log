@@ -840,3 +840,390 @@
 09:51:59,441  INFO SMSClient,main:22 - 3.addNewcourse
 09:51:59,441  INFO SMSClient,main:22 - 4.dropOldcourse
 09:51:59,442  INFO SMSClient,main:22 - 5.report card generation
+06:41:28,247  INFO SMSClient,main:17 - enter username
+06:41:34,042  INFO SMSClient,main:19 - enter password
+06:41:39,261  INFO SMSClient,main:36 - admin logged at 06:41:39.260  14 JUNE 2020 on SUNDAY
+06:41:39,261  INFO SMSClient,main:37 - going to admin page
+06:41:39,298  INFO SMSClient,main:21 - select choice
+06:41:39,298  INFO SMSClient,main:21 - 1.student opearation
+06:41:39,299  INFO SMSClient,main:21 - 2.professor operation
+06:41:39,299  INFO SMSClient,main:22 - 3.addNewcourse
+06:41:39,299  INFO SMSClient,main:22 - 4.dropOldcourse
+06:41:39,299  INFO SMSClient,main:22 - 5.report card generation
+06:41:45,379  INFO SMSClient,main:33 - select choice
+06:41:45,380  INFO SMSClient,main:33 - 1.create Student
+06:41:45,380  INFO SMSClient,main:33 - 2.delete Student
+06:41:45,381  INFO SMSClient,main:34 - 3.update Student
+06:41:47,077  INFO SMSClient,main:44 -  userID ,username and password
+06:41:57,589  INFO SMSClient,main:36 - user with username raj is added
+06:41:57,590  INFO SMSClient,main:64 - enter student details
+06:41:57,601  INFO SMSClient,main:68 - student name 
+06:43:49,470  INFO SMSClient,main:17 - enter username
+06:43:52,301  INFO SMSClient,main:19 - enter password
+06:43:57,920  INFO SMSClient,main:36 - admin logged at 06:43:57.920  14 JUNE 2020 on SUNDAY
+06:43:57,921  INFO SMSClient,main:37 - going to admin page
+06:43:57,923  INFO SMSClient,main:21 - select choice
+06:43:57,923  INFO SMSClient,main:21 - 1.student opearation
+06:43:57,923  INFO SMSClient,main:21 - 2.professor operation
+06:43:57,923  INFO SMSClient,main:22 - 3.addNewcourse
+06:43:57,924  INFO SMSClient,main:22 - 4.dropOldcourse
+06:43:57,924  INFO SMSClient,main:22 - 5.report card generation
+06:43:59,617  INFO SMSClient,main:33 - select choice
+06:43:59,618  INFO SMSClient,main:33 - 1.create Student
+06:43:59,618  INFO SMSClient,main:33 - 2.delete Student
+06:43:59,619  INFO SMSClient,main:34 - 3.update Student
+06:44:00,249  INFO SMSClient,main:44 -  userID ,username and password
+06:44:08,143 ERROR SMSClient,main:38 - sql exceptionDuplicate entry 'raj' for key 'userdata.PRIMARY'
+06:44:08,144  INFO SMSClient,main:64 - enter student details
+06:44:08,145  INFO SMSClient,main:68 - student name 
+06:59:21,165  INFO SMSClient,main:17 - enter username
+06:59:24,872  INFO SMSClient,main:19 - enter password
+06:59:29,174  INFO SMSClient,main:36 - admin logged at 06:59:29.173  14 JUNE 2020 on SUNDAY
+06:59:29,186  INFO SMSClient,main:37 - going to admin page
+06:59:29,190  INFO SMSClient,main:21 - select choice
+06:59:29,190  INFO SMSClient,main:21 - 1.student opearation
+06:59:29,190  INFO SMSClient,main:21 - 2.professor operation
+06:59:29,190  INFO SMSClient,main:22 - 3.addNewcourse
+06:59:29,191  INFO SMSClient,main:22 - 4.dropOldcourse
+06:59:29,191  INFO SMSClient,main:22 - 5.report card generation
+06:59:32,727  INFO SMSClient,main:33 - select choice
+06:59:32,728  INFO SMSClient,main:33 - 1.create Student
+06:59:32,728  INFO SMSClient,main:33 - 2.delete Student
+06:59:32,728  INFO SMSClient,main:34 - 3.update Student
+06:59:34,344  INFO SMSClient,main:44 -  userID ,username and password
+06:59:41,188 ERROR SMSClient,main:40 - sql exceptionDuplicate entry 'asd' for key 'userdata.PRIMARY'
+06:59:41,189  INFO SMSClient,main:44 -  userID ,username and password
+07:38:37,248  INFO SMSClient,main:17 - enter username
+07:38:43,503  INFO SMSClient,main:19 - enter password
+07:38:48,227  INFO SMSClient,main:36 - admin logged at 07:38:48.226  14 JUNE 2020 on SUNDAY
+07:38:48,237  INFO SMSClient,main:37 - going to admin page
+07:38:48,243  INFO SMSClient,main:22 - select choice
+07:38:48,243  INFO SMSClient,main:22 - 1.student opearation
+07:38:48,243  INFO SMSClient,main:22 - 2.professor operation
+07:38:48,243  INFO SMSClient,main:23 - 3.addNewcourse
+07:38:48,243  INFO SMSClient,main:23 - 4.dropOldcourse
+07:38:48,244  INFO SMSClient,main:23 - 5.report card generation
+07:38:55,830  INFO SMSClient,main:125 - give course details
+07:38:55,830  INFO SMSClient,main:125 - CourseId , CourseName and catalogId
+07:39:55,225  INFO SMSClient,main:17 - enter username
+07:39:58,770  INFO SMSClient,main:19 - enter password
+07:40:05,687  INFO SMSClient,main:36 - admin logged at 07:40:05.686  14 JUNE 2020 on SUNDAY
+07:40:05,687  INFO SMSClient,main:37 - going to admin page
+07:40:05,702  INFO SMSClient,main:22 - select choice
+07:40:05,702  INFO SMSClient,main:22 - 1.student opearation
+07:40:05,702  INFO SMSClient,main:22 - 2.professor operation
+07:40:05,702  INFO SMSClient,main:23 - 3.addNewcourse
+07:40:05,703  INFO SMSClient,main:23 - 4.dropOldcourse
+07:40:05,703  INFO SMSClient,main:23 - 5.report card generation
+07:40:12,737  INFO SMSClient,main:125 - give course details
+07:40:12,737  INFO SMSClient,main:125 - CourseId , CourseName and catalogId
+07:40:45,978  INFO SMSClient,main:136 - enter course credit
+07:40:49,201  INFO SMSClient,main:138 - enter the course code
+07:41:04,204  INFO SMSClient,main:140 - enter course info
+07:41:04,317  INFO SMSClient,main:154 - course with name history is added 07:40:05.686  14 JUNE 2020 on SUNDAY
+07:41:48,665  INFO SMSClient,main:17 - enter username
+07:41:59,347  INFO SMSClient,main:19 - enter password
+07:42:03,695  INFO SMSClient,main:36 - admin logged at 07:42:03.695  14 JUNE 2020 on SUNDAY
+07:42:03,697  INFO SMSClient,main:37 - going to admin page
+07:42:03,712  INFO SMSClient,main:22 - select choice
+07:42:03,712  INFO SMSClient,main:22 - 1.student opearation
+07:42:03,712  INFO SMSClient,main:22 - 2.professor operation
+07:42:03,712  INFO SMSClient,main:23 - 3.addNewcourse
+07:42:03,713  INFO SMSClient,main:23 - 4.dropOldcourse
+07:42:03,713  INFO SMSClient,main:23 - 5.report card generation
+07:42:05,546  INFO SMSClient,main:125 - give course details
+07:42:05,546  INFO SMSClient,main:125 - CourseId , CourseName and catalogId
+07:42:13,985  INFO SMSClient,main:136 - enter course credit
+07:42:16,865  INFO SMSClient,main:138 - enter the course code
+07:42:35,635  INFO SMSClient,main:140 - enter course info
+07:42:43,978 ERROR SMSClient,main:156 - sql exceptionDuplicate entry 'history' for key 'course.PRIMARY'
+07:46:36,443  INFO SMSClient,main:17 - enter username
+07:47:02,695  INFO SMSClient,main:19 - enter password
+07:47:07,468  INFO SMSClient,main:36 - admin logged at 07:47:07.468  14 JUNE 2020 on SUNDAY
+07:47:07,478  INFO SMSClient,main:37 - going to admin page
+07:47:07,484  INFO SMSClient,main:22 - select choice
+07:47:07,485  INFO SMSClient,main:22 - 1.student opearation
+07:47:07,485  INFO SMSClient,main:22 - 2.professor operation
+07:47:07,485  INFO SMSClient,main:23 - 3.addNewcourse
+07:47:07,485  INFO SMSClient,main:23 - 4.dropOldcourse
+07:47:07,485  INFO SMSClient,main:23 - 5.report card generation
+07:47:13,424  INFO SMSClient,main:125 - give course details
+07:47:13,425  INFO SMSClient,main:125 - CourseId , CourseName and catalogId
+07:47:24,220  INFO SMSClient,main:136 - enter course credit
+07:47:26,189  INFO SMSClient,main:138 - enter the course code
+07:47:30,270  INFO SMSClient,main:140 - enter course info
+07:47:38,628  INFO SMSClient,main:154 - course with name history is added 07:47:07.468  14 JUNE 2020 on SUNDAY
+07:48:02,762  INFO SMSClient,main:17 - enter username
+07:48:06,785  INFO SMSClient,main:19 - enter password
+07:48:11,327  INFO SMSClient,main:36 - admin logged at 07:48:11.327  14 JUNE 2020 on SUNDAY
+07:48:11,338  INFO SMSClient,main:37 - going to admin page
+07:48:11,343  INFO SMSClient,main:22 - select choice
+07:48:11,343  INFO SMSClient,main:22 - 1.student opearation
+07:48:11,343  INFO SMSClient,main:22 - 2.professor operation
+07:48:11,343  INFO SMSClient,main:23 - 3.addNewcourse
+07:48:11,343  INFO SMSClient,main:23 - 4.dropOldcourse
+07:48:11,344  INFO SMSClient,main:23 - 5.report card generation
+07:48:14,939  INFO SMSClient,main:125 - give course details
+07:48:14,940  INFO SMSClient,main:125 - CourseId , CourseName and catalogId
+07:48:22,362 ERROR SMSClient,main:135 - duplicate course Duplicate entry 'history' for key 'coursecatalog.PRIMARY'
+07:48:22,362  INFO SMSClient,main:125 - give course details
+07:48:22,362  INFO SMSClient,main:125 - CourseId , CourseName and catalogId
+08:02:15,182  INFO SMSClient,main:17 - enter username
+08:02:17,960  INFO SMSClient,main:19 - enter password
+08:02:22,107 ERROR SMSClient,main:43 - error in credentials at 08:02:22.106  14 JUNE 2020 on SUNDAY
+08:02:22,107  INFO SMSClient,main:44 - enter username
+08:02:28,184  INFO SMSClient,main:46 - enter password
+08:02:31,298  INFO SMSClient,main:36 - admin logged at 08:02:22.106  14 JUNE 2020 on SUNDAY
+08:02:31,298  INFO SMSClient,main:37 - going to admin page
+08:02:31,300  INFO SMSClient,main:22 - select choice
+08:02:31,301  INFO SMSClient,main:22 - 1.student opearation
+08:02:31,301  INFO SMSClient,main:22 - 2.professor operation
+08:02:31,301  INFO SMSClient,main:23 - 3.addNewcourse
+08:02:31,301  INFO SMSClient,main:23 - 4.dropOldcourse
+08:02:31,301  INFO SMSClient,main:23 - 5.report card generation
+08:02:34,603  INFO SMSClient,main:128 - give course details
+08:02:34,603  INFO SMSClient,main:128 - CourseId , CourseName and catalogId
+08:02:43,444  INFO SMSClient,main:139 - enter course credit
+08:02:45,694  INFO SMSClient,main:141 - enter the course code
+08:02:50,208  INFO SMSClient,main:143 - enter course info
+08:02:57,443  INFO SMSClient,main:154 - course with name asd is added 08:02:22.106  14 JUNE 2020 on SUNDAY
+08:03:20,777  INFO SMSClient,main:17 - enter username
+08:03:23,282  INFO SMSClient,main:19 - enter password
+08:03:29,029  INFO SMSClient,main:36 - admin logged at 08:03:29.029  14 JUNE 2020 on SUNDAY
+08:03:29,030  INFO SMSClient,main:37 - going to admin page
+08:03:29,044  INFO SMSClient,main:22 - select choice
+08:03:29,044  INFO SMSClient,main:22 - 1.student opearation
+08:03:29,044  INFO SMSClient,main:22 - 2.professor operation
+08:03:29,045  INFO SMSClient,main:23 - 3.addNewcourse
+08:03:29,045  INFO SMSClient,main:23 - 4.dropOldcourse
+08:03:29,045  INFO SMSClient,main:23 - 5.report card generation
+08:03:31,853  INFO SMSClient,main:150 - enter the course name
+08:03:34,888  INFO SMSClient,main:174 - course with name asd is deleted 08:03:29.029  14 JUNE 2020 on SUNDAY
+08:22:48,625  INFO SMSClient,main:17 - enter username
+08:22:53,310  INFO SMSClient,main:19 - enter password
+08:22:57,606  INFO SMSClient,main:36 - admin logged at 08:22:57.605  14 JUNE 2020 on SUNDAY
+08:22:57,616  INFO SMSClient,main:37 - going to admin page
+08:22:57,622  INFO SMSClient,main:24 - select choice
+08:22:57,623  INFO SMSClient,main:24 - 1.student opearation
+08:22:57,623  INFO SMSClient,main:24 - 2.professor operation
+08:22:57,623  INFO SMSClient,main:25 - 3.addNewcourse
+08:22:57,623  INFO SMSClient,main:25 - 4.dropOldcourse
+08:22:57,623  INFO SMSClient,main:25 - 5.report card generation
+08:22:57,623  INFO SMSClient,main:26 - 6.view all student
+08:22:57,624  INFO SMSClient,main:26 - 7.view all course
+08:22:57,624  INFO SMSClient,main:26 - 8.logout
+08:23:01,942  INFO SMSClient,main:164 - student name     username      enrollment no.      mobile number    email    address
+08:23:01,943  INFO SMSClient,main:166 - raja kumar      raj     123    12345677899    123   patna
+08:26:04,992  INFO SMSClient,main:17 - enter username
+08:26:09,157  INFO SMSClient,main:19 - enter password
+08:26:14,046  INFO SMSClient,main:36 - admin logged at 08:26:14.045  14 JUNE 2020 on SUNDAY
+08:26:14,056  INFO SMSClient,main:37 - going to admin page
+08:26:14,061  INFO SMSClient,main:24 - select choice
+08:26:14,062  INFO SMSClient,main:24 - 1.student opearation
+08:26:14,062  INFO SMSClient,main:24 - 2.professor operation
+08:26:14,062  INFO SMSClient,main:25 - 3.addNewcourse
+08:26:14,062  INFO SMSClient,main:25 - 4.dropOldcourse
+08:26:14,063  INFO SMSClient,main:25 - 5.report card generation
+08:26:14,063  INFO SMSClient,main:26 - 6.view all student
+08:26:14,063  INFO SMSClient,main:26 - 7.view all course
+08:26:14,063  INFO SMSClient,main:26 - 8.logout
+08:26:16,417  INFO SMSClient,main:43 - select choice
+08:26:16,417  INFO SMSClient,main:43 - 1.create Student
+08:26:16,417  INFO SMSClient,main:43 - 2.delete Student
+08:26:16,418  INFO SMSClient,main:44 - 3.update Student
+08:26:17,649  INFO SMSClient,main:54 -  userID ,username and password
+08:26:25,933  INFO SMSClient,main:41 - user with username raja is added
+08:26:25,934  INFO SMSClient,main:80 - enter student details
+08:26:25,936  INFO SMSClient,main:84 - student name 
+08:26:30,983  INFO SMSClient,main:86 - student address
+08:26:36,158  INFO SMSClient,main:88 - student enrollment number
+08:26:41,325  INFO SMSClient,main:90 - student email
+08:26:47,857  INFO SMSClient,main:92 - student dob : date/month/year
+08:26:53,894  INFO SMSClient,main:94 - student mobile number
+08:26:58,580  INFO SMSClient,main:96 - student gender : 'male'/'female'
+08:27:01,466  INFO SMSClient,main:66 - student with name raja babu is added 08:26:14.045  14 JUNE 2020 on SUNDAY
+08:27:08,114  INFO SMSClient,main:17 - enter username
+08:27:10,828  INFO SMSClient,main:19 - enter password
+08:27:14,830  INFO SMSClient,main:36 - admin logged at 08:27:14.829  14 JUNE 2020 on SUNDAY
+08:27:14,830  INFO SMSClient,main:37 - going to admin page
+08:27:14,845  INFO SMSClient,main:24 - select choice
+08:27:14,846  INFO SMSClient,main:24 - 1.student opearation
+08:27:14,846  INFO SMSClient,main:24 - 2.professor operation
+08:27:14,846  INFO SMSClient,main:25 - 3.addNewcourse
+08:27:14,846  INFO SMSClient,main:25 - 4.dropOldcourse
+08:27:14,846  INFO SMSClient,main:25 - 5.report card generation
+08:27:14,847  INFO SMSClient,main:26 - 6.view all student
+08:27:14,847  INFO SMSClient,main:26 - 7.view all course
+08:27:14,847  INFO SMSClient,main:26 - 8.logout
+08:27:18,230  INFO SMSClient,main:164 - student list
+08:27:18,231  INFO SMSClient,main:166 - NAME : raja kumar USERNAME : raj ENROLL NO. : 123 MOBILE NO. : 12345677899 EMAIL : 123 ADDRESS : patna
+08:27:18,231  INFO SMSClient,main:166 - NAME : raja babu USERNAME : raja ENROLL NO. : 3456 MOBILE NO. : 1234567890 EMAIL : raja@gmail.com ADDRESS : patna bihar
+08:48:51,847  INFO SMSClient,main:17 - enter username
+08:48:56,793  INFO SMSClient,main:19 - enter password
+08:49:02,365  INFO SMSClient,main:36 - admin logged at 08:49:02.364  14 JUNE 2020 on SUNDAY
+08:49:02,376  INFO SMSClient,main:37 - going to admin page
+08:49:02,382  INFO SMSClient,main:24 - select choice
+08:49:02,382  INFO SMSClient,main:24 - 1.student opearation
+08:49:02,382  INFO SMSClient,main:24 - 2.professor operation
+08:49:02,382  INFO SMSClient,main:25 - 3.addNewcourse
+08:49:02,383  INFO SMSClient,main:25 - 4.dropOldcourse
+08:49:02,383  INFO SMSClient,main:25 - 5.report card generation
+08:49:02,383  INFO SMSClient,main:26 - 6.view all student
+08:49:02,383  INFO SMSClient,main:26 - 7.view all course
+08:49:02,384  INFO SMSClient,main:26 - 8.logout
+08:49:11,433  INFO SMSClient,main:174 - professor list
+08:49:58,294  INFO SMSClient,main:17 - enter username
+08:50:02,517  INFO SMSClient,main:19 - enter password
+08:50:07,059  INFO SMSClient,main:36 - admin logged at 08:50:07.058  14 JUNE 2020 on SUNDAY
+08:50:07,059  INFO SMSClient,main:37 - going to admin page
+08:50:07,074  INFO SMSClient,main:24 - select choice
+08:50:07,075  INFO SMSClient,main:24 - 1.student opearation
+08:50:07,075  INFO SMSClient,main:24 - 2.professor operation
+08:50:07,075  INFO SMSClient,main:25 - 3.addNewcourse
+08:50:07,075  INFO SMSClient,main:25 - 4.dropOldcourse
+08:50:07,076  INFO SMSClient,main:25 - 5.report card generation
+08:50:07,076  INFO SMSClient,main:26 - 6.view all student
+08:50:07,076  INFO SMSClient,main:26 - view all professor
+08:50:07,076  INFO SMSClient,main:26 - 8.view all course
+08:50:07,076  INFO SMSClient,main:26 - 9.logout
+08:50:13,541  INFO SMSClient,main:106 - select choice
+08:50:13,541  INFO SMSClient,main:106 - 1.create professor
+08:50:13,542  INFO SMSClient,main:106 - 2.delete professor
+08:50:13,542  INFO SMSClient,main:107 - 3.update professor
+08:50:15,460  INFO SMSClient,main:56 -  userID ,username and password
+08:50:33,886  INFO SMSClient,main:41 - user with username manan is added
+08:50:33,887  INFO SMSClient,main:117 - enter professor details
+08:50:33,888  INFO SMSClient,main:121 - professor name 
+08:50:38,932  INFO SMSClient,main:123 - professor address
+08:50:44,833  INFO SMSClient,main:125 - professor email
+08:50:52,128  INFO SMSClient,main:127 - professor room number
+08:50:57,295  INFO SMSClient,main:129 - professor mobile number
+08:51:01,971  INFO SMSClient,main:131 - professor gender : 'male'/'female'
+08:51:05,637  INFO SMSClient,main:88 - professor with name manan kumar is added 08:50:07.058  14 JUNE 2020 on SUNDAY
+08:51:11,330  INFO SMSClient,main:17 - enter username
+08:51:13,688  INFO SMSClient,main:19 - enter password
+08:51:18,407  INFO SMSClient,main:36 - admin logged at 08:51:18.406  14 JUNE 2020 on SUNDAY
+08:51:18,415  INFO SMSClient,main:37 - going to admin page
+08:51:18,421  INFO SMSClient,main:24 - select choice
+08:51:18,422  INFO SMSClient,main:24 - 1.student opearation
+08:51:18,422  INFO SMSClient,main:24 - 2.professor operation
+08:51:18,422  INFO SMSClient,main:25 - 3.addNewcourse
+08:51:18,422  INFO SMSClient,main:25 - 4.dropOldcourse
+08:51:18,422  INFO SMSClient,main:25 - 5.report card generation
+08:51:18,422  INFO SMSClient,main:26 - 6.view all student
+08:51:18,423  INFO SMSClient,main:26 - view all professor
+08:51:18,423  INFO SMSClient,main:26 - 8.view all course
+08:51:18,423  INFO SMSClient,main:26 - 9.logout
+08:51:25,459  INFO SMSClient,main:174 - professor list
+08:51:25,460  INFO SMSClient,main:176 - NAME : manan kumar USERNAME : manan MOBILE NO. : 1234567890 EMAIL : manan@gmail.com ROOM NO. : a-320
+09:02:18,243  INFO SMSClient,main:17 - enter username
+09:02:22,280  INFO SMSClient,main:19 - enter password
+09:02:26,714  INFO SMSClient,main:36 - admin logged at 09:02:26.714  14 JUNE 2020 on SUNDAY
+09:02:26,727  INFO SMSClient,main:37 - going to admin page
+09:02:26,731  INFO SMSClient,main:24 - select choice
+09:02:26,732  INFO SMSClient,main:24 - 1.student opearation
+09:02:26,732  INFO SMSClient,main:24 - 2.professor operation
+09:02:26,732  INFO SMSClient,main:25 - 3.addNewcourse
+09:02:26,732  INFO SMSClient,main:25 - 4.dropOldcourse
+09:02:26,732  INFO SMSClient,main:25 - 5.report card generation
+09:02:26,733  INFO SMSClient,main:26 - 6.view all student
+09:02:26,733  INFO SMSClient,main:26 - 7.view all professor
+09:02:26,733  INFO SMSClient,main:26 - 8.view all course
+09:02:26,733  INFO SMSClient,main:26 - 9.logout
+09:02:30,338  INFO SMSClient,main:189 - course list
+09:02:30,338  INFO SMSClient,main:191 - COURSE CODE : asd-789 NAME : history CREDIT : 4 PROFESSOR : null
+09:02:30,338  INFO SMSClient,main:24 - select choice
+09:02:30,339  INFO SMSClient,main:24 - 1.student opearation
+09:02:30,339  INFO SMSClient,main:24 - 2.professor operation
+09:02:30,339  INFO SMSClient,main:25 - 3.addNewcourse
+09:02:30,339  INFO SMSClient,main:25 - 4.dropOldcourse
+09:02:30,340  INFO SMSClient,main:25 - 5.report card generation
+09:02:30,340  INFO SMSClient,main:26 - 6.view all student
+09:02:30,340  INFO SMSClient,main:26 - 7.view all professor
+09:02:30,340  INFO SMSClient,main:26 - 8.view all course
+09:02:30,341  INFO SMSClient,main:26 - 9.logout
+09:02:57,320  INFO SMSClient,main:139 - give course details
+09:02:57,321  INFO SMSClient,main:139 - CourseId , CourseName and catalogId
+09:03:08,521  INFO SMSClient,main:150 - enter course credit
+09:03:10,739  INFO SMSClient,main:152 - enter the course code
+09:03:14,625  INFO SMSClient,main:154 - enter course info
+09:03:21,033  INFO SMSClient,main:157 - course with name biology is added 09:02:26.714  14 JUNE 2020 on SUNDAY
+09:03:21,034  INFO SMSClient,main:24 - select choice
+09:03:21,034  INFO SMSClient,main:24 - 1.student opearation
+09:03:21,035  INFO SMSClient,main:24 - 2.professor operation
+09:03:21,035  INFO SMSClient,main:25 - 3.addNewcourse
+09:03:21,035  INFO SMSClient,main:25 - 4.dropOldcourse
+09:03:21,036  INFO SMSClient,main:25 - 5.report card generation
+09:03:21,036  INFO SMSClient,main:26 - 6.view all student
+09:03:21,037  INFO SMSClient,main:26 - 7.view all professor
+09:03:21,037  INFO SMSClient,main:26 - 8.view all course
+09:03:21,038  INFO SMSClient,main:26 - 9.logout
+09:03:26,145  INFO SMSClient,main:189 - course list
+09:03:26,145  INFO SMSClient,main:191 - COURSE CODE : qw-890 NAME : biology CREDIT : 4 PROFESSOR : null
+09:03:26,145  INFO SMSClient,main:191 - COURSE CODE : asd-789 NAME : history CREDIT : 4 PROFESSOR : null
+09:03:26,146  INFO SMSClient,main:24 - select choice
+09:03:26,146  INFO SMSClient,main:24 - 1.student opearation
+09:03:26,146  INFO SMSClient,main:24 - 2.professor operation
+09:03:26,147  INFO SMSClient,main:25 - 3.addNewcourse
+09:03:26,147  INFO SMSClient,main:25 - 4.dropOldcourse
+09:03:26,147  INFO SMSClient,main:25 - 5.report card generation
+09:03:26,147  INFO SMSClient,main:26 - 6.view all student
+09:03:26,147  INFO SMSClient,main:26 - 7.view all professor
+09:03:26,148  INFO SMSClient,main:26 - 8.view all course
+09:03:26,148  INFO SMSClient,main:26 - 9.logout
+09:03:56,076  INFO SMSClient,main:162 - enter the course name
+09:04:03,295  INFO SMSClient,main:177 - course with name history is deleted 09:02:26.714  14 JUNE 2020 on SUNDAY
+09:04:03,296  INFO SMSClient,main:24 - select choice
+09:04:03,297  INFO SMSClient,main:24 - 1.student opearation
+09:04:03,298  INFO SMSClient,main:24 - 2.professor operation
+09:04:03,298  INFO SMSClient,main:25 - 3.addNewcourse
+09:04:03,299  INFO SMSClient,main:25 - 4.dropOldcourse
+09:04:03,299  INFO SMSClient,main:25 - 5.report card generation
+09:04:03,300  INFO SMSClient,main:26 - 6.view all student
+09:04:03,301  INFO SMSClient,main:26 - 7.view all professor
+09:04:03,301  INFO SMSClient,main:26 - 8.view all course
+09:04:03,302  INFO SMSClient,main:26 - 9.logout
+09:07:26,961  INFO SMSClient,main:17 - enter username
+09:07:31,153  INFO SMSClient,main:19 - enter password
+09:07:35,828  INFO SMSClient,main:36 - admin logged at 09:07:35.828  14 JUNE 2020 on SUNDAY
+09:07:35,841  INFO SMSClient,main:37 - going to admin page
+09:07:35,845  INFO SMSClient,main:24 - select choice
+09:07:35,846  INFO SMSClient,main:24 - 1.student opearation
+09:07:35,846  INFO SMSClient,main:24 - 2.professor operation
+09:07:35,846  INFO SMSClient,main:25 - 3.addNewcourse
+09:07:35,846  INFO SMSClient,main:25 - 4.dropOldcourse
+09:07:35,846  INFO SMSClient,main:25 - 5.report card generation
+09:07:35,846  INFO SMSClient,main:26 - 6.view all student
+09:07:35,847  INFO SMSClient,main:26 - 7.view all professor
+09:07:35,847  INFO SMSClient,main:26 - 8.view all course
+09:07:35,847  INFO SMSClient,main:26 - 9.logout
+09:07:39,115  INFO SMSClient,main:44 - enter username
+09:07:49,765  INFO SMSClient,main:46 - enter password
+09:07:52,907  INFO SMSClient,main:36 - admin logged at 09:07:35.828  14 JUNE 2020 on SUNDAY
+09:07:52,908  INFO SMSClient,main:37 - going to admin page
+09:07:52,908  INFO SMSClient,main:24 - select choice
+09:07:52,908  INFO SMSClient,main:24 - 1.student opearation
+09:07:52,908  INFO SMSClient,main:24 - 2.professor operation
+09:07:52,909  INFO SMSClient,main:25 - 3.addNewcourse
+09:07:52,910  INFO SMSClient,main:25 - 4.dropOldcourse
+09:07:52,910  INFO SMSClient,main:25 - 5.report card generation
+09:07:52,910  INFO SMSClient,main:26 - 6.view all student
+09:07:52,910  INFO SMSClient,main:26 - 7.view all professor
+09:07:52,911  INFO SMSClient,main:26 - 8.view all course
+09:07:52,911  INFO SMSClient,main:26 - 9.logout
+09:09:06,391  INFO SMSClient,main:17 - enter username
+09:09:13,288  INFO SMSClient,main:19 - enter password
+09:09:17,449  INFO SMSClient,main:36 - admin logged at 09:09:17.448  14 JUNE 2020 on SUNDAY
+09:09:17,459  INFO SMSClient,main:37 - going to admin page
+09:09:17,464  INFO SMSClient,main:25 - select choice
+09:09:17,465  INFO SMSClient,main:25 - 1.student opearation
+09:09:17,465  INFO SMSClient,main:25 - 2.professor operation
+09:09:17,465  INFO SMSClient,main:26 - 3.addNewcourse
+09:09:17,465  INFO SMSClient,main:26 - 4.dropOldcourse
+09:09:17,465  INFO SMSClient,main:26 - 5.report card generation
+09:09:17,465  INFO SMSClient,main:27 - 6.view all student
+09:09:17,465  INFO SMSClient,main:27 - 7.view all professor
+09:09:17,466  INFO SMSClient,main:27 - 8.view all course
+09:09:17,466  INFO SMSClient,main:27 - 9.logout
+09:09:21,085  INFO SMSClient,main:44 - admin logging out at 09:09:17.448  14 JUNE 2020 on SUNDAY
+09:09:21,086  INFO SMSClient,main:46 - enter username
