@@ -151,7 +151,7 @@ public class StudentDaoImpl implements StudentDao{
 	@Override
 	public String checkRegistration() {
 		Connection conn=DBUtil.getConnection();
-		String ans="";
+		String ans="pending";
 		try{
 			stmt = conn.prepareStatement(SQLConstantQuaries.student_selected_course);
 			stmt.setString(1,SMSDaoImpl.userName);

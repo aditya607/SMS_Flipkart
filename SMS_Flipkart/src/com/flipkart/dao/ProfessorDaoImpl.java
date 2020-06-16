@@ -6,6 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 import org.apache.log4j.Logger;
 
@@ -18,6 +19,7 @@ import com.flipkart.utils.DateTimeUtil;
 public class ProfessorDaoImpl implements ProfessorDao{
 	PreparedStatement stmt = null;
 	private static Logger logger =Logger.getLogger(SMSClient.class);
+	Scanner sc=new Scanner(System.in);
 
 	
 	List<String> allCourses=new ArrayList<String>();
@@ -125,6 +127,37 @@ public class ProfessorDaoImpl implements ProfessorDao{
 		       logger.info("Exception "+e.getMessage());
 		 }
 		return users;
+	}
+	@Override
+	public void uploadGrade(String course) {
+		Connection conn=DBUtil.getConnection();
+		List<String> users=new ArrayList<String>();
+		try{
+			if(isCoursepresent(course)==1){
+				stmt = conn.prepareStatement(SQLConstantQuaries.student_in_course);
+				stmt.setString(1,course);
+				ResultSet rs = stmt.executeQuery();
+				while(rs.next()){
+					users.add(rs.getString("userName"));
+				}
+				for(String s:users){
+					logger.info("Grade of "+s +" :: " ); 
+					String grade=sc.next();
+					stmt = conn.prepareStatement(SQLConstantQuaries.upload_grade);
+					stmt.setString(1,grade);
+					stmt.setString(2,s );
+					stmt.setString(3, course);
+					int rows = stmt.executeUpdate();
+				}
+			}else{
+				logger.info("sorry this is not a course in school");
+			}
+		}catch(SQLException se){
+		       logger.info("sql exceptio"+se.getMessage());
+		 }catch(Exception e){
+		       logger.info("Exception "+e.getMessage());
+		 }
+		
 	}
 
 }

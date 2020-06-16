@@ -22,6 +22,7 @@ public class CourseDaoImpl implements CourseDao{
 	@Override
 	public void finalRegistration() {
 		Connection conn=DBUtil.getConnection();
+	 	StudentOperation studentOperation=new StudentOperation();
 		try{
 			stmt = conn.prepareStatement(SQLConstantQuaries.student_selected_course);
 			stmt.setString(1,SMSDaoImpl.userName);
@@ -30,12 +31,11 @@ public class CourseDaoImpl implements CourseDao{
 			while(rs.next()){
 				courseCount++;
 			}
+			if(courseCount==6){
 			stmt = conn.prepareStatement(SQLConstantQuaries.final_registration);
 			 stmt.setString(1,"partial" ); //professor
 			 stmt.setString(2,SMSDaoImpl.userName);
 			 int rows = stmt.executeUpdate();	
-			 	StudentOperation studentOperation=new StudentOperation();
-			 if(courseCount==6){
 				 	logger.info("registration partial done, do payment for complete registration");
 				 	studentOperation.studentJob();
 			 }

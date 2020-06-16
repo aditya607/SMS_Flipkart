@@ -1,6 +1,8 @@
 package com.flipkart.client;
 
 import java.util.Scanner;
+import java.util.Set;
+import java.util.TreeSet;
 
 import org.apache.log4j.Logger;
 
@@ -20,6 +22,9 @@ public class SMSClient {
 		String username=sc.next();
 		logger.info("enter password");
 		String loginPassword=sc.next();
+		Set vals=new TreeSet<String>();
+		vals.add(1);
 		smsOperation.CheckUser(username,loginPassword);
+		
 	}
 }

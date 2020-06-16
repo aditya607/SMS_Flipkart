@@ -11,7 +11,7 @@ import com.flipkart.client.SMSClient;
 import com.flipkart.dao.SMSDaoImpl;
 import com.flipkart.utils.DateTimeUtil;
 
-public class SMSOperation {
+public class SMSOperation implements SMSOperationInterface{
 	private static Logger logger =Logger.getLogger(SMSClient.class);
 	Scanner sc=new Scanner(System.in);
 	SMSDaoImpl smsDaoImpl=new SMSDaoImpl();

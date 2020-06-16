@@ -10,4 +10,5 @@ public interface ProfessorDao {
 	public List<Course> viewSelectedCourse();
 	public List<String> studentByCourse(String course);
 	public void recordAllCourse();
+	public void uploadGrade(String course);
 }

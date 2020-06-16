@@ -81,7 +81,10 @@ public class ProfessorOperation {
 		professorJob();
 	}
 	public void uploadGrade(){
-		
+		logger.info("enter the course whose grade you want to upload");
+		String course=sc.next();
+		professorDaoImpl.uploadGrade(course);
+		professorJob();
 	}
 	public void logout(){
 		logger.info("professor logging out at "+ DateTimeUtil.TimeDateDay());

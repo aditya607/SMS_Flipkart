@@ -2,10 +2,7 @@ package com.flipkart.constant;
 
 public class SQLConstantQuaries {
 	// intially for checking whoever login to system.....................................................
-	public static final String check_Login="select role,password,id from userData where username=?";
-	
-	// professor will select a course he will teach.........................................................
-	//public static final String prof_courseSelection="insert into professor values(?,?,?)";
+	public static final String check_Login="select role,password,id from user where username=?";
 	
 	//before selecting a student will be shown all courses available..........................................
 	public static final String stu_getCourseDetails="select courseId,courseName from catalog";
@@ -15,34 +12,41 @@ public class SQLConstantQuaries {
 	
 	
 	// admin opeartion...................................................................................
-	public static final String user_creation="insert into userdata values(?,?,?,?)";
-	public static final String student_creation="insert into studentData values(?,?,?,?,?,?,?,?)";
-	public static final String professor_creation="insert into professordata values(?,?,?,?,?,?,?)";
-	public static final String user_deletion="delete from userdata where username=?";
-	public static final String student_deletion="delete from studentdata where username=?";
-	public static final String professor_deletion="delete from professordata where username=?";
+	public static final String user_creation="insert into user values(?,?,?,?)";
+	public static final String student_creation="insert into student values(?,?,?,?,?,?,?,?)";
+	public static final String professor_creation="insert into professor values(?,?,?,?,?,?,?)";
+	public static final String user_deletion="delete from user where username=?";
+	public static final String student_deletion="delete from student where username=?";
+	public static final String professor_deletion="delete from professor where username=?";
 	public static final String catalog_creation="insert into coursecatalog values(?,?,?)";
 	public static final String course_adition="insert into course values(?,?,?,?,?)";
 	public static final String catalog_deletion="delete from coursecatalog where courseName=?";
 	public static final String course_deletion="delete from course where courseName=?";
-	public static final String view_student="select * from studentdata";
-	public static final String view_professor="select * from professordata";
+	public static final String view_student="select * from student";
+	public static final String view_professor="select * from professor";
 	public static final String view_course="select * from course";
 	
 	
-	// professor opeartion...................................
+	// professor opeartion...................................register
 	public static final String check_professor="select professor from course where courseName=?";
 	public static final String prof_courseSelection="update course set professor=? where courseName=?";
 	public static final String view_selectedCourse="select * from course where professor=?";
-	public static final String student_in_course="select * from studentcourse where courseName=?";
+	public static final String student_in_course="select * from register where courseName=?";
+	public static final String upload_grade="update register set grade=? where userName=? and courseName=?";
 	
 	//student opeartion
-	public static final String student_selected_course="select * from studentcourse where username=?";
-	public static final String student_add_course="insert into studentcourse values(?,?,?,?,?)";
+	public static final String student_selected_course="select * from register where username=?";
+	public static final String student_add_course="insert into register values(?,?,?,?,?)";
 	public static final String all_courses="select courseName from course";
-	public static final String student_drop_course="delete from studentcourse where userName=? and courseName=?";
+	public static final String student_drop_course="delete from register where userName=? and courseName=?";
 	
 	//courseregister operation...........................................................................................
-	public static final String final_registration="update studentcourse set registration=? where userName=?";
+	public static final String final_registration="update register set registration=? where userName=?";
+	
+	//payment operation..................................................................................................
+	public static final String calculate_scholarship="select * from scholarship where userName=?";
+	public static final String check_credit_card="select * from creditcard where cardNumber=? and expiryDate=? and cvv=?";
+	public static final String check_debit_card="select * from debitcard where cardNumber=? and expiryDate=? and cvv=?";
+	public static final String change_status="update register set registration=? where userName=?";
 	
 }

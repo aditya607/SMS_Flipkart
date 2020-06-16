@@ -16,7 +16,7 @@ import com.flipkart.dao.StudentDaoImpl;
 import com.flipkart.model.Course;
 import com.flipkart.utils.DateTimeUtil;
 
-public class StudentOperation {
+public class StudentOperation implements StudentInterface{
 	private static Logger logger =Logger.getLogger(StudentOperation.class);
 	Scanner sc=new Scanner(System.in);
 	
@@ -57,7 +57,8 @@ public class StudentOperation {
 			}else if(choice==2){
 				viewGrades();
 			}else if(choice==3){
-				
+				PaymentOpeartion paymentOpeartion=new PaymentOpeartion();
+				paymentOpeartion.makePayment();
 			}else if(choice==4){
 				logout();
 			}
@@ -70,6 +71,8 @@ public class StudentOperation {
 			}else if(choice==2){
 				viewGrades();
 			}else if(choice==3){
+				logout();
+			}else if(choice==4){
 				logout();
 			}
 		}
@@ -108,7 +111,7 @@ public class StudentOperation {
 	}
 	
 	public void finalRegistration(){
-		logger.info("you will not be able to add/drop courses");
+		logger.info("once you register , you will not be able to add/drop courses");
 		logger.info("choose");logger.info("1. for do registration");logger.info("2. if you want to add/drop courses");
 		int choice=sc.nextInt();
 		if(choice==2)
