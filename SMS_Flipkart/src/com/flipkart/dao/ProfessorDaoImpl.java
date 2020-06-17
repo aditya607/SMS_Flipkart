@@ -134,7 +134,7 @@ public class ProfessorDaoImpl implements ProfessorDao{
 		List<String> users=new ArrayList<String>();
 		try{
 			if(isCoursepresent(course)==1){
-				stmt = conn.prepareStatement(SQLConstantQuaries.student_in_course);
+				stmt = conn.prepareStatement(SQLConstantQuaries.student_in_course1);
 				stmt.setString(1,course);
 				ResultSet rs = stmt.executeQuery();
 				while(rs.next()){

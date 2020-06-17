@@ -15,7 +15,7 @@ import com.flipkart.model.Student;
 import com.flipkart.model.User;
 import com.flipkart.utils.DateTimeUtil;
 
-public class AdminOperation {
+public class AdminOperation implements AdminInterface{
 	private static Logger logger =Logger.getLogger(SMSClient.class);
 	Scanner sc=new Scanner(System.in);
 	
@@ -179,6 +179,12 @@ public class AdminOperation {
 		List<Student> students=new ArrayList<Student>();
 		students=adminDaoImpl.viewStudents();
 		logger.info("student list");
+		students.stream().forEach(user ->{
+			if(user.getGender().equals("male"))
+				user.setStudentName("MR. "+user.getStudentName());
+			else
+				user.setStudentName("MS. "+user.getStudentName());
+		});
 		for(Student s: students){
 			logger.info("NAME : "+s.getStudentName()+" USERNAME : "+s.getUsername()+" ENROLL NO. : "+s.getStudentEnrollmentNO()+" MOBILE NO. : "+s.getStudentMobileNO()+" EMAIL : "+s.getStudentEmail()+" ADDRESS : "+s.getStudentAddress());
 		}
@@ -188,6 +194,11 @@ public class AdminOperation {
 		List<Professor> professors=new ArrayList<Professor>();
 		professors=adminDaoImpl.viewProfessor();
 		logger.info("professor list");
+		professors.stream().forEach(user ->{if(user.getGender().equals("male"))
+				{user.setProfessorName("MR. "+user.getProfessorName());}
+			else
+				user.setProfessorName("MS. "+user.getProfessorName());
+		});
 		for(Professor s: professors){
 			logger.info("NAME : "+s.getProfessorName()+" USERNAME : "+s.getProfessorusername()+" MOBILE NO. : "+s.getProfessortMobileNO()+" EMAIL : "+s.getProfessorEmail()+" ROOM NO. : "+s.getProfessorRoomNo());
 		}

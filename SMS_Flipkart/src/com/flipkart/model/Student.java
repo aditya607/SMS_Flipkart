@@ -9,8 +9,15 @@ public class Student {
 	private int studentEnrollmentNO;
 	private String StudentGender;
 	private String username;
+	private String gender;
 	
 	
+	public String getGender() {
+		return gender;
+	}
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
 	public String getUsername() {
 		return username;
 	}

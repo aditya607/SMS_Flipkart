@@ -4556,3 +4556,207 @@
 09:01:56,745  INFO StudentOperation,main:90 - professor logging out at 08:57:49.740  16 JUNE 2020 on TUESDAY
 09:01:56,745  INFO StudentOperation,main:91 - WELCOME
 09:01:56,745  INFO StudentOperation,main:93 - enter username
+07:23:55,819  INFO SMSClient,main:19 - WELCOME
+07:23:55,839  INFO SMSClient,main:21 - enter username
+07:24:05,249  INFO SMSClient,main:23 - enter password
+07:24:10,309  INFO SMSClient,main:30 - professor with username ajay logged in at 07:24:10.294  17 JUNE 2020 on WEDNESDAY
+07:24:10,309  INFO SMSClient,main:31 - going to Professor page 
+07:24:10,415  INFO StudentOperation,main:29 - select choices
+07:24:10,416  INFO StudentOperation,main:29 - 1.view all courses
+07:24:10,416  INFO StudentOperation,main:29 - 2.select courses
+07:24:10,416  INFO StudentOperation,main:29 - 3.view selected courses
+07:24:10,416  INFO StudentOperation,main:30 - 4.view student in course
+07:24:10,417  INFO StudentOperation,main:30 - 5.upload grades
+07:24:10,417  INFO StudentOperation,main:30 - 6.logout
+07:24:23,962  INFO StudentOperation,main:73 - enter the course whose detail you want
+07:24:26,707  INFO StudentOperation,main:77 - all student in course maths
+07:24:26,708  INFO StudentOperation,main:79 - USERNAME : raja
+07:24:26,708  INFO StudentOperation,main:79 - USERNAME : raj
+07:24:26,708  INFO StudentOperation,main:79 - USERNAME : suraj
+07:24:26,708  INFO StudentOperation,main:79 - USERNAME : shubham
+07:24:26,709  INFO StudentOperation,main:79 - USERNAME : vivek
+07:24:26,723  INFO StudentOperation,main:29 - select choices
+07:24:26,723  INFO StudentOperation,main:29 - 1.view all courses
+07:24:26,723  INFO StudentOperation,main:29 - 2.select courses
+07:24:26,724  INFO StudentOperation,main:29 - 3.view selected courses
+07:24:26,724  INFO StudentOperation,main:30 - 4.view student in course
+07:24:26,724  INFO StudentOperation,main:30 - 5.upload grades
+07:24:26,724  INFO StudentOperation,main:30 - 6.logout
+07:25:28,936  INFO StudentOperation,main:73 - enter the course whose detail you want
+07:25:33,072  INFO StudentOperation,main:77 - all student in course maths
+07:25:33,072  INFO StudentOperation,main:79 - USERNAME : raja
+07:25:33,072  INFO StudentOperation,main:79 - USERNAME : raj
+07:25:33,073  INFO StudentOperation,main:79 - USERNAME : suraj
+07:25:33,073  INFO StudentOperation,main:79 - USERNAME : shubham
+07:25:33,073  INFO StudentOperation,main:79 - USERNAME : vivek
+07:25:33,076  INFO StudentOperation,main:29 - select choices
+07:25:33,076  INFO StudentOperation,main:29 - 1.view all courses
+07:25:33,076  INFO StudentOperation,main:29 - 2.select courses
+07:25:33,077  INFO StudentOperation,main:29 - 3.view selected courses
+07:25:33,077  INFO StudentOperation,main:30 - 4.view student in course
+07:25:33,077  INFO StudentOperation,main:30 - 5.upload grades
+07:25:33,077  INFO StudentOperation,main:30 - 6.logout
+07:25:39,032  INFO SMSClient,main:19 - WELCOME
+07:25:39,035  INFO SMSClient,main:21 - enter username
+07:25:42,600  INFO SMSClient,main:23 - enter password
+07:25:46,915  INFO SMSClient,main:30 - professor with username ajay logged in at 07:25:46.915  17 JUNE 2020 on WEDNESDAY
+07:25:46,916  INFO SMSClient,main:31 - going to Professor page 
+07:25:46,925  INFO StudentOperation,main:29 - select choices
+07:25:46,926  INFO StudentOperation,main:29 - 1.view all courses
+07:25:46,926  INFO StudentOperation,main:29 - 2.select courses
+07:25:46,926  INFO StudentOperation,main:29 - 3.view selected courses
+07:25:46,926  INFO StudentOperation,main:30 - 4.view student in course
+07:25:46,927  INFO StudentOperation,main:30 - 5.upload grades
+07:25:46,927  INFO StudentOperation,main:30 - 6.logout
+07:25:49,108  INFO StudentOperation,main:73 - enter the course whose detail you want
+07:25:53,444  INFO StudentOperation,main:77 - all student in course maths
+07:25:53,444  INFO StudentOperation,main:79 - USERNAME : raja
+07:25:53,444  INFO StudentOperation,main:79 - USERNAME : raj
+07:25:53,445  INFO StudentOperation,main:79 - USERNAME : suraj
+07:25:53,445  INFO StudentOperation,main:79 - USERNAME : shubham
+07:25:53,445  INFO StudentOperation,main:79 - USERNAME : vivek
+07:25:53,447  INFO StudentOperation,main:29 - select choices
+07:25:53,447  INFO StudentOperation,main:29 - 1.view all courses
+07:25:53,447  INFO StudentOperation,main:29 - 2.select courses
+07:25:53,448  INFO StudentOperation,main:29 - 3.view selected courses
+07:25:53,448  INFO StudentOperation,main:30 - 4.view student in course
+07:25:53,448  INFO StudentOperation,main:30 - 5.upload grades
+07:25:53,448  INFO StudentOperation,main:30 - 6.logout
+07:25:56,965  INFO StudentOperation,main:84 - enter the course whose grade you want to upload
+07:25:59,813  INFO SMSClient,main:156 - sql exceptioColumn 'userName' in field list is ambiguous
+07:25:59,815  INFO StudentOperation,main:29 - select choices
+07:25:59,815  INFO StudentOperation,main:29 - 1.view all courses
+07:25:59,816  INFO StudentOperation,main:29 - 2.select courses
+07:25:59,816  INFO StudentOperation,main:29 - 3.view selected courses
+07:25:59,816  INFO StudentOperation,main:30 - 4.view student in course
+07:25:59,817  INFO StudentOperation,main:30 - 5.upload grades
+07:25:59,817  INFO StudentOperation,main:30 - 6.logout
+07:26:58,047  INFO SMSClient,main:19 - WELCOME
+07:26:58,049  INFO SMSClient,main:21 - enter username
+07:27:02,310  INFO SMSClient,main:23 - enter password
+07:27:06,133  INFO SMSClient,main:30 - professor with username ajay logged in at 07:27:06.132  17 JUNE 2020 on WEDNESDAY
+07:27:06,133  INFO SMSClient,main:31 - going to Professor page 
+07:27:06,143  INFO StudentOperation,main:29 - select choices
+07:27:06,143  INFO StudentOperation,main:29 - 1.view all courses
+07:27:06,143  INFO StudentOperation,main:29 - 2.select courses
+07:27:06,144  INFO StudentOperation,main:29 - 3.view selected courses
+07:27:06,144  INFO StudentOperation,main:30 - 4.view student in course
+07:27:06,144  INFO StudentOperation,main:30 - 5.upload grades
+07:27:06,144  INFO StudentOperation,main:30 - 6.logout
+07:27:11,035  INFO StudentOperation,main:67 - COURSE CODE : as-110 COURSE NAME : maths CREDIT : 4 PROFESSOR : ajay
+07:27:11,035  INFO StudentOperation,main:67 - COURSE CODE : as-113 COURSE NAME : physics CREDIT : 3 PROFESSOR : ajay
+07:27:11,037  INFO StudentOperation,main:29 - select choices
+07:27:11,037  INFO StudentOperation,main:29 - 1.view all courses
+07:27:11,037  INFO StudentOperation,main:29 - 2.select courses
+07:27:11,037  INFO StudentOperation,main:29 - 3.view selected courses
+07:27:11,038  INFO StudentOperation,main:30 - 4.view student in course
+07:27:11,038  INFO StudentOperation,main:30 - 5.upload grades
+07:27:11,038  INFO StudentOperation,main:30 - 6.logout
+07:27:15,153  INFO StudentOperation,main:73 - enter the course whose detail you want
+07:27:16,799  INFO StudentOperation,main:77 - all student in course maths
+07:27:16,800  INFO StudentOperation,main:79 - USERNAME : raja
+07:27:16,800  INFO StudentOperation,main:79 - USERNAME : raj
+07:27:16,800  INFO StudentOperation,main:79 - USERNAME : suraj
+07:27:16,800  INFO StudentOperation,main:79 - USERNAME : shubham
+07:27:16,800  INFO StudentOperation,main:79 - USERNAME : vivek
+07:27:16,803  INFO StudentOperation,main:29 - select choices
+07:27:16,804  INFO StudentOperation,main:29 - 1.view all courses
+07:27:16,804  INFO StudentOperation,main:29 - 2.select courses
+07:27:16,804  INFO StudentOperation,main:29 - 3.view selected courses
+07:27:16,804  INFO StudentOperation,main:30 - 4.view student in course
+07:27:16,804  INFO StudentOperation,main:30 - 5.upload grades
+07:27:16,805  INFO StudentOperation,main:30 - 6.logout
+07:27:20,129  INFO StudentOperation,main:84 - enter the course whose grade you want to upload
+07:27:25,474  INFO SMSClient,main:144 - Grade of raj :: 
+07:27:33,284  INFO SMSClient,main:144 - Grade of raja :: 
+07:27:35,167  INFO SMSClient,main:144 - Grade of suraj :: 
+07:27:36,385  INFO SMSClient,main:144 - Grade of vivek :: 
+07:27:37,771  INFO StudentOperation,main:29 - select choices
+07:27:37,772  INFO StudentOperation,main:29 - 1.view all courses
+07:27:37,773  INFO StudentOperation,main:29 - 2.select courses
+07:27:37,773  INFO StudentOperation,main:29 - 3.view selected courses
+07:27:37,774  INFO StudentOperation,main:30 - 4.view student in course
+07:27:37,774  INFO StudentOperation,main:30 - 5.upload grades
+07:27:37,774  INFO StudentOperation,main:30 - 6.logout
+07:50:02,813  INFO SMSClient,main:19 - WELCOME
+07:50:02,817  INFO SMSClient,main:21 - enter username
+07:50:07,164  INFO SMSClient,main:23 - enter password
+07:50:12,561  INFO SMSClient,main:36 - admin logged at 07:50:12.560  17 JUNE 2020 on WEDNESDAY
+07:50:12,561  INFO SMSClient,main:37 - going to admin page
+07:50:12,564  INFO SMSClient,main:25 - select choice
+07:50:12,564  INFO SMSClient,main:25 - 1.student opearation
+07:50:12,564  INFO SMSClient,main:25 - 2.professor operation
+07:50:12,565  INFO SMSClient,main:26 - 3.addNewcourse
+07:50:12,565  INFO SMSClient,main:26 - 4.dropOldcourse
+07:50:12,565  INFO SMSClient,main:26 - 5.report card generation
+07:50:12,565  INFO SMSClient,main:27 - 6.view all student
+07:50:12,565  INFO SMSClient,main:27 - 7.view all professor
+07:50:12,566  INFO SMSClient,main:27 - 8.view all course
+07:50:12,566  INFO SMSClient,main:27 - 9.logout
+07:50:16,711  INFO SMSClient,main:181 - student list
+07:50:16,713  INFO SMSClient,main:189 - NAME : MR. raja kumar USERNAME : raj ENROLL NO. : 123 MOBILE NO. : 12345677899 EMAIL : 123 ADDRESS : patna
+07:50:16,713  INFO SMSClient,main:189 - NAME : MR. raja babu USERNAME : raja ENROLL NO. : 3456 MOBILE NO. : 1234567890 EMAIL : raja@gmail.com ADDRESS : patna bihar
+07:50:16,713  INFO SMSClient,main:189 - NAME : MR. suraj kumar USERNAME : suraj ENROLL NO. : 1245 MOBILE NO. : 1234567677 EMAIL : suraj@gmail.com ADDRESS : up
+07:50:16,713  INFO SMSClient,main:189 - NAME : MR. vivek kumar USERNAME : vivek ENROLL NO. : 123456 MOBILE NO. : 123456789765 EMAIL : vivek@gmail.com ADDRESS : pune
+07:50:16,713  INFO SMSClient,main:25 - select choice
+07:50:16,714  INFO SMSClient,main:25 - 1.student opearation
+07:50:16,714  INFO SMSClient,main:25 - 2.professor operation
+07:50:16,714  INFO SMSClient,main:26 - 3.addNewcourse
+07:50:16,714  INFO SMSClient,main:26 - 4.dropOldcourse
+07:50:16,715  INFO SMSClient,main:26 - 5.report card generation
+07:50:16,715  INFO SMSClient,main:27 - 6.view all student
+07:50:16,715  INFO SMSClient,main:27 - 7.view all professor
+07:50:16,715  INFO SMSClient,main:27 - 8.view all course
+07:50:16,716  INFO SMSClient,main:27 - 9.logout
+07:54:31,080  INFO SMSClient,main:19 - WELCOME
+07:54:31,083  INFO SMSClient,main:21 - enter username
+07:54:35,261  INFO SMSClient,main:23 - enter password
+07:54:39,762  INFO SMSClient,main:30 - professor with username ajay logged in at 07:54:39.762  17 JUNE 2020 on WEDNESDAY
+07:54:39,762  INFO SMSClient,main:31 - going to Professor page 
+07:54:39,825  INFO StudentOperation,main:29 - select choices
+07:54:39,825  INFO StudentOperation,main:29 - 1.view all courses
+07:54:39,825  INFO StudentOperation,main:29 - 2.select courses
+07:54:39,826  INFO StudentOperation,main:29 - 3.view selected courses
+07:54:39,826  INFO StudentOperation,main:30 - 4.view student in course
+07:54:39,826  INFO StudentOperation,main:30 - 5.upload grades
+07:54:39,827  INFO StudentOperation,main:30 - 6.logout
+07:54:43,654  INFO StudentOperation,main:73 - enter the course whose detail you want
+07:54:45,775  INFO StudentOperation,main:77 - all student in course maths
+07:54:45,776  INFO StudentOperation,main:85 - USERNAME : raja
+07:54:45,777  INFO StudentOperation,main:85 - USERNAME : raj
+07:54:45,777  INFO StudentOperation,main:85 - USERNAME : suraj
+07:54:45,777  INFO StudentOperation,main:85 - USERNAME : shubham
+07:54:45,777  INFO StudentOperation,main:85 - USERNAME : vivek
+07:54:45,779  INFO StudentOperation,main:29 - select choices
+07:54:45,780  INFO StudentOperation,main:29 - 1.view all courses
+07:54:45,780  INFO StudentOperation,main:29 - 2.select courses
+07:54:45,780  INFO StudentOperation,main:29 - 3.view selected courses
+07:54:45,781  INFO StudentOperation,main:30 - 4.view student in course
+07:54:45,781  INFO StudentOperation,main:30 - 5.upload grades
+07:54:45,781  INFO StudentOperation,main:30 - 6.logout
+07:56:09,154  INFO SMSClient,main:19 - WELCOME
+07:56:09,158  INFO SMSClient,main:21 - enter username
+07:56:13,172  INFO SMSClient,main:23 - enter password
+07:56:16,871  INFO SMSClient,main:30 - professor with username ajay logged in at 07:56:16.870  17 JUNE 2020 on WEDNESDAY
+07:56:16,871  INFO SMSClient,main:31 - going to Professor page 
+07:56:16,879  INFO StudentOperation,main:29 - select choices
+07:56:16,879  INFO StudentOperation,main:29 - 1.view all courses
+07:56:16,879  INFO StudentOperation,main:29 - 2.select courses
+07:56:16,880  INFO StudentOperation,main:29 - 3.view selected courses
+07:56:16,880  INFO StudentOperation,main:30 - 4.view student in course
+07:56:16,880  INFO StudentOperation,main:30 - 5.upload grades
+07:56:16,881  INFO StudentOperation,main:30 - 6.logout
+07:56:19,245  INFO StudentOperation,main:73 - enter the course whose detail you want
+07:56:22,098  INFO StudentOperation,main:77 - all student in course maths
+07:56:22,098  INFO StudentOperation,main:79 - USERNAME : raja
+07:56:22,099  INFO StudentOperation,main:79 - USERNAME : raj
+07:56:22,099  INFO StudentOperation,main:79 - USERNAME : suraj
+07:56:22,099  INFO StudentOperation,main:79 - USERNAME : shubham
+07:56:22,099  INFO StudentOperation,main:79 - USERNAME : vivek
+07:56:22,101  INFO StudentOperation,main:29 - select choices
+07:56:22,102  INFO StudentOperation,main:29 - 1.view all courses
+07:56:22,102  INFO StudentOperation,main:29 - 2.select courses
+07:56:22,102  INFO StudentOperation,main:29 - 3.view selected courses
+07:56:22,102  INFO StudentOperation,main:30 - 4.view student in course
+07:56:22,103  INFO StudentOperation,main:30 - 5.upload grades
+07:56:22,103  INFO StudentOperation,main:30 - 6.logout

@@ -8,8 +8,15 @@ public class Professor {
 	private String professorEmail;
 	private String professorRoomNo;
 	private String professorGender;
+	private String gender;
 	
 
+	public String getGender() {
+		return gender;
+	}
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
 	public String getProfessorusername() {
 		return Professorusername;
 	}

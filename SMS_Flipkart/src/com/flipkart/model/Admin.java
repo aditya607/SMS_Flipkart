@@ -1,7 +1,6 @@
 package com.flipkart.model;
 
 public class Admin {
-	private int AdminId;
 	private String AdminName;
 	private String AdminAddress;
 	private String AdminMobileNO;
@@ -13,12 +12,6 @@ public class Admin {
 	
 	
 	
-	public int getAdminId() {
-		return AdminId;
-	}
-	public void setAdminId(int adminId) {
-		AdminId = adminId;
-	}
 	public String getAdminName() {
 		return AdminName;
 	}

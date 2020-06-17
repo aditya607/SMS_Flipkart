@@ -14,7 +14,7 @@ import com.flipkart.dao.StudentDaoImpl;
 import com.flipkart.model.Course;
 import com.flipkart.utils.DateTimeUtil;
 
-public class ProfessorOperation {
+public class ProfessorOperation implements ProfessorInterface{
 	private static Logger logger =Logger.getLogger(StudentOperation.class);
 	Scanner sc=new Scanner(System.in);
 	

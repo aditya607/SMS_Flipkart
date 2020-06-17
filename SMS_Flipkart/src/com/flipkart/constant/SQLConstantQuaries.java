@@ -33,6 +33,7 @@ public class SQLConstantQuaries {
 	public static final String view_selectedCourse="select * from course where professor=?";
 	public static final String student_in_course="select * from register where courseName=?";
 	public static final String upload_grade="update register set grade=? where userName=? and courseName=?";
+	public static final String student_in_course1="select register.userName from register inner join student on register.userName=student.username where register.courseName=?";
 	
 	//student opeartion
 	public static final String student_selected_course="select * from register where username=?";

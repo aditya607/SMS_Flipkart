@@ -199,6 +199,7 @@ public class AdminDaoImpl implements AdminDao{
 			student.setStudentMobileNO(rs.getString("mobile number"));
 			student.setStudentEmail(rs.getString("email"));
 			student.setStudentAddress(rs.getString("address"));
+			student.setGender(rs.getString("gender"));
 			students.add(student);
 			
 		}
