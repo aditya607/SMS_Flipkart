@@ -28,4 +28,6 @@ public interface AdminDao {
 	public List<Student> viewStudents();
 	public List<Professor> viewProfessor();
 	public List<Course> viewCourse();
+	public void updateStudent(Student student,String username);
+	public void updateProfessor(Professor professor, String username);
 }

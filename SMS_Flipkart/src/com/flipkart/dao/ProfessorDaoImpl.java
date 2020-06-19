@@ -17,12 +17,13 @@ import com.flipkart.utils.DBUtil;
 import com.flipkart.utils.DateTimeUtil;
 
 public class ProfessorDaoImpl implements ProfessorDao{
+// creating statement variable ,logger and scanner object......................
 	PreparedStatement stmt = null;
 	private static Logger logger =Logger.getLogger(SMSClient.class);
 	Scanner sc=new Scanner(System.in);
-
 	
-	List<String> allCourses=new ArrayList<String>();
+	List<String> allCourses=new ArrayList<String>(); // for storing all courses.........
+// recording all the courses in list all courses.......................................................
 	@Override
 	public void recordAllCourse() {
 		Connection conn=DBUtil.getConnection();
@@ -38,6 +39,7 @@ public class ProfessorDaoImpl implements ProfessorDao{
 			   logger.error("exception"+e.getMessage());
 		}
 	}
+// cheking if course is present in student list of course..............................................
 	public int isCoursepresent(String course){
 		int a=0;
 		for(String s:allCourses){
@@ -47,7 +49,7 @@ public class ProfessorDaoImpl implements ProfessorDao{
 		return a;
 	}
 	
-	
+// method for professor, for selecting the course ......................................................	
 	@Override
 	public void selectProfCourse(String course) {
 		
@@ -57,18 +59,17 @@ public class ProfessorDaoImpl implements ProfessorDao{
 			stmt.setString(1,course);
 			ResultSet rs = stmt.executeQuery();
 			String check="error";
-			while(rs.next()){
+			while(rs.next()){		// for checking if another professor already teach the course
 				 check=rs.getString("professor");
 			}
-			if(check.equals("error")){
+			if(check.equals("error")){   // checking if course exist
 				 logger.info("no course by that name, please select properly");
 			}else if(check.equals("null")){
 				 stmt = conn.prepareStatement(SQLConstantQuaries.prof_courseSelection);
 				 stmt.setString(1,SMSDaoImpl.userName ); //professor
 				 stmt.setString(2,course);
 				 int rows = stmt.executeUpdate();					// executing the sql update query
-			     logger.info("in "+ course+"professor is added at "+DateTimeUtil.TimeDateDay());
-				 logger.info("in nULL");
+			     logger.info("in "+ course+" professor is added at "+DateTimeUtil.TimeDateDay());
 			}else{
 				 logger.info("another professor has already been select ");
 			}
@@ -79,7 +80,7 @@ public class ProfessorDaoImpl implements ProfessorDao{
 		 }
 	}
 
-	
+// viewing the courses seected by the professor........................................................	
 	@Override
 	public List<Course> viewSelectedCourse() {
 		Connection conn=DBUtil.getConnection();
@@ -105,7 +106,7 @@ public class ProfessorDaoImpl implements ProfessorDao{
 		return courses;
 	}
 
-
+// viewing all the student present in the course.....................................................
 	@Override
 	public List<String> studentByCourse(String course) {
 		Connection conn=DBUtil.getConnection();
@@ -128,19 +129,21 @@ public class ProfessorDaoImpl implements ProfessorDao{
 		 }
 		return users;
 	}
+	
+// uploading the grade of student in a course.........................................................
 	@Override
 	public void uploadGrade(String course) {
 		Connection conn=DBUtil.getConnection();
 		List<String> users=new ArrayList<String>();
 		try{
-			if(isCoursepresent(course)==1){
+			if(isCoursepresent(course)==1){   // getting all the student in the course.............
 				stmt = conn.prepareStatement(SQLConstantQuaries.student_in_course1);
 				stmt.setString(1,course);
 				ResultSet rs = stmt.executeQuery();
 				while(rs.next()){
 					users.add(rs.getString("userName"));
 				}
-				for(String s:users){
+				for(String s:users){   // assigning grades to each users
 					logger.info("Grade of "+s +" :: " ); 
 					String grade=sc.next();
 					stmt = conn.prepareStatement(SQLConstantQuaries.upload_grade);

@@ -121,7 +121,7 @@ public class AdminDaoImpl implements AdminDao{
 		}
 	}
 	
-
+// adding a new course which is going to taught in institute..........................................
 	@Override
 	public int addNewCourse(CourseCatalog course) {
 		int duplicateCourse=0;
@@ -143,6 +143,7 @@ public class AdminDaoImpl implements AdminDao{
 		
 	}
 
+// after adding a course ,giving the course details...............................................
 	@Override
 	public void addCourseDetail(Course course) {
 		Connection conn=DBUtil.getConnection();             //getting connection
@@ -163,6 +164,7 @@ public class AdminDaoImpl implements AdminDao{
 		
 	}
 
+// dropping any course which has become irrevalent(because of any reason).................................
 	@Override
 	public void dropOldCourse(String course) {
 		Connection conn=DBUtil.getConnection();             //getting connection
@@ -184,6 +186,7 @@ public class AdminDaoImpl implements AdminDao{
 		   }
 	}
 
+// listing all the students............................................................................
 	@Override
 	public List<Student> viewStudents() {
 		Connection conn=DBUtil.getConnection();
@@ -196,7 +199,7 @@ public class AdminDaoImpl implements AdminDao{
 			student.setStudentName(rs.getString("name"));
 			student.setUsername(rs.getString("username"));
 			student.setStudentEnrollmentNO(rs.getInt("enrollment no"));
-			student.setStudentMobileNO(rs.getString("mobile number"));
+			student.setStudentMobileNO(rs.getString("mobileNumber"));
 			student.setStudentEmail(rs.getString("email"));
 			student.setStudentAddress(rs.getString("address"));
 			student.setGender(rs.getString("gender"));
@@ -211,6 +214,7 @@ public class AdminDaoImpl implements AdminDao{
 		return students;
 	}
 
+// listing all the professor.........................................................................
 	@Override
 	public List<Professor> viewProfessor() {
 		Connection conn=DBUtil.getConnection();
@@ -225,6 +229,7 @@ public class AdminDaoImpl implements AdminDao{
 			professor.setProfessortMobileNO(rs.getString("mobile_number"));
 			professor.setProfessorEmail(rs.getString("email"));
 			professor.setProfessorRoomNo(rs.getString("room_number"));
+			professor.setGender("gender");
 			professors.add(professor);
 			
 		}
@@ -236,6 +241,7 @@ public class AdminDaoImpl implements AdminDao{
 		return professors;
 	}
 
+// listong all the courses......................................................................
 	@Override
 	public List<Course> viewCourse() {
 		Connection conn=DBUtil.getConnection();
@@ -258,5 +264,47 @@ public class AdminDaoImpl implements AdminDao{
 			   logger.error("exception"+e.getMessage());
 		   }
 		return courses;
+	}
+
+// updating student details...........................................................................
+	@Override
+	public void updateStudent(Student student, String username) {
+		Connection conn=DBUtil.getConnection();
+		try{
+			stmt = conn.prepareStatement(SQLConstantQuaries.update_student);
+			 stmt.setString(1,student.getStudentEmail() ); //professor
+			 stmt.setString(2,student.getStudentAddress());
+			 stmt.setString(3,student.getStudentMobileNO());
+			 stmt.setString(4,username);
+			 int rows = stmt.executeUpdate();
+			 if(rows==1)
+				 	logger.info(username+ " is updated");
+		}catch(SQLException se){
+		       logger.info("sql exceptio"+se.getMessage());
+		 }catch(Exception e){
+		       logger.info("Exception "+e.getMessage());
+		 }
+	}
+
+// updating professor details......................................................................
+	@Override
+	public void updateProfessor(Professor professor, String username) {
+		Connection conn=DBUtil.getConnection();
+		try{
+			stmt = conn.prepareStatement(SQLConstantQuaries.update_professor);
+			 stmt.setString(1,professor.getProfessorEmail() ); //professor
+			 stmt.setString(2,professor.getProfessortAddress());
+			 stmt.setString(3,professor.getProfessortMobileNO());
+			 stmt.setString(4,professor.getProfessorRoomNo());
+			 stmt.setString(5,username);
+			 int rows = stmt.executeUpdate();
+			 if(rows==1)
+				 	logger.info(username+ " is updated");
+		}catch(SQLException se){
+		       logger.info("sql exceptio"+se.getMessage());
+		 }catch(Exception e){
+		       logger.info("Exception "+e.getMessage());
+		 }
+		
 	}
 }

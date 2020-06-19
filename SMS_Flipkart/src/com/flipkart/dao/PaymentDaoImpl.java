@@ -20,6 +20,7 @@ public class PaymentDaoImpl implements PaymentDao{
 	private static Logger logger =Logger.getLogger(PaymentDaoImpl.class);
 	Scanner sc=new Scanner(System.in);
 
+// if student have scholarshp, the calculating amount after scholarship................................
 	@Override
 	public int calculateScholarship() {
 		Connection conn=DBUtil.getConnection();
@@ -44,9 +45,10 @@ public class PaymentDaoImpl implements PaymentDao{
 		return percent;
 	}
 
+// credit card payment verification.......................................................
 	@Override
 	public int payByCreditCard(int totalAmount) {
-		int status=0;
+		int status=0;          // getting all the details
 		System.out.println("enter credit card number ");
 		String cardNumber=sc.next();
 		System.out.println("enter expiry date");
@@ -54,7 +56,7 @@ public class PaymentDaoImpl implements PaymentDao{
 		System.out.println("enter cvv");
 		int cvv=sc.nextInt();
 		Connection conn=DBUtil.getConnection();
-		try{
+		try{       // verifying the details
 			stmt = conn.prepareStatement(SQLConstantQuaries.check_credit_card);
 			stmt.setString(1,cardNumber);
 			stmt.setString(2,expiryDate);
@@ -74,6 +76,7 @@ public class PaymentDaoImpl implements PaymentDao{
 		return status;
 	}
 
+// debit card payment verification....................................................
 	@Override
 	public int payByDebitCard(int totalAmount) {
 		int status=0;
@@ -84,7 +87,7 @@ public class PaymentDaoImpl implements PaymentDao{
 		System.out.println("enter cvv");
 		int cvv=sc.nextInt();
 		Connection conn=DBUtil.getConnection();
-		try{
+		try{			// verifying debit card details.....................................
 			stmt = conn.prepareStatement(SQLConstantQuaries.check_debit_card);
 			stmt.setString(1,cardNumber);
 			stmt.setString(2,expiryDate);
@@ -104,6 +107,7 @@ public class PaymentDaoImpl implements PaymentDao{
 		return status;
 	}
 
+// changing status from partial to complete  after payment successful...................................
 	@Override
 	public void changeStatus() {
 		Connection conn=DBUtil.getConnection();

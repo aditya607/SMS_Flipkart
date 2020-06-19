@@ -10,9 +10,9 @@ import java.util.Properties;
 
 public class DBUtil {
 	
-	private static Connection connection = null;
+	private static Connection connection = null; // creating a connection object
 	
-	public static Connection getConnection() {
+	public static Connection getConnection() {  // will return a connection whenever this method is called......
 		
         if (connection != null)
             return connection;
@@ -25,8 +25,8 @@ public class DBUtil {
                 String url = prop.getProperty("url");
                 String user = prop.getProperty("user");
                 String password = prop.getProperty("password");
-                Class.forName(driver);
-                connection = DriverManager.getConnection(url, user, password);
+                Class.forName(driver);   // registering with the driver
+                connection = DriverManager.getConnection(url, user, password); // creating the connection
             } catch (ClassNotFoundException e) {
                 e.printStackTrace();
             } catch (SQLException e) {

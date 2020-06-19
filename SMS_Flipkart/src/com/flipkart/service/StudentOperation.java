@@ -13,22 +13,24 @@ import com.flipkart.client.SMSClient;
 import com.flipkart.dao.AdminDaoImpl;
 import com.flipkart.dao.SMSDaoImpl;
 import com.flipkart.dao.StudentDaoImpl;
+import com.flipkart.exception.InvalidCredential;
 import com.flipkart.model.Course;
 import com.flipkart.utils.DateTimeUtil;
 
-public class StudentOperation implements StudentInterface{
+public class StudentOperation implements StudentInterface,defaultInterface{
+//creating all the objects of dao classes,scanner and logger.......................................
 	private static Logger logger =Logger.getLogger(StudentOperation.class);
 	Scanner sc=new Scanner(System.in);
-	
 	AdminDaoImpl adminDaoImpl=new AdminDaoImpl();
 	StudentDaoImpl studentDaoImpl=new StudentDaoImpl();
-	HashMap<Integer,String> allCourses=new HashMap<Integer,String>();
+	static String role1="Student";
+	HashMap<Integer,String> allCourses=new HashMap<Integer,String>(); // for recording all the courses
 	
-	
+// method provide student with all the operation he can do	
 	public void studentJob(){
 		studentDaoImpl.recordAllCourse();
 		String registrationStatus=studentDaoImpl.checkRegistration();
-		if(registrationStatus.equals("pending")){
+		if(registrationStatus.equals("pending")){ // means user have not done either registration or payment...
 			logger.info("select choices");logger.info("1.view all courses");logger.info("2.add courses");logger.info("3.drop courses");
 			logger.info("4.view selected course");logger.info("5.submit final registration");logger.info("6.view grades");logger.info("7.logout");
 			int choice=sc.nextInt();
@@ -48,7 +50,7 @@ public class StudentOperation implements StudentInterface{
 				logout();
 			}
 		}
-		if(registrationStatus.equals("partial")){
+		if(registrationStatus.equals("partial")){ // registration done but payment not done......
 			logger.info("select choices");logger.info("1.view selected course");logger.info("2. view grades");logger.info("3.make payment");
 			logger.info("4.logout");
 			int choice=sc.nextInt();
@@ -63,7 +65,7 @@ public class StudentOperation implements StudentInterface{
 				logout();
 			}
 		}
-		if(registrationStatus.equals("complete")){
+		if(registrationStatus.equals("complete")){  // payment and registration both done....
 			logger.info("select choices");logger.info("1.view selected course");logger.info("2. view grades");logger.info("4.logout");
 			int choice=sc.nextInt();
 			if(choice==1){
@@ -77,7 +79,7 @@ public class StudentOperation implements StudentInterface{
 			}
 		}
 	}
-	
+// student can see all the courses in the institute ...................................................	
 	public void viewCourse(){
 		List<Course> courses=new ArrayList<Course>();
 		courses=adminDaoImpl.viewCourse();
@@ -86,20 +88,21 @@ public class StudentOperation implements StudentInterface{
 		}
 		studentJob();
 	}
-	
+// student can add the courses he want to study for furthur registration.....................................	
 	public void studentAddCourse(){
 		logger.info("enter the course name");
 		String course=sc.next();
 		studentDaoImpl.studentAddCourse(course);
 		studentJob();
 	}
-
+// student can drop the course in case he wish to add another course instead of selected course...................
 	public void studentDropCourse(){
 		logger.info("enter the course you want to drop");
 		String course=sc.next();
 		studentDaoImpl.studentDropCourse(course);
 		studentJob();
 	}
+// student can view which are the courses which he has selected ........................................
 	public void studentCourse(){
 		HashMap<String,String> courses=new HashMap<String,String>();
 		logger.info("student selected courses");
@@ -109,7 +112,7 @@ public class StudentOperation implements StudentInterface{
 		}
 		studentJob();
 	}
-	
+// after seecting all 6 courses he can do the final registration.......................................	
 	public void finalRegistration(){
 		logger.info("once you register , you will not be able to add/drop courses");
 		logger.info("choose");logger.info("1. for do registration");logger.info("2. if you want to add/drop courses");
@@ -121,16 +124,12 @@ public class StudentOperation implements StudentInterface{
 			courseRegister.finalRegistration();
 		}
 	}
+	
+// if student wid=sh ti logout from the site.......................................................
 	public void logout(){
-		logger.info("student logging out at "+ DateTimeUtil.TimeDateDay());
-		logger.info("WELCOME");
-		SMSOperation smsopeartion=new SMSOperation();
-		logger.info("enter username");
-		String username1=sc.next();
-		logger.info("enter password");
-		String loginPassword1=sc.next();
-		smsopeartion.CheckUser(username1,loginPassword1);
+		logout1(role1);
 	}
+// will show the grade to student of his courses........................................................
 	public void viewGrades(){
 		HashMap<String,String> grades=new HashMap<String,String>();
 		grades=studentDaoImpl.viewGrades();

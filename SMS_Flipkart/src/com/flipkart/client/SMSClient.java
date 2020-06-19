@@ -6,10 +6,11 @@ import java.util.TreeSet;
 
 import org.apache.log4j.Logger;
 
+import com.flipkart.exception.InvalidCredential;
 import com.flipkart.service.SMSOperation;
 
 public class SMSClient {
-	private static Logger logger =Logger.getLogger(SMSClient.class);
+	private static Logger logger =Logger.getLogger(SMSClient.class);// creting logger objects
 	public static void main(String[] args){
 		SMSOperation smsOperation=new SMSOperation();
 		System.out.println("welcome to :: STUDENT MANAGEMENT SYSTEM");
@@ -22,9 +23,11 @@ public class SMSClient {
 		String username=sc.next();
 		logger.info("enter password");
 		String loginPassword=sc.next();
-		Set vals=new TreeSet<String>();
-		vals.add(1);
-		smsOperation.CheckUser(username,loginPassword);
+		try{
+		smsOperation.CheckUser(username,loginPassword); //sending userid and password for checking
+		}catch (InvalidCredential e){
+			logger.error(e.getError());
+		}
 		
 	}
 }

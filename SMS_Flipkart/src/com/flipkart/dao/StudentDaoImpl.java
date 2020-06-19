@@ -17,10 +17,13 @@ import com.flipkart.utils.DBUtil;
 import com.flipkart.utils.DateTimeUtil;
 
 public class StudentDaoImpl implements StudentDao{
+// creating statement variable and logger object...............................................
 	PreparedStatement stmt = null;
 	private static Logger logger =Logger.getLogger(SMSClient.class);
 
-	List<String> allCourses=new ArrayList<String>();
+	List<String> allCourses=new ArrayList<String>(); // for recording all tthe courses..............
+	
+// this method for recording all course , so that we don't need to call it again and again ...........
 	@Override
 	public void recordAllCourse() {
 		Connection conn=DBUtil.getConnection();
@@ -37,7 +40,7 @@ public class StudentDaoImpl implements StudentDao{
 		}
 	}
 	
-	
+// checking if course is taught in institute or not
 	public int isCoursepresent(String course){
 		int a=0;
 		for(String s:allCourses){
@@ -46,12 +49,13 @@ public class StudentDaoImpl implements StudentDao{
 		}
 		return a;
 	}
+
+// if student add any course for study........................................................
 	@Override
 	public void studentAddCourse(String course) {
 		Connection conn=DBUtil.getConnection();
 		List<String> courses=new ArrayList<String>();
-		try{
-			
+		try{   	// for checking courses and its number selected by student
 			stmt = conn.prepareStatement(SQLConstantQuaries.student_selected_course);
 			stmt.setString(1,SMSDaoImpl.userName);
 			ResultSet rs = stmt.executeQuery();
@@ -61,18 +65,18 @@ public class StudentDaoImpl implements StudentDao{
 				courses.add(rs.getString("courseName"));
 			}
 			int checkEqual=0;
-			if(courseCount==6){
+			if(courseCount==6){ //if he has already selected 6 courses
 				logger.info("sorry you have already selected 6 courses. drop any course first");
 			}else if(courseCount<6){
-				for(String s:courses){
+				for(String s:courses){  // checking if there is any course repetition
 					if(s.equals(course))
 						checkEqual=1;
 				}
-				if(checkEqual==1){
+				if(checkEqual==1){ 
 					logger.info("course is already selected. select other course");
-				}else if(isCoursepresent(course)==1){
+				}else if(isCoursepresent(course)==1){ //if all fine,then course added
 					stmt = conn.prepareStatement(SQLConstantQuaries.student_add_course);
-					 stmt.setString(1, SMSDaoImpl.userName); //professor
+					 stmt.setString(1, SMSDaoImpl.userName); 
 					 stmt.setString(2,course);
 					 stmt.setString(3,"pending");
 					 stmt.setString(4,"not_updated");
@@ -81,11 +85,10 @@ public class StudentDaoImpl implements StudentDao{
 					 if(rows==1){
 						 logger.info(SMSDaoImpl.userName+ " has added "+course +"  on "+DateTimeUtil.TimeDateDay());
 					 }
-				}else{
+				}else{ // means course is not present in the database
 					logger.info("sorry this course is not taught in college");
 				}
 			}
-			
 		}catch(SQLException se){
 			logger.error("sql exception"+se.getMessage());
 		}catch(Exception e){
@@ -93,12 +96,12 @@ public class StudentDaoImpl implements StudentDao{
 		}
 	}
 
-
+// if student wish to drop any course.................................................................
 	@Override
 	public void studentDropCourse(String course) {
 		Connection conn=DBUtil.getConnection();
 		List<String> courses=new ArrayList<String>();
-		try{
+		try{        // checking all the courses selected by the student...
 			stmt = conn.prepareStatement(SQLConstantQuaries.student_selected_course);
 			stmt.setString(1,SMSDaoImpl.userName);
 			ResultSet rs = stmt.executeQuery();
@@ -106,13 +109,13 @@ public class StudentDaoImpl implements StudentDao{
 				courses.add(rs.getString("courseName"));
 			}
 		int check=0;
-		for(String s:courses){
+		for(String s:courses){    // checking if dropping course is present in the selected course
 			if(s.equals(course))
 				check=1;
 		}
 		if(check==0)
 			logger.info("this course is not selected , so you can't drop it");
-		else{
+		else{ // dropping course present in selected course
 			stmt = conn.prepareStatement(SQLConstantQuaries.student_drop_course);
 			 stmt.setString(1, SMSDaoImpl.userName); 
 			 stmt.setString(2, course);
@@ -126,8 +129,7 @@ public class StudentDaoImpl implements StudentDao{
 		}
 		
 	}
-
-
+// return all the courses selected by the student......................................................
 	@Override
 	public HashMap<String,String> studentCourse() {
 		Connection conn=DBUtil.getConnection();
@@ -147,7 +149,7 @@ public class StudentDaoImpl implements StudentDao{
 		return courses;
 	}
 
-
+// for getting the registration status of student..............................................
 	@Override
 	public String checkRegistration() {
 		Connection conn=DBUtil.getConnection();
@@ -167,7 +169,7 @@ public class StudentDaoImpl implements StudentDao{
 		return ans;
 	}
 
-
+// for viewing the grades of student who have logged in the system.....................................
 	@Override
 	public HashMap<String, String> viewGrades() {
 		Connection conn=DBUtil.getConnection();

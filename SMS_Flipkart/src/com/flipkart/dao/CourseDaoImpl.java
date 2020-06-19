@@ -19,6 +19,7 @@ public class CourseDaoImpl implements CourseDao{
 	PreparedStatement stmt = null;
 	private static Logger logger =Logger.getLogger(SMSClient.class);
 	
+// after selecting all courses doing final registration............................................
 	@Override
 	public void finalRegistration() {
 		Connection conn=DBUtil.getConnection();
@@ -31,7 +32,7 @@ public class CourseDaoImpl implements CourseDao{
 			while(rs.next()){
 				courseCount++;
 			}
-			if(courseCount==6){
+			if(courseCount==6){  // checking if total courses is 6 or not
 			stmt = conn.prepareStatement(SQLConstantQuaries.final_registration);
 			 stmt.setString(1,"partial" ); //professor
 			 stmt.setString(2,SMSDaoImpl.userName);
@@ -39,7 +40,7 @@ public class CourseDaoImpl implements CourseDao{
 				 	logger.info("registration partial done, do payment for complete registration");
 				 	studentOperation.studentJob();
 			 }
-			 else{
+			 else{       // if  courses is not selected
 				 	logger.info("first select all 6 courses");
 				 	studentOperation.studentJob();
 			 }

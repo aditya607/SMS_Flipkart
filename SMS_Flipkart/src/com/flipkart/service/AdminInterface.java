@@ -3,6 +3,8 @@ package com.flipkart.service;
 import com.flipkart.model.User;
 
 public interface AdminInterface {
+	
+// all the admin opeartions..................
 	public void adminJob();
 	public void studentOperation();
 	public void userCreateOp(int role);
