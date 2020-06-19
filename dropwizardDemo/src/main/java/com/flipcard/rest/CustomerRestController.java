@@ -30,8 +30,7 @@ public class CustomerRestController {
 	AdminDaoImpl adminDaoImpl = new AdminDaoImpl();
 	SMSDaoImpl smsDaoImpl = new SMSDaoImpl();
 
-	// getting student
-	// details..................................................................................................
+// getting student details..................................................................................................
 	@GET
 	@Path("/students")
 	@Produces(MediaType.APPLICATION_JSON)
@@ -41,8 +40,7 @@ public class CustomerRestController {
 		return students;
 	}
 
-	// getting the list of all the
-	// professor................................................................
+// getting the list of all the professor................................................................
 	@GET
 	@Path("/professors")
 	@Produces(MediaType.APPLICATION_JSON)
@@ -50,11 +48,9 @@ public class CustomerRestController {
 		List<Professor> professors = new ArrayList<Professor>();
 		professors = adminDaoImpl.viewProfessor();
 		return professors;
-
 	}
 
-	// getting the list of
-	// courses...........................................................................
+// getting the list of courses...........................................................................
 	@GET
 	@Path("/courses")
 	@Produces(MediaType.APPLICATION_JSON)
@@ -62,10 +58,9 @@ public class CustomerRestController {
 		List<Course> courses = new ArrayList<Course>();
 		courses = adminDaoImpl.viewCourse();
 		return courses;
-
 	}
 
-	// checking username and getting the role
+// checking username and getting the role
 	@GET
 	@Path("/checkUser/{username}/{password}")
 	@Produces(MediaType.APPLICATION_JSON)
@@ -73,8 +68,8 @@ public class CustomerRestController {
 		String role = smsDaoImpl.Checkuser(username, password);
 		logger.info("role is " + role);
 		return role;
-
 	}
+	
 // creating a user................................................................................................	
 	@POST
 	@Path("/postUser")
@@ -89,7 +84,7 @@ public class CustomerRestController {
 		return Response.status(201).entity(result).build();
 	}
 	
-
+// deletin an existing student..................................................................................
 	@DELETE
 	@Path("/delete/student/{userName}")
 	public Response deleteStudent(@PathParam("userName") String userName) {
@@ -98,8 +93,7 @@ public class CustomerRestController {
 		return Response.status(200).entity("username deleted successfully ").build();
 	}
 
-	// deleting professor from professor table
-	// ............................................................
+// deleting professor from professor table ............................................................
 	@DELETE
 	@Path("/delete/professor/{userName}")
 	public Response deleteProfessor(@PathParam("userName") String userName) {
@@ -108,8 +102,7 @@ public class CustomerRestController {
 		return Response.status(200).entity(" userName deleted successfully ").build();
 	}
 
-	// deleting course from course
-	// table..................................................................
+// deleting course from course table..................................................................
 	@DELETE
 	@Path("/delete/course/{courseName}")
 	public Response deleteCourse(@PathParam("courseName") String courseName) {
@@ -118,8 +111,7 @@ public class CustomerRestController {
 		return Response.status(200).entity("courseName deleted successfully ").build();
 	}
 
-	// updation of student
-	// details..............................................................
+// updation of student details..............................................................
 	@PUT
 	@Path("/updateStudent/{username}")
 	@Consumes("application/json")
@@ -129,8 +121,7 @@ public class CustomerRestController {
 		return student;
 	}
 
-	// updating professor
-	// details.............................................................................
+// updating professor details.............................................................................
 	@PUT
 	@Path("/updateProfessor/{username}")
 	@Consumes("application/json")

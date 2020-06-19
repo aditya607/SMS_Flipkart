@@ -22,13 +22,14 @@ import com.flipkart.model.Professor;
 
 @Path("/professor")
 public class ProfessorRestOpeartor {
-	
+// creating objects of dao class and varisbles............................................................	
 	private static Logger logger =Logger.getLogger(AdminRestOpeartor.class);
 	AdminDaoImpl adminDaoImpl=new AdminDaoImpl();
 	SMSDaoImpl smsDaoImpl =new SMSDaoImpl();
 	ProfessorDaoImpl professorDaoImpl=new ProfessorDaoImpl();
 	Scanner sc=new Scanner(System.in);
-	
+
+// getting all the course details...........................................................................
 	@GET
 	@Path("/courses")
 	@Produces(MediaType.APPLICATION_JSON)
@@ -37,7 +38,7 @@ public class ProfessorRestOpeartor {
 		courses=adminDaoImpl.viewCourse();
 		return courses;
 	}
-	
+// course selection done by professor..................................................................................	
 	@PUT
 	@Path("/selectCourse/{username}/{course}")
 	@Consumes("application/json")
@@ -47,7 +48,7 @@ public class ProfessorRestOpeartor {
 		professorDaoImpl.selectProfCourse(course);
 		return "operation successful";
 	}
-	
+// shows courses selected by the students ................................................................................
 	@GET
 	@Path("/selectedCourses/{username}")
 	@Produces(MediaType.APPLICATION_JSON)
@@ -57,7 +58,7 @@ public class ProfessorRestOpeartor {
 		courses=professorDaoImpl.viewSelectedCourse();
 		return courses;
 	}
-	
+// 	shows all the student present in a course...................................................................
 	@GET
 	@Path("/studentInCourses/{course}")
 	@Produces(MediaType.APPLICATION_JSON)
