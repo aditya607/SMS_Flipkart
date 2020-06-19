@@ -5490,3 +5490,34 @@
 07:13:36,886  INFO StudentOperation,main:34 - 4.view student in course
 07:13:36,886  INFO StudentOperation,main:34 - 5.upload grades
 07:13:36,887  INFO StudentOperation,main:34 - 6.logout
+07:40:52,751  INFO SMSClient,main:20 - WELCOME
+07:40:52,754  INFO SMSClient,main:22 - enter username
+07:40:56,149  INFO SMSClient,main:24 - enter password
+07:41:01,035  INFO SMSClient,main:39 - admin logged at 07:41:01.034  19 JUNE 2020 on FRIDAY
+07:41:01,036  INFO SMSClient,main:40 - welcome to admin page
+07:41:01,124  INFO SMSClient,main:29 - select choice
+07:41:01,125  INFO SMSClient,main:29 - 1.student opearation
+07:41:01,125  INFO SMSClient,main:29 - 2.professor operation
+07:41:01,125  INFO SMSClient,main:30 - 3.addNewcourse
+07:41:01,126  INFO SMSClient,main:30 - 4.dropOldcourse
+07:41:01,126  INFO SMSClient,main:30 - 5.report card generation
+07:41:01,126  INFO SMSClient,main:31 - 6.view all student
+07:41:01,127  INFO SMSClient,main:31 - 7.view all professor
+07:41:01,127  INFO SMSClient,main:31 - 8.view all course
+07:41:01,127  INFO SMSClient,main:32 - 9.logout
+07:41:06,389  INFO SMSClient,main:194 - give course details
+07:41:06,390  INFO SMSClient,main:194 - CourseId , CourseName and catalogId
+07:41:16,610  INFO SMSClient,main:205 - enter course credit
+07:41:18,828  INFO SMSClient,main:207 - enter the course code
+07:41:20,710  INFO SMSClient,main:209 - enter course info
+07:41:26,620  INFO SMSClient,main:158 - course with name ccd is added 07:41:01.034  19 JUNE 2020 on FRIDAY
+07:41:26,621  INFO SMSClient,main:29 - select choice
+07:41:26,622  INFO SMSClient,main:29 - 1.student opearation
+07:41:26,622  INFO SMSClient,main:29 - 2.professor operation
+07:41:26,623  INFO SMSClient,main:30 - 3.addNewcourse
+07:41:26,624  INFO SMSClient,main:30 - 4.dropOldcourse
+07:41:26,624  INFO SMSClient,main:30 - 5.report card generation
+07:41:26,625  INFO SMSClient,main:31 - 6.view all student
+07:41:26,625  INFO SMSClient,main:31 - 7.view all professor
+07:41:26,626  INFO SMSClient,main:31 - 8.view all course
+07:41:26,626  INFO SMSClient,main:32 - 9.logout
